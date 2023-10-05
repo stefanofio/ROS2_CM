@@ -24,24 +24,6 @@ LD_LIBS =		$(CAR_LIB) \
 			$(CARMAKER_LIB) $(DRIVER_LIB) $(ROAD_LIB) $(TIRE_LIB)
 OBJS =			CM_Main.o CM_Vehicle.o User.o IO.o
 
-# Paths to ROS workspaces (relative from project directory)
-ROS1_WS_DIR     ?= ros/ros1_ws
-ROS2_WS_DIR     ?= ros/ros2_ws
-
-# Uncomment to define your preferred ROS distro for each workspace,
-# otherwise /opt/ros/ros1 or /opt/ros/ros2 is used
-#ROS1_WS_ENV     ?= ROS_DISTRO=melodic
-#ROS2_WS_ENV     ?= ROS_DISTRO=dashing
-
-# CarMaker extension CMCppIF (provided by IPG)
-APP_VER         := "$(subst ",,$(APP_VER)) with CMRosIF"
-DEF_CFLAGS      += -DWITH_CMCPPIF
-LD_LIBS_OS      += -lcmcppifloader-$(ARCH)
-LDFLAGS         += -L./../lib/
-LDFLAGS         += -Wl,-rpath,'$$ORIGIN/../lib/'
-INC_CFLAGS      += -I../include
-CFLAGS          += -rdynamic
-
 # Prepend local include/library directory to include path:
 # PREINC_CFLAGS +=		-I../include -I../lib/$(ARCH) -I../lib
 
@@ -74,7 +56,7 @@ install: $(APP_NAME)
 	$(INSTALL_APP) $(APP_NAME) $(ARCH)
 
 clean:
-	-rm -f 	*~ *% *.o core app_tmp.c .depend
+	-rm -f 	*~ *% *.o core
 
 app_tmp.c: Makefile $(OBJS_$(ARCH)) $(OBJS) $(LD_LIBS_MK)
 	$(QECHO) " MK     $@"

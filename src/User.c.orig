@@ -91,10 +91,6 @@
 #include "IOVec.h"
 #include "User.h"
 
-#if defined(WITH_CMCPPIF)
-#include "cmcppifloader.h"
-#endif
-
 /* @@PLUGIN-BEGIN-INCLUDE@@ - Automatically generated code - don't edit! */
 /* @@PLUGIN-END@@ */
 
@@ -208,34 +204,7 @@ User_ScanCmdLine (int argc, char **argv)
 int
 User_Init (void)
 {
-    int rv = 0;
-#if defined(WITH_CMCPPIF)
-    CMCppIFLoader_load("CMRosIF");
-    rv = CMCppIFLoader_init();
-
-    { /* Example code block to demonstrate
-       * how to access and evaluate data within the C++ interface
-       */
-
-      /* Get function pointer to custom function */
-      int (*customfunc) (void* intf, const int input, char* output) =
-          CMCppIFLoader_getSymbol("CMNodeHelloCM_customFunction");
-
-      /* Get pointer to instatiated interface */
-      void* cmrosif = CMCppIFLoader_getInterfacePtr();
-
-      /* Call custom function of instatiated interface */
-      if (customfunc != NULL && cmrosif != NULL) {
-        char string[100] = "";
-        Log("%s\n", "Calling CMNodeHelloCM_customFunction:");
-        int rv = customfunc(cmrosif, 42, string);
-        Log("  Output string: %s\n", string);
-        Log("  Return value: %d\n", rv);
-      }
-    }
-#endif
-
-    return rv;
+    return 0;
 }
 
 
@@ -380,9 +349,6 @@ User_TestRun_Start_atBegin (void)
     for (i=0; i<N_USEROUTPUT; i++)
 	User.Out[i] = 0.0;
 
-#if defined(WITH_CMCPPIF)
-    rv = CMCppIFLoader_testrunStartAtBegin();
-#endif
 
     if (IO_None)
 	return rv;
@@ -435,12 +401,7 @@ User_TestRun_Start_atEnd (void)
 int
 User_TestRun_Start_StaticCond_Calc (void)
 {
-    int rv = 0;
-#if defined(WITH_CMCPPIF)
-    rv = CMCppIFLoader_testrunStartAtEnd();
-#endif
-
-    return rv;
+    return 0;
 }
 
 
@@ -481,10 +442,6 @@ int
 User_TestRun_RampUp (double dt)
 {
     int IsReady = 1;
-
-#if defined(WITH_CMCPPIF)
-    IsReady = CMCppIFLoader_testrunRampUp();
-#endif
 
     return IsReady;
 }
@@ -528,12 +485,7 @@ User_TestRun_End_First (void)
 int
 User_TestRun_End (void)
 {
-    int rv = 0;
-#if defined(WITH_CMCPPIF)
-    rv = CMCppIFLoader_testrunEnd();
-#endif
-
-    return rv;
+    return 0;
 }
 
 
@@ -552,10 +504,6 @@ User_TestRun_End (void)
 void
 User_In (const unsigned CycleNo)
 {
-#if defined(WITH_CMCPPIF)
-    CMCppIFLoader_in();
-#endif
-
     if (SimCore.State != SCState_Simulate)
 	return;
 }
@@ -579,12 +527,7 @@ User_DrivMan_Calc (double dt)
     if (Vehicle.OperationState != OperState_Driving)
 	return 0;
 
-    int rv = 0;
-#if defined(WITH_CMCPPIF)
-    rv = CMCppIFLoader_drivmanCalc(&dt);
-#endif
-
-    return rv;
+    return 0;
 }
 
 
@@ -605,12 +548,7 @@ User_VehicleControl_Calc (double dt)
     if (Vehicle.OperationState != OperState_Driving)
 	return 0;
 
-    int rv = 0;
-#if defined(WITH_CMCPPIF)
-    rv = CMCppIFLoader_vehicleControlCalc(&dt);
-#endif
-
-    return rv;
+    return 0;
 }
 
 
@@ -669,12 +607,7 @@ User_Calc (double dt)
        of CM 5.1 and earlier. */
     /*if (!UserCalcCalledByAppTestRunCalc) return 0;*/
 
-    int rv = 0;
-#if defined(WITH_CMCPPIF)
-    rv = CMCppIFLoader_calc(&dt);
-#endif
-
-    return rv;
+    return 0;
 }
 
 
@@ -739,10 +672,6 @@ User_Out (const unsigned CycleNo)
 {
 #if defined(XENO)
     IOConf_OutMap();
-#endif
-
-#if defined(WITH_CMCPPIF)
-    CMCppIFLoader_out();
 #endif
 
     if (SimCore.State != SCState_Simulate)
@@ -840,12 +769,7 @@ User_ShutDown (int ShutDownForced)
 int
 User_End (void)
 {
-    int rv = 0;
-#if defined(WITH_CMCPPIF)
-    rv = CMCppIFLoader_end();
-#endif
-
-    return rv;
+    return 0;
 }
 
 
