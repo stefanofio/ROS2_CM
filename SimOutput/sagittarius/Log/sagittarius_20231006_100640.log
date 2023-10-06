@@ -1,0 +1,29 @@
+APPLICATION	Car_Generic <insert.your.version.no> with CMRosIF #1 (linux64-12.0.1)
+COMPILED	sagittarius@sagittarius 2023-10-06 09:22:17
+ 
+		I/O Configuration: default
+		CMCppIFLoader v1.0.0: Initializing CMRosIF
+		CMRosIF: Read parameters from 'Data/Config/CMRosIFParameters'
+		CarMaker ROS Node compiled for use with:
+		  -> ROS Distro = humble
+		  -> CM Version = 12.0.1
+		  -> IF Version = 1.0.0
+		  -> Providing simulation time!
+		CMJob: CyclicJob -> Name=/clock Cycle=100 Offset=0
+		CMJob: CyclicJob -> Name=cm2ext Cycle=15000 Offset=0
+		  -> Initializing service client /hellocm/init
+		  -> Creating service '/remote_ctrl'
+		Initialization of ROS Node finished!
+		  -> Node Name = cm_node
+		  -> Namespace = /carmaker
+		Calling CMNodeHelloCM_customFunction:
+		  Output string: int cm_ros::CMNodeHelloCM::customFunction(int, char*)
+		  Return value: 142
+FIRST_INIT	(internal default used)	2023-10-06 10:06:40
+TIME	0.000
+		CarMaker ROS Node disabled!
+SIM_END			0s	0m
+IDLE	10:06:40
+TIME	17.210
+SHUTDOWN	CarMaker quick shutdown initiated
+

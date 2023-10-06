@@ -89,4 +89,50 @@ endif
 ifneq ($(wildcard *.cpp),)
 	$Q-$(CXX) $(CXXFLAGS) $(DEPCXXFLAGS) *.cpp >>.depend 2>/dev/null
 endif
-include .depend
+
+cm-ros1: install ros1_ws ../CMStart.sh
+cm-ros2: install ros2_ws ../CMStart.sh
+
+XMAKER:=CM
+ifneq (,$(findstring $(TRUCK_LIB),$(LD_LIBS)))
+    XMAKER:=TM
+else ifneq (,$(findstring $(MCYCLE_LIB),$(LD_LIBS)))
+    XMAKER:=MM
+endif
+
+../CMStart.sh:
+	@echo " CRT    $@"
+	$Q if [ -e "$@" ]; then echo "'$@' already exists"; false; fi
+	@( \
+	echo "#!/bin/bash"; \
+	echo "source ros_setup.bash \$${1:-$(patsubst cm-ros%,%,$(firstword $(filter cm-ros%,$(MAKECMDGOALS))))}"; \
+	echo "$(XMAKER)-$(CARMAKER_VER) . -apphost localhost -ext GUI/CMExt-CMRosIF.mod"; \
+	) > $@
+	$Q chmod +x $@
+
+CMAKE_ARGS:=\
+ -DCARMAKER_VER:STRING=${CARMAKER_VER}\
+ -DCARMAKER_DIR:PATH=${CARMAKER_DIR}
+
+ros1_ws:
+	$(QECHO) " MK     $@"
+	$Q cd ./../${ROS1_WS_DIR} && $(ROS1_WS_ENV) ./build.sh '${CMAKE_ARGS}'
+
+clean-ros1_ws:
+	-rm -rf ./../${ROS1_WS_DIR}/build
+	-rm -rf ./../${ROS1_WS_DIR}/devel
+	-rm -rf ./../${ROS1_WS_DIR}/install
+
+ros2_ws:
+	$(QECHO) " MK     $@"
+	$Q cd ./../${ROS2_WS_DIR} && \
+	   $(ROS2_WS_ENV) ./build.sh '--cmake-args ${CMAKE_ARGS} --no-warn-unused-cli'
+
+clean-ros2_ws:
+	-rm -rf ./../${ROS2_WS_DIR}/build ./../${ROS2_WS_DIR}/install
+
+ifeq (,$(findstring clean,$(MAKECMDGOALS)))
+ -include .depend || true
+endif
+
+.PHONY: default install clean depend ros1_ws ros2_ws clean-%

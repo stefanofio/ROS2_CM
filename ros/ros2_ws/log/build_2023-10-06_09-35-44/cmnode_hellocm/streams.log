@@ -1,0 +1,55 @@
+[0.027s] Invoking command in '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmnode_hellocm': AMENT_PREFIX_PATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs:/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs:/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils:/opt/ros/ros2 LD_LIBRARY_PATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/lib:/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages:/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sagittarius/ROS2_CM/ros/ros2_ws/src/cmnode_hellocm -DCMAKE_INSTALL_PREFIX=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm
+[0.034s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.127s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.146s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.147s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.151s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.158s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.168s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.205s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.206s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.281s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.385s] -- Found cmrosutils: 0.1.0 (/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/cmake)
+[0.404s] -- Found hellocm_msgs: 0.1.0 (/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake)
+[0.449s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.495s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.495s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.495s] -- Configured cppcheck include dirs: 
+[0.495s] -- Configured cppcheck exclude dirs and/or files: 
+[0.495s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.495s] -- Configured cpplint exclude dirs and/or files: 
+[0.495s] -- Added test 'lint_cmake' to check CMake code style
+[0.496s] -- Added test 'uncrustify' to check C / C++ code style
+[0.496s] -- Configured uncrustify additional arguments: 
+[0.496s] -- Added test 'xmllint' to check XML markup files
+[0.496s] -- Configuring done
+[0.502s] -- Generating done
+[0.503s] -- Build files have been written to: /home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmnode_hellocm
+[0.525s] Invoked command in '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmnode_hellocm' returned '0': AMENT_PREFIX_PATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs:/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs:/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils:/opt/ros/ros2 LD_LIBRARY_PATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/lib:/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages:/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sagittarius/ROS2_CM/ros/ros2_ws/src/cmnode_hellocm -DCMAKE_INSTALL_PREFIX=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm
+[0.526s] Invoking command in '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmnode_hellocm': AMENT_PREFIX_PATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs:/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs:/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils:/opt/ros/ros2 LD_LIBRARY_PATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/lib:/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages:/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmnode_hellocm -- -j20 -l20
+[0.559s] [35m[1mConsolidate compiler generated dependencies of target cmnode_hellocm[0m
+[0.571s] [100%] Built target cmnode_hellocm
+[0.578s] Invoked command in '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmnode_hellocm' returned '0': AMENT_PREFIX_PATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs:/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs:/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils:/opt/ros/ros2 LD_LIBRARY_PATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/lib:/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages:/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmnode_hellocm -- -j20 -l20
+[0.600s] Invoking command in '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmnode_hellocm': AMENT_PREFIX_PATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs:/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs:/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils:/opt/ros/ros2 LD_LIBRARY_PATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/lib:/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages:/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmnode_hellocm
+[0.608s] -- Install configuration: ""
+[0.608s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm/lib/libcmnode_hellocm.so
+[0.609s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm/share/cmnode_hellocm/environment/library_path.sh
+[0.609s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm/share/cmnode_hellocm/environment/library_path.dsv
+[0.609s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm/share/ament_index/resource_index/package_run_dependencies/cmnode_hellocm
+[0.609s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm/share/ament_index/resource_index/parent_prefix_path/cmnode_hellocm
+[0.609s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm/share/cmnode_hellocm/environment/ament_prefix_path.sh
+[0.609s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm/share/cmnode_hellocm/environment/ament_prefix_path.dsv
+[0.609s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm/share/cmnode_hellocm/environment/path.sh
+[0.609s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm/share/cmnode_hellocm/environment/path.dsv
+[0.609s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm/share/cmnode_hellocm/local_setup.bash
+[0.609s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm/share/cmnode_hellocm/local_setup.sh
+[0.609s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm/share/cmnode_hellocm/local_setup.zsh
+[0.609s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm/share/cmnode_hellocm/local_setup.dsv
+[0.609s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm/share/cmnode_hellocm/package.dsv
+[0.609s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm/share/ament_index/resource_index/packages/cmnode_hellocm
+[0.609s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm/share/cmnode_hellocm/cmake/ament_cmake_export_libraries-extras.cmake
+[0.609s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm/share/cmnode_hellocm/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.610s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm/share/cmnode_hellocm/cmake/cmnode_hellocmConfig.cmake
+[0.610s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm/share/cmnode_hellocm/cmake/cmnode_hellocmConfig-version.cmake
+[0.610s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm/share/cmnode_hellocm/package.xml
+[0.611s] Invoked command in '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmnode_hellocm' returned '0': AMENT_PREFIX_PATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs:/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs:/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils:/opt/ros/ros2 LD_LIBRARY_PATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/lib:/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages:/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmnode_hellocm

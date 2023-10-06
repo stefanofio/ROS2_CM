@@ -1,0 +1,344 @@
+[0.036s] Invoking command in '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils': CMAKE_PREFIX_PATH=/opt/ros/humble:/opt/ros/ros2 /usr/bin/cmake /home/sagittarius/ROS2_CM/ros/ros2_ws/src/cmrosutils -DCARMAKER_VER:STRING=12.0.1 -DCARMAKER_DIR:PATH=/opt/ipg/carmaker/linux64-12.0.1 --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils
+[0.053s] Not searching for unused variables given on the command line.
+[0.114s] -- The C compiler identification is GNU 11.4.0
+[0.211s] -- The CXX compiler identification is GNU 11.4.0
+[0.219s] -- Detecting C compiler ABI info
+[0.262s] -- Detecting C compiler ABI info - done
+[0.267s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.267s] -- Detecting C compile features
+[0.267s] -- Detecting C compile features - done
+[0.270s] -- Detecting CXX compiler ABI info
+[0.321s] -- Detecting CXX compiler ABI info - done
+[0.326s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.326s] -- Detecting CXX compile features
+[0.326s] -- Detecting CXX compile features - done
+[0.336s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.452s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.518s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.552s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.554s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.560s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.571s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.582s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.632s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.634s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.702s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.721s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.751s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.760s] -- Looking for pthread.h
+[0.804s] -- Looking for pthread.h - found
+[0.805s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.849s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.850s] -- Found Threads: TRUE  
+[0.960s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.123s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.322s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.401s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.417s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.418s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.437s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.437s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.437s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.438s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.451s] -- Found PythonExtra: .so  
+[1.474s] [0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[1.474s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[1.475s]   rosidl_target_interfaces()
+[1.475s] Call Stack (most recent call first):
+[1.475s]   CMakeLists.txt:77 (rosidl_target_interfaces)
+[1.475s] 
+[1.475s] [0m
+[1.475s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.485s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.485s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.486s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/sagittarius/ROS2_CM/ros/ros2_ws/src/cmrosutils/include>
+[1.486s] -- Configured cppcheck exclude dirs and/or files: 
+[1.486s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.486s] -- Configured cpplint exclude dirs and/or files: 
+[1.487s] -- Added test 'lint_cmake' to check CMake code style
+[1.488s] -- Added test 'uncrustify' to check C / C++ code style
+[1.488s] -- Configured uncrustify additional arguments: 
+[1.488s] -- Added test 'xmllint' to check XML markup files
+[1.489s] -- Configuring done
+[1.508s] -- Generating done
+[1.510s] -- Build files have been written to: /home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils
+[1.517s] Invoked command in '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:/opt/ros/ros2 /usr/bin/cmake /home/sagittarius/ROS2_CM/ros/ros2_ws/src/cmrosutils -DCARMAKER_VER:STRING=12.0.1 -DCARMAKER_DIR:PATH=/opt/ipg/carmaker/linux64-12.0.1 --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils
+[1.518s] Invoking command in '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils': CMAKE_PREFIX_PATH=/opt/ros/humble:/opt/ros/ros2 /usr/bin/cmake --build /home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils -- -j20 -l20
+[1.524s] gmake[1]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[1.537s] gmake[2]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[1.538s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[1.538s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[1.539s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[1.543s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.543s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[1.544s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[1.544s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[1.545s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[1.549s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.549s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[1.553s] [  6%] Built target ament_cmake_python_copy_cmrosutils
+[1.554s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[1.560s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[1.561s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[1.759s] running egg_info
+[1.759s] creating cmrosutils.egg-info
+[1.759s] writing cmrosutils.egg-info/PKG-INFO
+[1.760s] writing dependency_links to cmrosutils.egg-info/dependency_links.txt
+[1.760s] writing top-level names to cmrosutils.egg-info/top_level.txt
+[1.760s] writing manifest file 'cmrosutils.egg-info/SOURCES.txt'
+[1.761s] reading manifest file 'cmrosutils.egg-info/SOURCES.txt'
+[1.762s] writing manifest file 'cmrosutils.egg-info/SOURCES.txt'
+[1.778s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[1.785s] [  6%] Built target ament_cmake_python_build_cmrosutils_egg
+[1.803s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[1.804s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[1.805s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[1.809s] [  6%] Built target cmrosutils__cpp
+[1.811s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[1.811s] [  9%] [32mBuilding C object CMakeFiles/cmrosutils__rosidl_generator_c.dir/rosidl_generator_c/cmrosutils/srv/detail/cm_remote_control__functions.c.o[0m
+[1.812s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[1.812s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[1.817s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.822s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.822s] [ 18%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.863s] [ 21%] [32m[1mLinking C shared library libcmrosutils__rosidl_generator_c.so[0m
+[1.888s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[1.895s] [ 21%] Built target cmrosutils__rosidl_generator_c
+[1.897s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[1.897s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[1.898s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[1.904s] [ 24%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.904s] [ 27%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.908s] [ 30%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.061s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[2.062s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[2.068s] [ 33%] [32mBuilding CXX object CMakeFiles/cmrosutils__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cmrosutils/srv/cm_remote_control__type_support.cpp.o[0m
+[2.150s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[2.151s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[2.158s] [ 36%] [32mBuilding CXX object CMakeFiles/cmrosutils__rosidl_typesupport_c.dir/rosidl_typesupport_c/cmrosutils/srv/cm_remote_control__type_support.cpp.o[0m
+[2.193s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[2.194s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[2.202s] [ 39%] [32mBuilding CXX object CMakeFiles/cmrosutils__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cmrosutils/srv/detail/cm_remote_control__type_support_c.cpp.o[0m
+[2.251s] [ 42%] [32m[1mLinking CXX shared library libcmrosutils__rosidl_typesupport_c.so[0m
+[2.324s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[2.331s] [ 42%] Built target cmrosutils__rosidl_typesupport_c
+[2.340s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[2.341s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[2.348s] [ 45%] [32mBuilding CXX object CMakeFiles/cmrosutils__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cmrosutils/srv/detail/cm_remote_control__type_support.cpp.o[0m
+[2.385s] [ 48%] [32m[1mLinking CXX shared library libcmrosutils__rosidl_typesupport_cpp.so[0m
+[2.437s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[2.444s] [ 48%] Built target cmrosutils__rosidl_typesupport_cpp
+[2.515s] [ 51%] [32m[1mLinking CXX shared library libcmrosutils__rosidl_typesupport_fastrtps_c.so[0m
+[2.620s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[2.634s] [ 51%] Built target cmrosutils__rosidl_typesupport_fastrtps_c
+[2.637s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[2.638s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[2.645s] [ 54%] [32mBuilding CXX object CMakeFiles/cmrosutils__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cmrosutils/srv/detail/dds_fastrtps/cm_remote_control__type_support.cpp.o[0m
+[2.687s] [ 57%] [32m[1mLinking CXX shared library libcmrosutils__rosidl_typesupport_introspection_cpp.so[0m
+[2.708s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[2.710s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[2.717s] [ 60%] [32mBuilding C object CMakeFiles/cmrosutils__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cmrosutils/srv/detail/cm_remote_control__type_support.c.o[0m
+[2.736s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[2.745s] [ 63%] [32m[1mLinking C shared library libcmrosutils__rosidl_typesupport_introspection_c.so[0m
+[2.746s] [ 63%] Built target cmrosutils__rosidl_typesupport_introspection_cpp
+[2.766s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[2.773s] [ 63%] Built target cmrosutils__rosidl_typesupport_introspection_c
+[2.925s] [ 66%] [32m[1mLinking CXX shared library libcmrosutils__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.965s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[2.971s] [ 66%] Built target cmrosutils__rosidl_typesupport_fastrtps_cpp
+[2.972s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[2.977s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[2.983s] [ 66%] Built target cmrosutils
+[2.984s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[2.984s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[2.989s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[2.990s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[2.990s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[2.990s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[2.995s] [ 69%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.995s] [ 72%] [32mBuilding CXX object CMakeFiles/cmrosif.dir/src/cmrosif.cpp.o[0m
+[3.265s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[3.270s] [ 72%] Built target cmrosutils__py
+[3.272s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[3.277s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[3.278s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[3.283s] [ 75%] [32mBuilding C object CMakeFiles/cmrosutils__rosidl_generator_py.dir/rosidl_generator_py/cmrosutils/srv/_cm_remote_control_s.c.o[0m
+[3.361s] [ 78%] [32m[1mLinking C shared library rosidl_generator_py/cmrosutils/libcmrosutils__rosidl_generator_py.so[0m
+[3.383s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[3.389s] [ 78%] Built target cmrosutils__rosidl_generator_py
+[3.390s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[3.390s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[3.390s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[3.396s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[3.396s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[3.396s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[3.397s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[3.397s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[3.397s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[3.401s] [ 84%] [32mBuilding C object CMakeFiles/cmrosutils__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/cmrosutils/_cmrosutils_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.401s] [ 84%] [32mBuilding C object CMakeFiles/cmrosutils__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/cmrosutils/_cmrosutils_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.401s] [ 87%] [32mBuilding C object CMakeFiles/cmrosutils__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/cmrosutils/_cmrosutils_s.ep.rosidl_typesupport_c.c.o[0m
+[3.461s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/cmrosutils/cmrosutils_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.462s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/cmrosutils/cmrosutils_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.467s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/cmrosutils/cmrosutils_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.479s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[3.479s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[3.484s] [ 96%] Built target cmrosutils__rosidl_typesupport_fastrtps_c__pyext
+[3.484s] [ 96%] Built target cmrosutils__rosidl_typesupport_introspection_c__pyext
+[3.486s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[3.492s] [ 96%] Built target cmrosutils__rosidl_typesupport_c__pyext
+[6.055s] [100%] [32m[1mLinking CXX shared library libcmrosif.so[0m
+[6.202s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[6.208s] [100%] Built target cmrosif
+[6.208s] gmake[2]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[6.214s] gmake[1]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils'
+[6.215s] Invoked command in '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:/opt/ros/ros2 /usr/bin/cmake --build /home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils -- -j20 -l20
+[6.253s] Invoking command in '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils': CMAKE_PREFIX_PATH=/opt/ros/humble:/opt/ros/ros2 /usr/bin/cmake --install /home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils
+[6.259s] -- Install configuration: ""
+[6.259s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/ament_index/resource_index/rosidl_interfaces/cmrosutils
+[6.259s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/include/cmrosutils/cmrosutils
+[6.259s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/include/cmrosutils/cmrosutils/msg
+[6.259s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/include/cmrosutils/cmrosutils/msg/rosidl_generator_c__visibility_control.h
+[6.259s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/include/cmrosutils/cmrosutils/srv
+[6.259s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/include/cmrosutils/cmrosutils/srv/detail
+[6.259s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/include/cmrosutils/cmrosutils/srv/detail/cm_remote_control__functions.c
+[6.259s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/include/cmrosutils/cmrosutils/srv/detail/cm_remote_control__struct.h
+[6.259s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/include/cmrosutils/cmrosutils/srv/detail/cm_remote_control__functions.h
+[6.259s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/include/cmrosutils/cmrosutils/srv/detail/cm_remote_control__type_support.h
+[6.260s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/include/cmrosutils/cmrosutils/srv/cm_remote_control.h
+[6.260s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/environment/library_path.sh
+[6.260s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/environment/library_path.dsv
+[6.260s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/lib/libcmrosutils__rosidl_generator_c.so
+[6.260s] -- Set runtime path of "/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/lib/libcmrosutils__rosidl_generator_c.so" to ""
+[6.260s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/include/cmrosutils/cmrosutils
+[6.260s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/include/cmrosutils/cmrosutils/msg
+[6.260s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/include/cmrosutils/cmrosutils/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.260s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/include/cmrosutils/cmrosutils/srv
+[6.260s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/include/cmrosutils/cmrosutils/srv/detail
+[6.260s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/include/cmrosutils/cmrosutils/srv/detail/cm_remote_control__rosidl_typesupport_fastrtps_c.h
+[6.260s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/lib/libcmrosutils__rosidl_typesupport_fastrtps_c.so
+[6.260s] -- Set runtime path of "/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/lib/libcmrosutils__rosidl_typesupport_fastrtps_c.so" to ""
+[6.260s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/include/cmrosutils/cmrosutils
+[6.260s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/include/cmrosutils/cmrosutils/srv
+[6.260s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/include/cmrosutils/cmrosutils/srv/detail
+[6.260s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/include/cmrosutils/cmrosutils/srv/detail/cm_remote_control__struct.hpp
+[6.260s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/include/cmrosutils/cmrosutils/srv/detail/cm_remote_control__traits.hpp
+[6.260s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/include/cmrosutils/cmrosutils/srv/detail/cm_remote_control__builder.hpp
+[6.260s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/include/cmrosutils/cmrosutils/srv/cm_remote_control.hpp
+[6.260s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/include/cmrosutils/cmrosutils
+[6.260s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/include/cmrosutils/cmrosutils/msg
+[6.260s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/include/cmrosutils/cmrosutils/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.260s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/include/cmrosutils/cmrosutils/srv
+[6.260s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/include/cmrosutils/cmrosutils/srv/detail
+[6.260s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/include/cmrosutils/cmrosutils/srv/detail/cm_remote_control__rosidl_typesupport_fastrtps_cpp.hpp
+[6.260s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/include/cmrosutils/cmrosutils/srv/detail/dds_fastrtps
+[6.261s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/lib/libcmrosutils__rosidl_typesupport_fastrtps_cpp.so
+[6.261s] -- Set runtime path of "/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/lib/libcmrosutils__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.261s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/include/cmrosutils/cmrosutils
+[6.261s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/include/cmrosutils/cmrosutils/msg
+[6.261s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/include/cmrosutils/cmrosutils/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.261s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/include/cmrosutils/cmrosutils/srv
+[6.261s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/include/cmrosutils/cmrosutils/srv/detail
+[6.261s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/include/cmrosutils/cmrosutils/srv/detail/cm_remote_control__rosidl_typesupport_introspection_c.h
+[6.261s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/include/cmrosutils/cmrosutils/srv/detail/cm_remote_control__type_support.c
+[6.261s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/lib/libcmrosutils__rosidl_typesupport_introspection_c.so
+[6.261s] -- Set runtime path of "/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/lib/libcmrosutils__rosidl_typesupport_introspection_c.so" to ""
+[6.261s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/lib/libcmrosutils__rosidl_typesupport_c.so
+[6.261s] -- Set runtime path of "/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/lib/libcmrosutils__rosidl_typesupport_c.so" to ""
+[6.261s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/include/cmrosutils/cmrosutils
+[6.261s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/include/cmrosutils/cmrosutils/srv
+[6.261s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/include/cmrosutils/cmrosutils/srv/detail
+[6.261s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/include/cmrosutils/cmrosutils/srv/detail/cm_remote_control__type_support.cpp
+[6.261s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/include/cmrosutils/cmrosutils/srv/detail/cm_remote_control__rosidl_typesupport_introspection_cpp.hpp
+[6.261s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/lib/libcmrosutils__rosidl_typesupport_introspection_cpp.so
+[6.261s] -- Set runtime path of "/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/lib/libcmrosutils__rosidl_typesupport_introspection_cpp.so" to ""
+[6.261s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/lib/libcmrosutils__rosidl_typesupport_cpp.so
+[6.261s] -- Set runtime path of "/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/lib/libcmrosutils__rosidl_typesupport_cpp.so" to ""
+[6.261s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/environment/pythonpath.sh
+[6.261s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/environment/pythonpath.dsv
+[6.261s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/local/lib/python3.10/dist-packages/cmrosutils-0.1.0-py3.10.egg-info
+[6.261s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/local/lib/python3.10/dist-packages/cmrosutils-0.1.0-py3.10.egg-info/top_level.txt
+[6.261s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/local/lib/python3.10/dist-packages/cmrosutils-0.1.0-py3.10.egg-info/SOURCES.txt
+[6.261s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/local/lib/python3.10/dist-packages/cmrosutils-0.1.0-py3.10.egg-info/dependency_links.txt
+[6.262s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/local/lib/python3.10/dist-packages/cmrosutils-0.1.0-py3.10.egg-info/PKG-INFO
+[6.262s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/local/lib/python3.10/dist-packages/cmrosutils
+[6.262s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/local/lib/python3.10/dist-packages/cmrosutils/_cmrosutils_s.ep.rosidl_typesupport_c.c
+[6.262s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/local/lib/python3.10/dist-packages/cmrosutils/_cmrosutils_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.262s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/local/lib/python3.10/dist-packages/cmrosutils/cmrosutils_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.262s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/local/lib/python3.10/dist-packages/cmrosutils/libcmrosutils__rosidl_generator_py.so
+[6.262s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/local/lib/python3.10/dist-packages/cmrosutils/cmrosutils_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.262s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/local/lib/python3.10/dist-packages/cmrosutils/_cmrosutils_s.ep.rosidl_typesupport_introspection_c.c
+[6.262s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/local/lib/python3.10/dist-packages/cmrosutils/cmrosutils_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.262s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/local/lib/python3.10/dist-packages/cmrosutils/srv
+[6.262s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/local/lib/python3.10/dist-packages/cmrosutils/srv/_cm_remote_control.py
+[6.262s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/local/lib/python3.10/dist-packages/cmrosutils/srv/__init__.py
+[6.262s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/local/lib/python3.10/dist-packages/cmrosutils/srv/_cm_remote_control_s.c
+[6.262s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/local/lib/python3.10/dist-packages/cmrosutils/__init__.py
+[6.284s] Listing '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/local/lib/python3.10/dist-packages/cmrosutils'...
+[6.284s] Compiling '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/local/lib/python3.10/dist-packages/cmrosutils/__init__.py'...
+[6.284s] Listing '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/local/lib/python3.10/dist-packages/cmrosutils/srv'...
+[6.284s] Compiling '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/local/lib/python3.10/dist-packages/cmrosutils/srv/__init__.py'...
+[6.285s] Compiling '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/local/lib/python3.10/dist-packages/cmrosutils/srv/_cm_remote_control.py'...
+[6.287s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/local/lib/python3.10/dist-packages/cmrosutils/cmrosutils_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.288s] -- Set runtime path of "/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/local/lib/python3.10/dist-packages/cmrosutils/cmrosutils_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.288s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/local/lib/python3.10/dist-packages/cmrosutils/cmrosutils_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.288s] -- Set runtime path of "/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/local/lib/python3.10/dist-packages/cmrosutils/cmrosutils_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.288s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/local/lib/python3.10/dist-packages/cmrosutils/cmrosutils_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.289s] -- Set runtime path of "/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/local/lib/python3.10/dist-packages/cmrosutils/cmrosutils_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.289s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/lib/libcmrosutils__rosidl_generator_py.so
+[6.289s] -- Set runtime path of "/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/lib/libcmrosutils__rosidl_generator_py.so" to ""
+[6.289s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/srv/CMRemoteControl.idl
+[6.289s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/srv/CMRemoteControl.srv
+[6.289s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/srv/CMRemoteControl_Request.msg
+[6.289s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/srv/CMRemoteControl_Response.msg
+[6.289s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/include
+[6.289s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/include/cmrosutils
+[6.289s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/include/cmrosutils/cmjob_publisher.hpp
+[6.289s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/include/cmrosutils/CMJob.h
+[6.290s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/include/cmrosutils/cmcppif.h
+[6.290s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/include/cmrosutils/cmrosif.hpp
+[6.290s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/include/cmrosutils/cmjob_subscriber.hpp
+[6.290s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/lib/libcmrosif.so
+[6.292s] -- Set runtime path of "/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/lib/libcmrosif.so" to ""
+[6.292s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/ament_index/resource_index/package_run_dependencies/cmrosutils
+[6.292s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/ament_index/resource_index/parent_prefix_path/cmrosutils
+[6.292s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/environment/ament_prefix_path.sh
+[6.292s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/environment/ament_prefix_path.dsv
+[6.293s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/environment/path.sh
+[6.293s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/environment/path.dsv
+[6.293s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/local_setup.bash
+[6.293s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/local_setup.sh
+[6.293s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/local_setup.zsh
+[6.293s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/local_setup.dsv
+[6.293s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/package.dsv
+[6.293s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/ament_index/resource_index/packages/cmrosutils
+[6.293s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/cmake/export_cmrosutils__rosidl_generator_cExport.cmake
+[6.293s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/cmake/export_cmrosutils__rosidl_generator_cExport-noconfig.cmake
+[6.293s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/cmake/export_cmrosutils__rosidl_typesupport_fastrtps_cExport.cmake
+[6.293s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/cmake/export_cmrosutils__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.293s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/cmake/export_cmrosutils__rosidl_generator_cppExport.cmake
+[6.293s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/cmake/export_cmrosutils__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.293s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/cmake/export_cmrosutils__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.293s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/cmake/cmrosutils__rosidl_typesupport_introspection_cExport.cmake
+[6.293s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/cmake/cmrosutils__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.293s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/cmake/cmrosutils__rosidl_typesupport_cExport.cmake
+[6.293s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/cmake/cmrosutils__rosidl_typesupport_cExport-noconfig.cmake
+[6.293s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/cmake/cmrosutils__rosidl_typesupport_introspection_cppExport.cmake
+[6.294s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/cmake/cmrosutils__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.294s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/cmake/cmrosutils__rosidl_typesupport_cppExport.cmake
+[6.294s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/cmake/cmrosutils__rosidl_typesupport_cppExport-noconfig.cmake
+[6.294s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/cmake/export_cmrosutils__rosidl_generator_pyExport.cmake
+[6.294s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/cmake/export_cmrosutils__rosidl_generator_pyExport-noconfig.cmake
+[6.294s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/cmake/cmrosifTargetsExport.cmake
+[6.294s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/cmake/cmrosifTargetsExport-noconfig.cmake
+[6.294s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/cmake/rosidl_cmake-extras.cmake
+[6.294s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.294s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.294s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/cmake/ament_cmake_export_libraries-extras.cmake
+[6.294s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/cmake/ament_cmake_export_targets-extras.cmake
+[6.294s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.294s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.294s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/cmake/cmrosutilsConfig.cmake
+[6.294s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/cmake/cmrosutilsConfig-version.cmake
+[6.294s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/package.xml
+[6.296s] Invoked command in '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:/opt/ros/ros2 /usr/bin/cmake --install /home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils

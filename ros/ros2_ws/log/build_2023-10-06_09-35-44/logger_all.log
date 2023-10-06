@@ -1,0 +1,364 @@
+[0.479s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.479s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f13b2698370>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f13b26a2110>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f13b26a2110>>)
+[0.504s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.504s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.504s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.504s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.504s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.504s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.504s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sagittarius/ROS2_CM/ros/ros2_ws'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmnode_hellocm) by extensions ['ignore', 'ignore_ament_install']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmnode_hellocm) by extension 'ignore'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmnode_hellocm) by extension 'ignore_ament_install'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmnode_hellocm) by extensions ['colcon_pkg']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmnode_hellocm) by extension 'colcon_pkg'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmnode_hellocm) by extensions ['colcon_meta']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmnode_hellocm) by extension 'colcon_meta'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmnode_hellocm) by extensions ['ros']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmnode_hellocm) by extension 'ros'
+[0.514s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cmnode_hellocm' with type 'ros.ament_cmake' and name 'cmnode_hellocm'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmrosutils) by extensions ['ignore', 'ignore_ament_install']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmrosutils) by extension 'ignore'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmrosutils) by extension 'ignore_ament_install'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmrosutils) by extensions ['colcon_pkg']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmrosutils) by extension 'colcon_pkg'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmrosutils) by extensions ['colcon_meta']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmrosutils) by extension 'colcon_meta'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmrosutils) by extensions ['ros']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmrosutils) by extension 'ros'
+[0.514s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cmrosutils' with type 'ros.ament_cmake' and name 'cmrosutils'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/hellocm) by extensions ['ignore', 'ignore_ament_install']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/hellocm) by extension 'ignore'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/hellocm) by extension 'ignore_ament_install'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/hellocm) by extensions ['colcon_pkg']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/hellocm) by extension 'colcon_pkg'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/hellocm) by extensions ['colcon_meta']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/hellocm) by extension 'colcon_meta'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/hellocm) by extensions ['ros']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/hellocm) by extension 'ros'
+[0.515s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hellocm' with type 'ros.ament_cmake' and name 'hellocm'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/hellocm_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/hellocm_msgs) by extension 'ignore'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/hellocm_msgs) by extension 'ignore_ament_install'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/hellocm_msgs) by extensions ['colcon_pkg']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/hellocm_msgs) by extension 'colcon_pkg'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/hellocm_msgs) by extensions ['colcon_meta']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/hellocm_msgs) by extension 'colcon_meta'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/hellocm_msgs) by extensions ['ros']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/hellocm_msgs) by extension 'ros'
+[0.516s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hellocm_msgs' with type 'ros.ament_cmake' and name 'hellocm_msgs'
+[0.516s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.516s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.516s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.516s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.516s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.576s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 273 installed packages in /opt/ros/ros2
+[0.577s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'cmrosutils' build argument 'cmake_args' from command line to 'None'
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'cmrosutils' build argument 'cmake_target' from command line to 'None'
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'cmrosutils' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'cmrosutils' build argument 'cmake_clean_cache' from command line to 'False'
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'cmrosutils' build argument 'cmake_clean_first' from command line to 'False'
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'cmrosutils' build argument 'cmake_force_configure' from command line to 'False'
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'cmrosutils' build argument 'ament_cmake_args' from command line to 'None'
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'cmrosutils' build argument 'catkin_cmake_args' from command line to 'None'
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'cmrosutils' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.624s] DEBUG:colcon.colcon_core.verb:Building package 'cmrosutils' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils', 'merge_install': False, 'path': '/home/sagittarius/ROS2_CM/ros/ros2_ws/src/cmrosutils', 'symlink_install': False, 'test_result_base': None}
+[0.630s] Level 5:colcon.colcon_core.verb:set package 'hellocm_msgs' build argument 'cmake_args' from command line to 'None'
+[0.630s] Level 5:colcon.colcon_core.verb:set package 'hellocm_msgs' build argument 'cmake_target' from command line to 'None'
+[0.630s] Level 5:colcon.colcon_core.verb:set package 'hellocm_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.630s] Level 5:colcon.colcon_core.verb:set package 'hellocm_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.630s] Level 5:colcon.colcon_core.verb:set package 'hellocm_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.630s] Level 5:colcon.colcon_core.verb:set package 'hellocm_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.630s] Level 5:colcon.colcon_core.verb:set package 'hellocm_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.630s] Level 5:colcon.colcon_core.verb:set package 'hellocm_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.630s] Level 5:colcon.colcon_core.verb:set package 'hellocm_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.630s] DEBUG:colcon.colcon_core.verb:Building package 'hellocm_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs', 'merge_install': False, 'path': '/home/sagittarius/ROS2_CM/ros/ros2_ws/src/hellocm_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'cmnode_hellocm' build argument 'cmake_args' from command line to 'None'
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'cmnode_hellocm' build argument 'cmake_target' from command line to 'None'
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'cmnode_hellocm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'cmnode_hellocm' build argument 'cmake_clean_cache' from command line to 'False'
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'cmnode_hellocm' build argument 'cmake_clean_first' from command line to 'False'
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'cmnode_hellocm' build argument 'cmake_force_configure' from command line to 'False'
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'cmnode_hellocm' build argument 'ament_cmake_args' from command line to 'None'
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'cmnode_hellocm' build argument 'catkin_cmake_args' from command line to 'None'
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'cmnode_hellocm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.637s] DEBUG:colcon.colcon_core.verb:Building package 'cmnode_hellocm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmnode_hellocm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm', 'merge_install': False, 'path': '/home/sagittarius/ROS2_CM/ros/ros2_ws/src/cmnode_hellocm', 'symlink_install': False, 'test_result_base': None}
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'hellocm' build argument 'cmake_args' from command line to 'None'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'hellocm' build argument 'cmake_target' from command line to 'None'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'hellocm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'hellocm' build argument 'cmake_clean_cache' from command line to 'False'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'hellocm' build argument 'cmake_clean_first' from command line to 'False'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'hellocm' build argument 'cmake_force_configure' from command line to 'False'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'hellocm' build argument 'ament_cmake_args' from command line to 'None'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'hellocm' build argument 'catkin_cmake_args' from command line to 'None'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'hellocm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.644s] DEBUG:colcon.colcon_core.verb:Building package 'hellocm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm', 'merge_install': False, 'path': '/home/sagittarius/ROS2_CM/ros/ros2_ws/src/hellocm', 'symlink_install': False, 'test_result_base': None}
+[0.650s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.657s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.658s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sagittarius/ROS2_CM/ros/ros2_ws/src/hellocm_msgs' with build type 'ament_cmake'
+[0.658s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sagittarius/ROS2_CM/ros/ros2_ws/src/hellocm_msgs'
+[0.665s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.666s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.666s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.680s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sagittarius/ROS2_CM/ros/ros2_ws/src/cmrosutils' with build type 'ament_cmake'
+[0.680s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sagittarius/ROS2_CM/ros/ros2_ws/src/cmrosutils'
+[0.687s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.687s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.705s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs': CMAKE_PREFIX_PATH=/opt/ros/ros2 /usr/bin/cmake /home/sagittarius/ROS2_CM/ros/ros2_ws/src/hellocm_msgs -DCMAKE_INSTALL_PREFIX=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs
+[0.706s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils': CMAKE_PREFIX_PATH=/opt/ros/ros2 /usr/bin/cmake /home/sagittarius/ROS2_CM/ros/ros2_ws/src/cmrosutils -DCMAKE_INSTALL_PREFIX=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils
+[1.448s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/ros2 /usr/bin/cmake /home/sagittarius/ROS2_CM/ros/ros2_ws/src/hellocm_msgs -DCMAKE_INSTALL_PREFIX=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs
+[1.449s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs': CMAKE_PREFIX_PATH=/opt/ros/ros2 /usr/bin/cmake --build /home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs -- -j20 -l20
+[1.560s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/ros2 /usr/bin/cmake /home/sagittarius/ROS2_CM/ros/ros2_ws/src/cmrosutils -DCMAKE_INSTALL_PREFIX=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils
+[1.561s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils': CMAKE_PREFIX_PATH=/opt/ros/ros2 /usr/bin/cmake --build /home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils -- -j20 -l20
+[1.646s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/ros2 /usr/bin/cmake --build /home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs -- -j20 -l20
+[1.705s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs': CMAKE_PREFIX_PATH=/opt/ros/ros2 /usr/bin/cmake --install /home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs
+[1.739s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hellocm_msgs)
+[1.739s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/ros2 /usr/bin/cmake --install /home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs
+[1.759s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs' for CMake module files
+[1.760s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs' for CMake config files
+[1.760s] Level 1:colcon.colcon_core.shell:create_environment_hook('hellocm_msgs', 'cmake_prefix_path')
+[1.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/hook/cmake_prefix_path.ps1'
+[1.768s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/hook/cmake_prefix_path.dsv'
+[1.769s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/hook/cmake_prefix_path.sh'
+[1.769s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/lib'
+[1.769s] Level 1:colcon.colcon_core.shell:create_environment_hook('hellocm_msgs', 'ld_library_path_lib')
+[1.776s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/hook/ld_library_path_lib.ps1'
+[1.776s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/hook/ld_library_path_lib.dsv'
+[1.777s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/hook/ld_library_path_lib.sh'
+[1.777s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/bin'
+[1.777s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/lib/pkgconfig/hellocm_msgs.pc'
+[1.777s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/lib/python3.10/site-packages'
+[1.777s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/bin'
+[1.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/package.ps1'
+[1.784s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/package.dsv'
+[1.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/package.sh'
+[1.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/package.bash'
+[1.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/package.zsh'
+[1.786s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/colcon-core/packages/hellocm_msgs)
+[1.788s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/ros2 /usr/bin/cmake --build /home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils -- -j20 -l20
+[1.817s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils': CMAKE_PREFIX_PATH=/opt/ros/ros2 /usr/bin/cmake --install /home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils
+[1.836s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hellocm_msgs)
+[1.843s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs' for CMake module files
+[1.844s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs' for CMake config files
+[1.844s] Level 1:colcon.colcon_core.shell:create_environment_hook('hellocm_msgs', 'cmake_prefix_path')
+[1.854s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/hook/cmake_prefix_path.ps1'
+[1.855s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/hook/cmake_prefix_path.dsv'
+[1.855s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/hook/cmake_prefix_path.sh'
+[1.855s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/lib'
+[1.855s] Level 1:colcon.colcon_core.shell:create_environment_hook('hellocm_msgs', 'ld_library_path_lib')
+[1.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/hook/ld_library_path_lib.ps1'
+[1.862s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/hook/ld_library_path_lib.dsv'
+[1.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/hook/ld_library_path_lib.sh'
+[1.863s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/bin'
+[1.863s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/lib/pkgconfig/hellocm_msgs.pc'
+[1.863s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/lib/python3.10/site-packages'
+[1.863s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/bin'
+[1.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/package.ps1'
+[1.870s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/package.dsv'
+[1.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/package.sh'
+[1.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/package.bash'
+[1.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/package.zsh'
+[1.871s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/colcon-core/packages/hellocm_msgs)
+[1.871s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sagittarius/ROS2_CM/ros/ros2_ws/src/hellocm' with build type 'ament_cmake'
+[1.871s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sagittarius/ROS2_CM/ros/ros2_ws/src/hellocm'
+[1.878s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.878s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.892s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cmrosutils)
+[1.893s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/ros2 /usr/bin/cmake --install /home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils
+[1.899s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils' for CMake module files
+[1.900s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils' for CMake config files
+[1.900s] Level 1:colcon.colcon_core.shell:create_environment_hook('cmrosutils', 'cmake_prefix_path')
+[1.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/hook/cmake_prefix_path.ps1'
+[1.907s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/hook/cmake_prefix_path.dsv'
+[1.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/hook/cmake_prefix_path.sh'
+[1.907s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/lib'
+[1.907s] Level 1:colcon.colcon_core.shell:create_environment_hook('cmrosutils', 'ld_library_path_lib')
+[1.920s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/hook/ld_library_path_lib.ps1'
+[1.920s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/hook/ld_library_path_lib.dsv'
+[1.920s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/hook/ld_library_path_lib.sh'
+[1.921s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/bin'
+[1.921s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/lib/pkgconfig/cmrosutils.pc'
+[1.921s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/lib/python3.10/site-packages'
+[1.921s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/bin'
+[1.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/package.ps1'
+[1.928s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/package.dsv'
+[1.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/package.sh'
+[1.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/package.bash'
+[1.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/package.zsh'
+[1.929s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/colcon-core/packages/cmrosutils)
+[1.932s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm': AMENT_PREFIX_PATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs:/opt/ros/ros2 LD_LIBRARY_PATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sagittarius/ROS2_CM/ros/ros2_ws/src/hellocm -DCMAKE_INSTALL_PREFIX=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm
+[1.965s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cmrosutils)
+[1.972s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils' for CMake module files
+[1.972s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils' for CMake config files
+[1.973s] Level 1:colcon.colcon_core.shell:create_environment_hook('cmrosutils', 'cmake_prefix_path')
+[1.979s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/hook/cmake_prefix_path.ps1'
+[1.980s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/hook/cmake_prefix_path.dsv'
+[1.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/hook/cmake_prefix_path.sh'
+[1.980s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/lib'
+[1.980s] Level 1:colcon.colcon_core.shell:create_environment_hook('cmrosutils', 'ld_library_path_lib')
+[1.987s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/hook/ld_library_path_lib.ps1'
+[1.987s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/hook/ld_library_path_lib.dsv'
+[1.987s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/hook/ld_library_path_lib.sh'
+[1.987s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/bin'
+[1.987s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/lib/pkgconfig/cmrosutils.pc'
+[1.988s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/lib/python3.10/site-packages'
+[1.988s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/bin'
+[1.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/package.ps1'
+[1.995s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/package.dsv'
+[1.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/package.sh'
+[1.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/package.bash'
+[1.996s] INFO:colcon.colcon_core.shell:Creating package script '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/cmrosutils/package.zsh'
+[1.996s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/share/colcon-core/packages/cmrosutils)
+[1.996s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sagittarius/ROS2_CM/ros/ros2_ws/src/cmnode_hellocm' with build type 'ament_cmake'
+[1.996s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sagittarius/ROS2_CM/ros/ros2_ws/src/cmnode_hellocm'
+[2.003s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.004s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.025s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmnode_hellocm': AMENT_PREFIX_PATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs:/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs:/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils:/opt/ros/ros2 LD_LIBRARY_PATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/lib:/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages:/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sagittarius/ROS2_CM/ros/ros2_ws/src/cmnode_hellocm -DCMAKE_INSTALL_PREFIX=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm
+[2.389s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm' returned '0': AMENT_PREFIX_PATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs:/opt/ros/ros2 LD_LIBRARY_PATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sagittarius/ROS2_CM/ros/ros2_ws/src/hellocm -DCMAKE_INSTALL_PREFIX=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm
+[2.390s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm': AMENT_PREFIX_PATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs:/opt/ros/ros2 LD_LIBRARY_PATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm -- -j20 -l20
+[2.430s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm' returned '0': AMENT_PREFIX_PATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs:/opt/ros/ros2 LD_LIBRARY_PATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm -- -j20 -l20
+[2.445s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm': AMENT_PREFIX_PATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs:/opt/ros/ros2 LD_LIBRARY_PATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm
+[2.451s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hellocm)
+[2.451s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm' returned '0': AMENT_PREFIX_PATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs:/opt/ros/ros2 LD_LIBRARY_PATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm
+[2.458s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm' for CMake module files
+[2.459s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm' for CMake config files
+[2.459s] Level 1:colcon.colcon_core.shell:create_environment_hook('hellocm', 'cmake_prefix_path')
+[2.465s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm/share/hellocm/hook/cmake_prefix_path.ps1'
+[2.466s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm/share/hellocm/hook/cmake_prefix_path.dsv'
+[2.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm/share/hellocm/hook/cmake_prefix_path.sh'
+[2.466s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm/lib'
+[2.466s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm/bin'
+[2.466s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm/lib/pkgconfig/hellocm.pc'
+[2.466s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm/lib/python3.10/site-packages'
+[2.466s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm/bin'
+[2.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm/share/hellocm/package.ps1'
+[2.474s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm/share/hellocm/package.dsv'
+[2.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm/share/hellocm/package.sh'
+[2.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm/share/hellocm/package.bash'
+[2.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm/share/hellocm/package.zsh'
+[2.474s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm/share/colcon-core/packages/hellocm)
+[2.499s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hellocm)
+[2.506s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm' for CMake module files
+[2.506s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm' for CMake config files
+[2.506s] Level 1:colcon.colcon_core.shell:create_environment_hook('hellocm', 'cmake_prefix_path')
+[2.513s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm/share/hellocm/hook/cmake_prefix_path.ps1'
+[2.513s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm/share/hellocm/hook/cmake_prefix_path.dsv'
+[2.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm/share/hellocm/hook/cmake_prefix_path.sh'
+[2.514s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm/lib'
+[2.514s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm/bin'
+[2.514s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm/lib/pkgconfig/hellocm.pc'
+[2.514s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm/lib/python3.10/site-packages'
+[2.514s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm/bin'
+[2.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm/share/hellocm/package.ps1'
+[2.521s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm/share/hellocm/package.dsv'
+[2.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm/share/hellocm/package.sh'
+[2.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm/share/hellocm/package.bash'
+[2.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm/share/hellocm/package.zsh'
+[2.522s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm/share/colcon-core/packages/hellocm)
+[2.523s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmnode_hellocm' returned '0': AMENT_PREFIX_PATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs:/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs:/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils:/opt/ros/ros2 LD_LIBRARY_PATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/lib:/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages:/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sagittarius/ROS2_CM/ros/ros2_ws/src/cmnode_hellocm -DCMAKE_INSTALL_PREFIX=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm
+[2.524s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmnode_hellocm': AMENT_PREFIX_PATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs:/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs:/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils:/opt/ros/ros2 LD_LIBRARY_PATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/lib:/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages:/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmnode_hellocm -- -j20 -l20
+[2.576s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmnode_hellocm' returned '0': AMENT_PREFIX_PATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs:/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs:/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils:/opt/ros/ros2 LD_LIBRARY_PATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/lib:/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages:/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmnode_hellocm -- -j20 -l20
+[2.599s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmnode_hellocm': AMENT_PREFIX_PATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs:/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs:/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils:/opt/ros/ros2 LD_LIBRARY_PATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/lib:/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages:/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmnode_hellocm
+[2.609s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cmnode_hellocm)
+[2.609s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmnode_hellocm' returned '0': AMENT_PREFIX_PATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs:/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs:/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils:/opt/ros/ros2 LD_LIBRARY_PATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/lib:/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages:/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmnode_hellocm
+[2.621s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm' for CMake module files
+[2.621s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm' for CMake config files
+[2.622s] Level 1:colcon.colcon_core.shell:create_environment_hook('cmnode_hellocm', 'cmake_prefix_path')
+[2.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm/share/cmnode_hellocm/hook/cmake_prefix_path.ps1'
+[2.630s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm/share/cmnode_hellocm/hook/cmake_prefix_path.dsv'
+[2.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm/share/cmnode_hellocm/hook/cmake_prefix_path.sh'
+[2.630s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm/lib'
+[2.630s] Level 1:colcon.colcon_core.shell:create_environment_hook('cmnode_hellocm', 'ld_library_path_lib')
+[2.637s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm/share/cmnode_hellocm/hook/ld_library_path_lib.ps1'
+[2.637s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm/share/cmnode_hellocm/hook/ld_library_path_lib.dsv'
+[2.637s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm/share/cmnode_hellocm/hook/ld_library_path_lib.sh'
+[2.637s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm/bin'
+[2.637s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm/lib/pkgconfig/cmnode_hellocm.pc'
+[2.637s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm/lib/python3.10/site-packages'
+[2.638s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm/bin'
+[2.644s] INFO:colcon.colcon_core.shell:Creating package script '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm/share/cmnode_hellocm/package.ps1'
+[2.645s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm/share/cmnode_hellocm/package.dsv'
+[2.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm/share/cmnode_hellocm/package.sh'
+[2.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm/share/cmnode_hellocm/package.bash'
+[2.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm/share/cmnode_hellocm/package.zsh'
+[2.645s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm/share/colcon-core/packages/cmnode_hellocm)
+[2.668s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cmnode_hellocm)
+[2.676s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm' for CMake module files
+[2.676s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm' for CMake config files
+[2.676s] Level 1:colcon.colcon_core.shell:create_environment_hook('cmnode_hellocm', 'cmake_prefix_path')
+[2.683s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm/share/cmnode_hellocm/hook/cmake_prefix_path.ps1'
+[2.683s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm/share/cmnode_hellocm/hook/cmake_prefix_path.dsv'
+[2.683s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm/share/cmnode_hellocm/hook/cmake_prefix_path.sh'
+[2.684s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm/lib'
+[2.684s] Level 1:colcon.colcon_core.shell:create_environment_hook('cmnode_hellocm', 'ld_library_path_lib')
+[2.690s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm/share/cmnode_hellocm/hook/ld_library_path_lib.ps1'
+[2.691s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm/share/cmnode_hellocm/hook/ld_library_path_lib.dsv'
+[2.691s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm/share/cmnode_hellocm/hook/ld_library_path_lib.sh'
+[2.691s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm/bin'
+[2.691s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm/lib/pkgconfig/cmnode_hellocm.pc'
+[2.691s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm/lib/python3.10/site-packages'
+[2.691s] Level 1:colcon.colcon_core.environment:checking '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm/bin'
+[2.698s] INFO:colcon.colcon_core.shell:Creating package script '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm/share/cmnode_hellocm/package.ps1'
+[2.698s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm/share/cmnode_hellocm/package.dsv'
+[2.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm/share/cmnode_hellocm/package.sh'
+[2.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm/share/cmnode_hellocm/package.bash'
+[2.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm/share/cmnode_hellocm/package.zsh'
+[2.699s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmnode_hellocm/share/colcon-core/packages/cmnode_hellocm)
+[2.699s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.699s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.699s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.699s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.709s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.710s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.710s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.720s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.731s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/local_setup.ps1'
+[2.731s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/_local_setup_util_ps1.py'
+[2.732s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/setup.ps1'
+[2.739s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/local_setup.sh'
+[2.739s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/_local_setup_util_sh.py'
+[2.739s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/setup.sh'
+[2.747s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/local_setup.bash'
+[2.747s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/setup.bash'
+[2.754s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/local_setup.zsh'
+[2.754s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/setup.zsh'

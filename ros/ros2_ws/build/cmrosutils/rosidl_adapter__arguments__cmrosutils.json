@@ -1,0 +1,6 @@
+{
+  "package_name": "cmrosutils",
+  "non_idl_tuples": [
+    "/home/sagittarius/ROS2_CM/ros/ros2_ws/src/cmrosutils:srv/CMRemoteControl.srv"
+  ]
+}

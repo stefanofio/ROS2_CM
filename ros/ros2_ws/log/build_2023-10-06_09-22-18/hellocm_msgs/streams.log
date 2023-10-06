@@ -1,0 +1,369 @@
+[0.067s] Invoking command in '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble:/opt/ros/ros2 /usr/bin/cmake /home/sagittarius/ROS2_CM/ros/ros2_ws/src/hellocm_msgs -DCARMAKER_VER:STRING=12.0.1 -DCARMAKER_DIR:PATH=/opt/ipg/carmaker/linux64-12.0.1 --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs
+[0.088s] Not searching for unused variables given on the command line.
+[0.148s] -- The C compiler identification is GNU 11.4.0
+[0.245s] -- The CXX compiler identification is GNU 11.4.0
+[0.254s] -- Detecting C compiler ABI info
+[0.297s] -- Detecting C compiler ABI info - done
+[0.301s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.302s] -- Detecting C compile features
+[0.303s] -- Detecting C compile features - done
+[0.305s] -- Detecting CXX compiler ABI info
+[0.356s] -- Detecting CXX compiler ABI info - done
+[0.361s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.361s] -- Detecting CXX compile features
+[0.361s] -- Detecting CXX compile features - done
+[0.371s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.490s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.553s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.556s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.562s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.595s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.619s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[0.843s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.990s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.177s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.192s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.194s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.212s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.212s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.212s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.212s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.225s] -- Found PythonExtra: .so  
+[1.258s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.274s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.276s] -- Added test 'lint_cmake' to check CMake code style
+[1.277s] -- Added test 'xmllint' to check XML markup files
+[1.279s] -- Configuring done
+[1.299s] -- Generating done
+[1.301s] -- Build files have been written to: /home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs
+[1.306s] Invoked command in '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:/opt/ros/ros2 /usr/bin/cmake /home/sagittarius/ROS2_CM/ros/ros2_ws/src/hellocm_msgs -DCARMAKER_VER:STRING=12.0.1 -DCARMAKER_DIR:PATH=/opt/ipg/carmaker/linux64-12.0.1 --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs
+[1.307s] Invoking command in '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble:/opt/ros/ros2 /usr/bin/cmake --build /home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs -- -j20 -l20
+[1.312s] gmake[1]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[1.324s] gmake[2]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[1.325s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[1.325s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[1.325s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[1.330s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.330s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[1.330s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[1.331s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[1.331s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[1.336s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.336s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[1.340s] [  4%] Built target ament_cmake_python_copy_hellocm_msgs
+[1.341s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[1.347s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[1.347s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[1.495s] running egg_info
+[1.496s] creating hellocm_msgs.egg-info
+[1.496s] writing hellocm_msgs.egg-info/PKG-INFO
+[1.496s] writing dependency_links to hellocm_msgs.egg-info/dependency_links.txt
+[1.496s] writing top-level names to hellocm_msgs.egg-info/top_level.txt
+[1.496s] writing manifest file 'hellocm_msgs.egg-info/SOURCES.txt'
+[1.498s] reading manifest file 'hellocm_msgs.egg-info/SOURCES.txt'
+[1.498s] writing manifest file 'hellocm_msgs.egg-info/SOURCES.txt'
+[1.510s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[1.515s] [  4%] Built target ament_cmake_python_build_hellocm_msgs_egg
+[1.609s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[1.617s] [  4%] Built target hellocm_msgs__cpp
+[1.619s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[1.619s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[1.620s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[1.622s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[1.624s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[1.624s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.624s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.626s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.630s] [ 12%] [32mBuilding C object CMakeFiles/hellocm_msgs__rosidl_generator_c.dir/rosidl_generator_c/hellocm_msgs/msg/detail/cm2_ext__functions.c.o[0m
+[1.630s] [ 14%] [32mBuilding C object CMakeFiles/hellocm_msgs__rosidl_generator_c.dir/rosidl_generator_c/hellocm_msgs/msg/detail/ext2_cm__functions.c.o[0m
+[1.632s] [ 17%] [32mBuilding C object CMakeFiles/hellocm_msgs__rosidl_generator_c.dir/rosidl_generator_c/hellocm_msgs/srv/detail/init__functions.c.o[0m
+[1.691s] [ 19%] [32m[1mLinking C shared library libhellocm_msgs__rosidl_generator_c.so[0m
+[1.717s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[1.724s] [ 19%] Built target hellocm_msgs__rosidl_generator_c
+[1.726s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[1.727s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[1.727s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[1.732s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.736s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.736s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.979s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[1.981s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[1.988s] [ 27%] [32mBuilding CXX object CMakeFiles/hellocm_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hellocm_msgs/msg/detail/cm2_ext__type_support.cpp.o[0m
+[1.991s] [ 29%] [32mBuilding CXX object CMakeFiles/hellocm_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hellocm_msgs/msg/detail/ext2_cm__type_support.cpp.o[0m
+[1.993s] [ 31%] [32mBuilding CXX object CMakeFiles/hellocm_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hellocm_msgs/srv/detail/init__type_support.cpp.o[0m
+[2.019s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[2.021s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[2.027s] [ 36%] [32mBuilding CXX object CMakeFiles/hellocm_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hellocm_msgs/msg/detail/dds_fastrtps/cm2_ext__type_support.cpp.o[0m
+[2.027s] [ 36%] [32mBuilding CXX object CMakeFiles/hellocm_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hellocm_msgs/msg/detail/dds_fastrtps/ext2_cm__type_support.cpp.o[0m
+[2.031s] [ 38%] [32mBuilding CXX object CMakeFiles/hellocm_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hellocm_msgs/srv/detail/dds_fastrtps/init__type_support.cpp.o[0m
+[2.190s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[2.195s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[2.202s] [ 40%] [32mBuilding CXX object CMakeFiles/hellocm_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hellocm_msgs/msg/cm2_ext__type_support.cpp.o[0m
+[2.205s] [ 42%] [32mBuilding CXX object CMakeFiles/hellocm_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hellocm_msgs/msg/ext2_cm__type_support.cpp.o[0m
+[2.205s] [ 44%] [32mBuilding CXX object CMakeFiles/hellocm_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hellocm_msgs/srv/init__type_support.cpp.o[0m
+[2.278s] [ 46%] [32m[1mLinking CXX shared library libhellocm_msgs__rosidl_typesupport_c.so[0m
+[2.345s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[2.355s] [ 46%] Built target hellocm_msgs__rosidl_typesupport_c
+[2.382s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[2.387s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[2.397s] [ 48%] [32mBuilding C object CMakeFiles/hellocm_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hellocm_msgs/msg/detail/cm2_ext__type_support.c.o[0m
+[2.398s] [ 51%] [32mBuilding C object CMakeFiles/hellocm_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hellocm_msgs/srv/detail/init__type_support.c.o[0m
+[2.403s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[2.405s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[2.412s] [ 53%] [32mBuilding C object CMakeFiles/hellocm_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hellocm_msgs/msg/detail/ext2_cm__type_support.c.o[0m
+[2.415s] [ 57%] [32mBuilding CXX object CMakeFiles/hellocm_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hellocm_msgs/msg/ext2_cm__type_support.cpp.o[0m
+[2.415s] [ 59%] [32mBuilding CXX object CMakeFiles/hellocm_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hellocm_msgs/msg/cm2_ext__type_support.cpp.o[0m
+[2.415s] [ 59%] [32mBuilding CXX object CMakeFiles/hellocm_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hellocm_msgs/srv/init__type_support.cpp.o[0m
+[2.476s] [ 61%] [32m[1mLinking C shared library libhellocm_msgs__rosidl_typesupport_introspection_c.so[0m
+[2.498s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[2.506s] [ 61%] Built target hellocm_msgs__rosidl_typesupport_introspection_c
+[2.558s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[2.562s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[2.570s] [ 63%] [32mBuilding CXX object CMakeFiles/hellocm_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hellocm_msgs/msg/detail/ext2_cm__type_support_c.cpp.o[0m
+[2.571s] [ 65%] [32mBuilding CXX object CMakeFiles/hellocm_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hellocm_msgs/msg/detail/cm2_ext__type_support_c.cpp.o[0m
+[2.582s] [ 68%] [32mBuilding CXX object CMakeFiles/hellocm_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hellocm_msgs/srv/detail/init__type_support_c.cpp.o[0m
+[2.667s] [ 70%] [32m[1mLinking CXX shared library libhellocm_msgs__rosidl_typesupport_cpp.so[0m
+[2.696s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[2.704s] [ 70%] Built target hellocm_msgs__rosidl_typesupport_cpp
+[2.780s] [ 72%] [32m[1mLinking CXX shared library libhellocm_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.836s] [ 74%] [32m[1mLinking CXX shared library libhellocm_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[2.840s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[2.846s] [ 74%] Built target hellocm_msgs__rosidl_typesupport_fastrtps_cpp
+[2.876s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[2.882s] [ 74%] Built target hellocm_msgs__rosidl_typesupport_introspection_cpp
+[2.950s] [ 76%] [32m[1mLinking CXX shared library libhellocm_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[2.993s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[2.998s] [ 76%] Built target hellocm_msgs__rosidl_typesupport_fastrtps_c
+[3.000s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[3.005s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[3.011s] [ 76%] Built target hellocm_msgs
+[3.012s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[3.018s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[3.020s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[3.024s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.463s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[3.468s] [ 78%] Built target hellocm_msgs__py
+[3.470s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[3.475s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[3.476s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[3.481s] [ 82%] [32mBuilding C object CMakeFiles/hellocm_msgs__rosidl_generator_py.dir/rosidl_generator_py/hellocm_msgs/msg/_ext2_cm_s.c.o[0m
+[3.481s] [ 82%] [32mBuilding C object CMakeFiles/hellocm_msgs__rosidl_generator_py.dir/rosidl_generator_py/hellocm_msgs/msg/_cm2_ext_s.c.o[0m
+[3.486s] [ 85%] [32mBuilding C object CMakeFiles/hellocm_msgs__rosidl_generator_py.dir/rosidl_generator_py/hellocm_msgs/srv/_init_s.c.o[0m
+[3.572s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/hellocm_msgs/libhellocm_msgs__rosidl_generator_py.so[0m
+[3.594s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[3.600s] [ 87%] Built target hellocm_msgs__rosidl_generator_py
+[3.602s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[3.602s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[3.602s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[3.607s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[3.607s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[3.607s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[3.608s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[3.608s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[3.609s] gmake[3]: Entering directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[3.613s] [ 93%] [32mBuilding C object CMakeFiles/hellocm_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/hellocm_msgs/_hellocm_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[3.613s] [ 91%] [32mBuilding C object CMakeFiles/hellocm_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/hellocm_msgs/_hellocm_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.613s] [ 93%] [32mBuilding C object CMakeFiles/hellocm_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/hellocm_msgs/_hellocm_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.676s] [100%] [32m[1mLinking C shared library rosidl_generator_py/hellocm_msgs/hellocm_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.676s] [100%] [32m[1mLinking C shared library rosidl_generator_py/hellocm_msgs/hellocm_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.676s] [100%] [32m[1mLinking C shared library rosidl_generator_py/hellocm_msgs/hellocm_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.694s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[3.694s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[3.695s] gmake[3]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[3.700s] [100%] Built target hellocm_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.700s] [100%] Built target hellocm_msgs__rosidl_typesupport_introspection_c__pyext
+[3.700s] [100%] Built target hellocm_msgs__rosidl_typesupport_c__pyext
+[3.700s] gmake[2]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[3.705s] gmake[1]: Leaving directory '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs'
+[3.707s] Invoked command in '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:/opt/ros/ros2 /usr/bin/cmake --build /home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs -- -j20 -l20
+[3.772s] Invoking command in '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble:/opt/ros/ros2 /usr/bin/cmake --install /home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs
+[3.777s] -- Install configuration: ""
+[3.777s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/ament_index/resource_index/rosidl_interfaces/hellocm_msgs
+[3.777s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs
+[3.777s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg
+[3.777s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/rosidl_generator_c__visibility_control.h
+[3.777s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail
+[3.777s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/ext2_cm__type_support.h
+[3.777s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/ext2_cm__functions.c
+[3.777s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/cm2_ext__type_support.h
+[3.777s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/cm2_ext__struct.h
+[3.777s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/ext2_cm__struct.h
+[3.777s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/ext2_cm__functions.h
+[3.777s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/cm2_ext__functions.h
+[3.777s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/cm2_ext__functions.c
+[3.777s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/ext2_cm.h
+[3.777s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/cm2_ext.h
+[3.777s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv
+[3.777s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv/detail
+[3.777s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv/detail/init__struct.h
+[3.777s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv/detail/init__functions.c
+[3.778s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv/detail/init__functions.h
+[3.778s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv/detail/init__type_support.h
+[3.778s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv/init.h
+[3.778s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/environment/library_path.sh
+[3.778s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/environment/library_path.dsv
+[3.778s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/lib/libhellocm_msgs__rosidl_generator_c.so
+[3.778s] -- Set runtime path of "/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/lib/libhellocm_msgs__rosidl_generator_c.so" to ""
+[3.778s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs
+[3.778s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg
+[3.778s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail
+[3.778s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/cm2_ext__rosidl_typesupport_fastrtps_c.h
+[3.778s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/ext2_cm__rosidl_typesupport_fastrtps_c.h
+[3.778s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.778s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv
+[3.778s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv/detail
+[3.778s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv/detail/init__rosidl_typesupport_fastrtps_c.h
+[3.778s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/lib/libhellocm_msgs__rosidl_typesupport_fastrtps_c.so
+[3.778s] -- Set runtime path of "/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/lib/libhellocm_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[3.778s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs
+[3.778s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg
+[3.778s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail
+[3.778s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/ext2_cm__rosidl_typesupport_introspection_c.h
+[3.779s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/cm2_ext__type_support.c
+[3.779s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/cm2_ext__rosidl_typesupport_introspection_c.h
+[3.779s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/ext2_cm__type_support.c
+[3.779s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.779s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv
+[3.779s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv/detail
+[3.779s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv/detail/init__rosidl_typesupport_introspection_c.h
+[3.779s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv/detail/init__type_support.c
+[3.779s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/lib/libhellocm_msgs__rosidl_typesupport_introspection_c.so
+[3.779s] -- Set runtime path of "/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/lib/libhellocm_msgs__rosidl_typesupport_introspection_c.so" to ""
+[3.779s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/lib/libhellocm_msgs__rosidl_typesupport_c.so
+[3.779s] -- Set runtime path of "/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/lib/libhellocm_msgs__rosidl_typesupport_c.so" to ""
+[3.779s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs
+[3.779s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg
+[3.779s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail
+[3.779s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/cm2_ext__struct.hpp
+[3.779s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/ext2_cm__traits.hpp
+[3.779s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/cm2_ext__traits.hpp
+[3.779s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/cm2_ext__builder.hpp
+[3.779s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/ext2_cm__struct.hpp
+[3.779s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/ext2_cm__builder.hpp
+[3.779s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/ext2_cm.hpp
+[3.779s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/cm2_ext.hpp
+[3.780s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv
+[3.780s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv/detail
+[3.780s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv/detail/init__struct.hpp
+[3.780s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv/detail/init__builder.hpp
+[3.780s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv/detail/init__traits.hpp
+[3.780s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv/init.hpp
+[3.780s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs
+[3.780s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg
+[3.780s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail
+[3.780s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/ext2_cm__rosidl_typesupport_fastrtps_cpp.hpp
+[3.780s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/cm2_ext__rosidl_typesupport_fastrtps_cpp.hpp
+[3.780s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/dds_fastrtps
+[3.780s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.780s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv
+[3.780s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv/detail
+[3.780s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv/detail/init__rosidl_typesupport_fastrtps_cpp.hpp
+[3.780s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv/detail/dds_fastrtps
+[3.780s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/lib/libhellocm_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.780s] -- Set runtime path of "/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/lib/libhellocm_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.780s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs
+[3.780s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg
+[3.780s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail
+[3.780s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/cm2_ext__type_support.cpp
+[3.780s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/ext2_cm__rosidl_typesupport_introspection_cpp.hpp
+[3.780s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/cm2_ext__rosidl_typesupport_introspection_cpp.hpp
+[3.780s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/ext2_cm__type_support.cpp
+[3.780s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv
+[3.781s] -- Up-to-date: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv/detail
+[3.781s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv/detail/init__rosidl_typesupport_introspection_cpp.hpp
+[3.781s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv/detail/init__type_support.cpp
+[3.781s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/lib/libhellocm_msgs__rosidl_typesupport_introspection_cpp.so
+[3.781s] -- Set runtime path of "/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/lib/libhellocm_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[3.781s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/lib/libhellocm_msgs__rosidl_typesupport_cpp.so
+[3.781s] -- Set runtime path of "/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/lib/libhellocm_msgs__rosidl_typesupport_cpp.so" to ""
+[3.781s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/environment/pythonpath.sh
+[3.781s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/environment/pythonpath.dsv
+[3.781s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages/hellocm_msgs-0.1.0-py3.10.egg-info
+[3.781s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages/hellocm_msgs-0.1.0-py3.10.egg-info/top_level.txt
+[3.781s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages/hellocm_msgs-0.1.0-py3.10.egg-info/SOURCES.txt
+[3.781s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages/hellocm_msgs-0.1.0-py3.10.egg-info/dependency_links.txt
+[3.781s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages/hellocm_msgs-0.1.0-py3.10.egg-info/PKG-INFO
+[3.781s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages/hellocm_msgs
+[3.781s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages/hellocm_msgs/hellocm_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.781s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages/hellocm_msgs/hellocm_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.781s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages/hellocm_msgs/libhellocm_msgs__rosidl_generator_py.so
+[3.781s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages/hellocm_msgs/_hellocm_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[3.781s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages/hellocm_msgs/_hellocm_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.781s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages/hellocm_msgs/msg
+[3.782s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages/hellocm_msgs/msg/_cm2_ext.py
+[3.782s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages/hellocm_msgs/msg/_cm2_ext_s.c
+[3.782s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages/hellocm_msgs/msg/_ext2_cm.py
+[3.782s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages/hellocm_msgs/msg/_ext2_cm_s.c
+[3.782s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages/hellocm_msgs/msg/__init__.py
+[3.782s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages/hellocm_msgs/hellocm_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.782s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages/hellocm_msgs/srv
+[3.782s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages/hellocm_msgs/srv/_init.py
+[3.782s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages/hellocm_msgs/srv/__init__.py
+[3.782s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages/hellocm_msgs/srv/_init_s.c
+[3.782s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages/hellocm_msgs/__init__.py
+[3.782s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages/hellocm_msgs/_hellocm_msgs_s.ep.rosidl_typesupport_c.c
+[3.807s] Listing '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages/hellocm_msgs'...
+[3.807s] Compiling '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages/hellocm_msgs/__init__.py'...
+[3.807s] Listing '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages/hellocm_msgs/msg'...
+[3.807s] Compiling '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages/hellocm_msgs/msg/__init__.py'...
+[3.807s] Compiling '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages/hellocm_msgs/msg/_cm2_ext.py'...
+[3.807s] Compiling '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages/hellocm_msgs/msg/_ext2_cm.py'...
+[3.807s] Listing '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages/hellocm_msgs/srv'...
+[3.808s] Compiling '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages/hellocm_msgs/srv/__init__.py'...
+[3.808s] Compiling '/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages/hellocm_msgs/srv/_init.py'...
+[3.810s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages/hellocm_msgs/hellocm_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.810s] -- Set runtime path of "/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages/hellocm_msgs/hellocm_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.810s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages/hellocm_msgs/hellocm_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.811s] -- Set runtime path of "/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages/hellocm_msgs/hellocm_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.811s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages/hellocm_msgs/hellocm_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.811s] -- Set runtime path of "/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/local/lib/python3.10/dist-packages/hellocm_msgs/hellocm_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.811s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/lib/libhellocm_msgs__rosidl_generator_py.so
+[3.811s] -- Set runtime path of "/home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/lib/libhellocm_msgs__rosidl_generator_py.so" to ""
+[3.811s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/msg/CM2Ext.idl
+[3.811s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/msg/Ext2CM.idl
+[3.811s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/srv/Init.idl
+[3.811s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/msg/CM2Ext.msg
+[3.811s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/msg/Ext2CM.msg
+[3.811s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/srv/Init.srv
+[3.811s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/srv/Init_Request.msg
+[3.811s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/srv/Init_Response.msg
+[3.812s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/ament_index/resource_index/package_run_dependencies/hellocm_msgs
+[3.812s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/ament_index/resource_index/parent_prefix_path/hellocm_msgs
+[3.812s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/environment/ament_prefix_path.sh
+[3.812s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/environment/ament_prefix_path.dsv
+[3.812s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/environment/path.sh
+[3.812s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/environment/path.dsv
+[3.812s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/local_setup.bash
+[3.812s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/local_setup.sh
+[3.812s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/local_setup.zsh
+[3.812s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/local_setup.dsv
+[3.812s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/package.dsv
+[3.812s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/ament_index/resource_index/packages/hellocm_msgs
+[3.812s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake/export_hellocm_msgs__rosidl_generator_cExport.cmake
+[3.812s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake/export_hellocm_msgs__rosidl_generator_cExport-noconfig.cmake
+[3.812s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake/export_hellocm_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[3.812s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake/export_hellocm_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.812s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake/hellocm_msgs__rosidl_typesupport_introspection_cExport.cmake
+[3.812s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake/hellocm_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.812s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake/hellocm_msgs__rosidl_typesupport_cExport.cmake
+[3.812s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake/hellocm_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[3.812s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake/export_hellocm_msgs__rosidl_generator_cppExport.cmake
+[3.812s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake/export_hellocm_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.812s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake/export_hellocm_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.812s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake/hellocm_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[3.813s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake/hellocm_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.813s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake/hellocm_msgs__rosidl_typesupport_cppExport.cmake
+[3.813s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake/hellocm_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[3.813s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake/export_hellocm_msgs__rosidl_generator_pyExport.cmake
+[3.813s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake/export_hellocm_msgs__rosidl_generator_pyExport-noconfig.cmake
+[3.813s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake/rosidl_cmake-extras.cmake
+[3.813s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.813s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.813s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.813s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[3.813s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.813s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.813s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake/hellocm_msgsConfig.cmake
+[3.813s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake/hellocm_msgsConfig-version.cmake
+[3.813s] -- Installing: /home/sagittarius/ROS2_CM/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/package.xml
+[3.815s] Invoked command in '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:/opt/ros/ros2 /usr/bin/cmake --install /home/sagittarius/ROS2_CM/ros/ros2_ws/build/hellocm_msgs

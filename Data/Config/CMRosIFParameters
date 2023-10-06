@@ -51,10 +51,10 @@ Cfg.Mode = 1
 Cfg.Name = cm_node
 
 ## Remapping arguments for ROS
-Cfg.Args = __ns:=/carmaker /carmaker/ext2cm:=/hellocm/ext2cm
+#Cfg.Args = __ns:=/carmaker /carmaker/ext2cm:=/hellocm/ext2cm
 
 ## Remapping arguments for ROS 2
-#Cfg.Args = --ros-args -r __ns:=/carmaker -r /carmaker/ext2cm:=/hellocm/ext2cm
+Cfg.Args = --ros-args -r __ns:=/carmaker -r /carmaker/ext2cm:=/hellocm/ext2cm
 
 Cfg.Features = TerminalCmd
 
@@ -74,10 +74,10 @@ Cfg.Features = TerminalCmd
 #   - CM Main GUI calls "rqt <rqt.Args>" in new terminal
 
 ## Launch arguments for ROS (roslaunch <args>)
-Launch.Args = hellocm hellocm.launch use_sim_time:="true"
+#Launch.Args = hellocm hellocm.launch use_sim_time:="true"
 
 ## Launch arguments for ROS 2 (ros2 launch <args>)
-#Launch.Args = hellocm hellocm.launch.py use_sim_time:=True
+Launch.Args = hellocm hellocm.launch.py use_sim_time:=True
 
 rqt.Args =
 

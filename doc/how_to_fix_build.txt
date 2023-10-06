@@ -1,0 +1,26 @@
+The instructions of chapter 2 are not working perfectly to build the example.
+
+In section 2.2.2 the commands:
+	cd <CMProjDir>/src_cmrosif
+	./patch.sh ../<source folder>
+generate errors in some of the hunks of the patch, therefore the patch isn't automatically applied correctly. 
+I had to fix it manually, you can use the Makefile and User.c that are in the /src of this repo as they are the ones I fixed applying the patch (only after the corresponding commit).
+
+After this it still generates a problem in Section 2.3, with the command:
+	cd <CMProjDir>/<source directory>
+	make cm-ros1 <or> make cm-ros2
+generates the error:
+	/usr/bin/ld: cannot find -lcmcppifloader-linux64: No such file or directory
+	collect2: error: ld returned 1 exit status
+	make: *** [Makefile:67: CarMaker.linux64] Error 1
+To debug this I tried to run:
+	ld -lcmcppifloader-linux64 --verbose
+generating a list of errors, the first of them being:
+	attempt to open /usr/local/lib/x86_64-linux-gnu/libcmcppifloader-linux64.so failed
+So i tried fixing it by generating a symlink of lib/libcmcppifloader-linux64.so, provided by IPG, in the path it would search it for (I needed to mkdir /usr/local/lib first):
+	sudo ln -s ~/ROS2_CM/lib/libcmcppifloader-linux64.so.1.0.0 /usr/local/lib/x86_64-linux-gnu/libcmcppifloader-linux64.so
+(Note: the command ld -lcmcppifloader-linux64 --verbose still generates a long list of errors, but the one I fixed gives succeded instead of failed)
+
+Now the command make cm-ros2 actually works and does build the various files and generates the ./CM_Start.sh file
+
+Then following the Running the Example steps does work and the cosimulation with ROS is enabled, but i don't know yet how to publish and subsribe to ros topics for commands and feedback

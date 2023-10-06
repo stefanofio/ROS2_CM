@@ -1,0 +1,6 @@
+Invoking command in '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils': CMAKE_PREFIX_PATH=/opt/ros/ros2 /usr/bin/cmake /home/sagittarius/ROS2_CM/ros/ros2_ws/src/cmrosutils -DCMAKE_INSTALL_PREFIX=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils
+Invoked command in '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/ros2 /usr/bin/cmake /home/sagittarius/ROS2_CM/ros/ros2_ws/src/cmrosutils -DCMAKE_INSTALL_PREFIX=/home/sagittarius/ROS2_CM/ros/ros2_ws/install/cmrosutils
+Invoking command in '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils': CMAKE_PREFIX_PATH=/opt/ros/ros2 /usr/bin/cmake --build /home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils -- -j20 -l20
+Invoked command in '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/ros2 /usr/bin/cmake --build /home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils -- -j20 -l20
+Invoking command in '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils': CMAKE_PREFIX_PATH=/opt/ros/ros2 /usr/bin/cmake --install /home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils
+Invoked command in '/home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/ros2 /usr/bin/cmake --install /home/sagittarius/ROS2_CM/ros/ros2_ws/build/cmrosutils

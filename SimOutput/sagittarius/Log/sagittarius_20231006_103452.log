@@ -1,0 +1,1674 @@
+APPLICATION	Car_Generic <insert.your.version.no> with CMRosIF #1 (linux64-12.0.1)
+COMPILED	sagittarius@sagittarius 2023-10-06 09:22:17
+ 
+		I/O Configuration: default
+		CMCppIFLoader v1.0.0: Initializing CMRosIF
+		CMRosIF: Read parameters from 'Data/Config/CMRosIFParameters'
+		CarMaker ROS Node compiled for use with:
+		  -> ROS Distro = humble
+		  -> CM Version = 12.0.1
+		  -> IF Version = 1.0.0
+		  -> Providing simulation time!
+		CMJob: CyclicJob -> Name=/clock Cycle=100 Offset=0
+		CMJob: CyclicJob -> Name=cm2ext Cycle=15000 Offset=0
+		  -> Initializing service client /hellocm/init
+		  -> Creating service '/remote_ctrl'
+		Initialization of ROS Node finished!
+		  -> Node Name = cm_node
+		  -> Namespace = /carmaker
+		Calling CMNodeHelloCM_customFunction:
+		  Output string: int cm_ros::CMNodeHelloCM::customFunction(int, char*)
+		  Return value: 142
+FIRST_INIT	(internal default used)	2023-10-06 10:34:52
+TIME	0.000
+		CarMaker ROS Node disabled!
+SIM_END			0s	0m
+IDLE	10:34:53
+TIME	119.575
+SIM_START	Examples/Powertrain/PowertrainControl/AdaptiveCruiseControl	2023-10-06 10:54:48
+TIME	119.575
+		CarMaker ROS Node enabled: Mode = 1, SyncMode = 0
+		  -> Node Name = cm_node
+		  -> Publish /clock every 100ms
+		  -> Sending service request
+		CMJob: TriggerJob -> Name=ext2cm Cycle=10000 Offset=0
+TIME	0.008
+ERROR		Traffic object 0: Wrong route name 'Route_1' in lateral step 1 in maneuver 0
+ERROR		Can't get parameters of traffic object 0 (2)
+SIM_ABORT	Examples/Powertrain/PowertrainControl/AdaptiveCruiseControl	0s	0m
+TIME	8.174
+SIM_START	Examples/Powertrain/PowertrainControl/AdaptiveCruiseControl	2023-10-06 10:56:10
+TIME	8.174
+		CarMaker ROS Node enabled: Mode = 1, SyncMode = 0
+		  -> Node Name = cm_node
+		  -> Publish /clock every 100ms
+		  -> Sending service request
+		CMJob: TriggerJob -> Name=ext2cm Cycle=10000 Offset=0
+TIME	0.006
+ERROR		Traffic object 0: Wrong route name 'Route_1' in lateral step 1 in maneuver 0
+ERROR		Can't get parameters of traffic object 0 (2)
+SIM_ABORT	Examples/Powertrain/PowertrainControl/AdaptiveCruiseControl	0s	0m
+TIME	8.956
+SIM_START	Examples/Powertrain/PowertrainControl/AdaptiveCruiseControl	2023-10-06 10:57:40
+TIME	8.956
+		CarMaker ROS Node enabled: Mode = 1, SyncMode = 0
+TIME	0.002
+		  -> Node Name = cm_node
+		  -> Publish /clock every 100ms
+		  -> Sending service request
+		CMJob: TriggerJob -> Name=ext2cm Cycle=10000 Offset=0
+ERROR		Traffic object 0: Wrong route name 'Route_1' in lateral step 1 in maneuver 0
+ERROR		Can't get parameters of traffic object 0 (2)
+SIM_ABORT	Examples/Powertrain/PowertrainControl/AdaptiveCruiseControl	0s	0m
+TIME	9.764
+SIM_START	Examples/Powertrain/PowertrainControl/AdaptiveCruiseControl	2023-10-06 10:59:17
+TIME	9.764
+		CarMaker ROS Node enabled: Mode = 1, SyncMode = 0
+		  -> Node Name = cm_node
+		  -> Publish /clock every 100ms
+		  -> Sending service request
+		CMJob: TriggerJob -> Name=ext2cm Cycle=10000 Offset=0
+TIME	0.008
+ERROR		Traffic object 3: Wrong route name 'Route_1' in lateral step 1 in maneuver 0
+ERROR		Can't get parameters of traffic object 3 (2)
+SIM_ABORT	Examples/Powertrain/PowertrainControl/AdaptiveCruiseControl	0s	0m
+TIME	6.944
+SIM_START	Examples/Powertrain/PowertrainControl/AdaptiveCruiseControl	2023-10-06 11:00:27
+TIME	6.944
+		CarMaker ROS Node enabled: Mode = 1, SyncMode = 0
+		  -> Node Name = cm_node
+		  -> Publish /clock every 100ms
+		  -> Sending service request
+		CMJob: TriggerJob -> Name=ext2cm Cycle=10000 Offset=0
+TIME	0.060
+		  -> Advertised and subscribed topics (5):
+		    -> /carmaker/cm2ext
+		    -> /clock
+		    -> /hellocm/ext2cm
+		    -> /parameter_events
+		    -> /rosout
+TIME	0.000
+SIMULATE	Examples/Powertrain/PowertrainControl/AdaptiveCruiseControl
+
+TIME	10.002
+	[1696582838.167, 10.000]: /carmaker/cm_node: Sub Msg: Time 10.000s, Cycle 1
+TIME	20.002
+	[1696582848.161, 20.000]: /carmaker/cm_node: Sub Msg: Time 20.000s, Cycle 2
+TIME	30.003
+	[1696582858.163, 30.000]: /carmaker/cm_node: Sub Msg: Time 30.000s, Cycle 3
+TIME	40.003
+	[1696582868.172, 40.000]: /carmaker/cm_node: Sub Msg: Time 40.000s, Cycle 4
+TIME	50.002
+	[1696582875.464, 50.000]: /carmaker/cm_node: Sub Msg: Time 50.000s, Cycle 5
+TIME	60.001
+	[1696582877.457, 60.000]: /carmaker/cm_node: Sub Msg: Time 60.000s, Cycle 6
+TIME	70.003
+	[1696582879.050, 70.000]: /carmaker/cm_node: Sub Msg: Time 70.000s, Cycle 7
+TIME	80.001
+	[1696582880.193, 80.000]: /carmaker/cm_node: Sub Msg: Time 80.000s, Cycle 8
+TIME	90.001
+	[1696582881.338, 90.000]: /carmaker/cm_node: Sub Msg: Time 90.000s, Cycle 9
+TIME	100.004
+	[1696582882.479, 100.000]: /carmaker/cm_node: Sub Msg: Time 100.000s, Cycle 10
+TIME	110.003
+	[1696582883.600, 110.000]: /carmaker/cm_node: Sub Msg: Time 110.000s, Cycle 11
+TIME	120.003
+	[1696582884.743, 120.000]: /carmaker/cm_node: Sub Msg: Time 120.000s, Cycle 12
+TIME	130.004
+	[1696582885.874, 130.000]: /carmaker/cm_node: Sub Msg: Time 130.000s, Cycle 13
+TIME	140.002
+	[1696582887.003, 140.000]: /carmaker/cm_node: Sub Msg: Time 140.000s, Cycle 14
+TIME	145.008
+SIM_END		Examples/Powertrain/PowertrainControl/AdaptiveCruiseControl	145s	2610.5m
+TIME	148.910
+SIM_START	Examples/Powertrain/PowertrainControl/AdaptiveCruiseControl	2023-10-06 11:02:06
+TIME	148.910
+		CarMaker ROS Node enabled: Mode = 1, SyncMode = 0
+		  -> Node Name = cm_node
+		  -> Publish /clock every 100ms
+		  -> Sending service request
+		CMJob: TriggerJob -> Name=ext2cm Cycle=10000 Offset=0
+TIME	0.060
+		  -> Advertised and subscribed topics (5):
+		    -> /carmaker/cm2ext
+		    -> /clock
+		    -> /hellocm/ext2cm
+		    -> /parameter_events
+		    -> /rosout
+TIME	0.000
+SIMULATE	Examples/Powertrain/PowertrainControl/AdaptiveCruiseControl
+
+TIME	10.002
+	[1696582931.653, 10.000]: /carmaker/cm_node: Sub Msg: Time 10.000s, Cycle 1
+TIME	20.001
+	[1696582932.795, 20.000]: /carmaker/cm_node: Sub Msg: Time 20.000s, Cycle 2
+TIME	30.001
+	[1696582933.926, 30.000]: /carmaker/cm_node: Sub Msg: Time 30.000s, Cycle 3
+TIME	40.003
+	[1696582935.057, 40.000]: /carmaker/cm_node: Sub Msg: Time 40.000s, Cycle 4
+TIME	50.002
+	[1696582936.208, 50.000]: /carmaker/cm_node: Sub Msg: Time 50.000s, Cycle 5
+TIME	60.001
+	[1696582937.336, 60.000]: /carmaker/cm_node: Sub Msg: Time 60.000s, Cycle 6
+TIME	70.003
+	[1696582938.458, 70.000]: /carmaker/cm_node: Sub Msg: Time 70.000s, Cycle 7
+TIME	80.002
+	[1696582939.599, 80.000]: /carmaker/cm_node: Sub Msg: Time 80.000s, Cycle 8
+TIME	90.003
+	[1696582940.735, 90.000]: /carmaker/cm_node: Sub Msg: Time 90.000s, Cycle 9
+TIME	100.003
+	[1696582941.863, 100.000]: /carmaker/cm_node: Sub Msg: Time 100.000s, Cycle 10
+TIME	110.002
+	[1696582942.985, 110.000]: /carmaker/cm_node: Sub Msg: Time 110.000s, Cycle 11
+TIME	120.002
+	[1696582944.145, 120.000]: /carmaker/cm_node: Sub Msg: Time 120.000s, Cycle 12
+TIME	130.003
+	[1696582945.276, 130.000]: /carmaker/cm_node: Sub Msg: Time 130.000s, Cycle 13
+TIME	140.003
+	[1696582946.416, 140.000]: /carmaker/cm_node: Sub Msg: Time 140.000s, Cycle 14
+TIME	150.003
+	[1696582947.556, 150.000]: /carmaker/cm_node: Sub Msg: Time 150.000s, Cycle 15
+TIME	160.003
+	[1696582948.694, 160.000]: /carmaker/cm_node: Sub Msg: Time 160.000s, Cycle 16
+TIME	170.002
+	[1696582949.839, 170.000]: /carmaker/cm_node: Sub Msg: Time 170.000s, Cycle 17
+TIME	180.004
+	[1696582950.999, 180.000]: /carmaker/cm_node: Sub Msg: Time 180.000s, Cycle 18
+TIME	190.002
+	[1696582952.152, 190.000]: /carmaker/cm_node: Sub Msg: Time 190.000s, Cycle 19
+TIME	200.001
+	[1696582953.304, 200.000]: /carmaker/cm_node: Sub Msg: Time 200.000s, Cycle 20
+TIME	210.002
+	[1696582954.449, 210.000]: /carmaker/cm_node: Sub Msg: Time 210.000s, Cycle 21
+TIME	220.002
+	[1696582955.587, 220.000]: /carmaker/cm_node: Sub Msg: Time 220.000s, Cycle 22
+TIME	230.000
+	[1696582956.749, 230.000]: /carmaker/cm_node: Sub Msg: Time 230.000s, Cycle 23
+TIME	240.003
+	[1696582957.894, 240.000]: /carmaker/cm_node: Sub Msg: Time 240.000s, Cycle 24
+TIME	250.002
+	[1696582959.064, 250.000]: /carmaker/cm_node: Sub Msg: Time 250.000s, Cycle 25
+TIME	260.002
+	[1696582960.235, 260.000]: /carmaker/cm_node: Sub Msg: Time 260.000s, Cycle 26
+TIME	270.003
+	[1696582961.417, 270.000]: /carmaker/cm_node: Sub Msg: Time 270.000s, Cycle 27
+TIME	280.003
+	[1696582962.534, 280.000]: /carmaker/cm_node: Sub Msg: Time 280.000s, Cycle 28
+TIME	290.003
+	[1696582963.640, 290.000]: /carmaker/cm_node: Sub Msg: Time 290.000s, Cycle 29
+TIME	300.003
+	[1696582964.742, 300.000]: /carmaker/cm_node: Sub Msg: Time 300.000s, Cycle 30
+TIME	310.004
+	[1696582965.774, 310.000]: /carmaker/cm_node: Sub Msg: Time 310.000s, Cycle 31
+TIME	320.001
+	[1696582966.837, 320.000]: /carmaker/cm_node: Sub Msg: Time 320.000s, Cycle 32
+TIME	330.002
+	[1696582967.887, 330.000]: /carmaker/cm_node: Sub Msg: Time 330.000s, Cycle 33
+TIME	340.003
+	[1696582968.947, 340.000]: /carmaker/cm_node: Sub Msg: Time 340.000s, Cycle 34
+TIME	350.003
+	[1696582969.998, 350.000]: /carmaker/cm_node: Sub Msg: Time 350.000s, Cycle 35
+TIME	360.002
+	[1696582971.040, 360.000]: /carmaker/cm_node: Sub Msg: Time 360.000s, Cycle 36
+TIME	370.004
+	[1696582972.069, 370.000]: /carmaker/cm_node: Sub Msg: Time 370.000s, Cycle 37
+TIME	380.002
+	[1696582973.092, 380.000]: /carmaker/cm_node: Sub Msg: Time 380.000s, Cycle 38
+TIME	390.002
+	[1696582974.122, 390.000]: /carmaker/cm_node: Sub Msg: Time 390.000s, Cycle 39
+TIME	400.002
+	[1696582975.150, 400.000]: /carmaker/cm_node: Sub Msg: Time 400.000s, Cycle 40
+TIME	410.004
+	[1696582976.178, 410.000]: /carmaker/cm_node: Sub Msg: Time 410.000s, Cycle 41
+TIME	420.002
+	[1696582977.178, 420.000]: /carmaker/cm_node: Sub Msg: Time 420.000s, Cycle 42
+TIME	430.002
+	[1696582978.207, 430.000]: /carmaker/cm_node: Sub Msg: Time 430.000s, Cycle 43
+TIME	440.002
+	[1696582979.203, 440.000]: /carmaker/cm_node: Sub Msg: Time 440.000s, Cycle 44
+TIME	450.005
+	[1696582980.173, 450.000]: /carmaker/cm_node: Sub Msg: Time 450.000s, Cycle 45
+TIME	460.002
+	[1696582981.109, 460.000]: /carmaker/cm_node: Sub Msg: Time 460.000s, Cycle 46
+TIME	470.001
+	[1696582982.068, 470.000]: /carmaker/cm_node: Sub Msg: Time 470.000s, Cycle 47
+TIME	480.003
+	[1696582983.032, 480.000]: /carmaker/cm_node: Sub Msg: Time 480.000s, Cycle 48
+TIME	490.003
+	[1696582983.982, 490.000]: /carmaker/cm_node: Sub Msg: Time 490.000s, Cycle 49
+TIME	500.003
+	[1696582984.946, 500.000]: /carmaker/cm_node: Sub Msg: Time 500.000s, Cycle 50
+TIME	510.002
+	[1696582985.950, 510.000]: /carmaker/cm_node: Sub Msg: Time 510.000s, Cycle 51
+TIME	520.003
+	[1696582986.937, 520.000]: /carmaker/cm_node: Sub Msg: Time 520.000s, Cycle 52
+TIME	530.003
+	[1696582987.939, 530.000]: /carmaker/cm_node: Sub Msg: Time 530.000s, Cycle 53
+TIME	540.002
+	[1696582988.875, 540.000]: /carmaker/cm_node: Sub Msg: Time 540.000s, Cycle 54
+TIME	550.003
+	[1696582989.803, 550.000]: /carmaker/cm_node: Sub Msg: Time 550.000s, Cycle 55
+TIME	560.004
+	[1696582990.703, 560.000]: /carmaker/cm_node: Sub Msg: Time 560.000s, Cycle 56
+TIME	570.002
+	[1696582991.616, 570.000]: /carmaker/cm_node: Sub Msg: Time 570.000s, Cycle 57
+TIME	580.003
+	[1696582992.550, 580.000]: /carmaker/cm_node: Sub Msg: Time 580.000s, Cycle 58
+TIME	590.004
+	[1696582993.456, 590.000]: /carmaker/cm_node: Sub Msg: Time 590.000s, Cycle 59
+TIME	600.003
+	[1696582994.377, 600.000]: /carmaker/cm_node: Sub Msg: Time 600.000s, Cycle 60
+TIME	610.003
+	[1696582995.350, 610.000]: /carmaker/cm_node: Sub Msg: Time 610.000s, Cycle 61
+TIME	620.005
+	[1696582996.263, 620.000]: /carmaker/cm_node: Sub Msg: Time 620.000s, Cycle 62
+TIME	630.002
+	[1696582997.232, 630.000]: /carmaker/cm_node: Sub Msg: Time 630.000s, Cycle 63
+TIME	640.003
+	[1696582998.145, 640.000]: /carmaker/cm_node: Sub Msg: Time 640.000s, Cycle 64
+TIME	650.003
+	[1696582999.071, 650.000]: /carmaker/cm_node: Sub Msg: Time 650.000s, Cycle 65
+TIME	660.003
+	[1696583000.014, 660.000]: /carmaker/cm_node: Sub Msg: Time 660.000s, Cycle 66
+TIME	670.004
+	[1696583000.948, 670.000]: /carmaker/cm_node: Sub Msg: Time 670.000s, Cycle 67
+TIME	680.004
+	[1696583001.880, 680.000]: /carmaker/cm_node: Sub Msg: Time 680.000s, Cycle 68
+TIME	690.003
+	[1696583002.838, 690.000]: /carmaker/cm_node: Sub Msg: Time 690.000s, Cycle 69
+TIME	700.005
+	[1696583003.799, 700.000]: /carmaker/cm_node: Sub Msg: Time 700.000s, Cycle 70
+TIME	710.003
+	[1696583004.752, 710.000]: /carmaker/cm_node: Sub Msg: Time 710.000s, Cycle 71
+TIME	720.002
+	[1696583005.682, 720.000]: /carmaker/cm_node: Sub Msg: Time 720.000s, Cycle 72
+TIME	730.004
+	[1696583006.610, 730.000]: /carmaker/cm_node: Sub Msg: Time 730.000s, Cycle 73
+TIME	740.004
+	[1696583007.547, 740.000]: /carmaker/cm_node: Sub Msg: Time 740.000s, Cycle 74
+TIME	750.003
+	[1696583008.474, 750.000]: /carmaker/cm_node: Sub Msg: Time 750.000s, Cycle 75
+TIME	760.006
+	[1696583009.399, 760.000]: /carmaker/cm_node: Sub Msg: Time 760.000s, Cycle 76
+TIME	770.002
+	[1696583010.328, 770.000]: /carmaker/cm_node: Sub Msg: Time 770.000s, Cycle 77
+TIME	780.004
+	[1696583011.236, 780.000]: /carmaker/cm_node: Sub Msg: Time 780.000s, Cycle 78
+TIME	790.005
+	[1696583012.165, 790.000]: /carmaker/cm_node: Sub Msg: Time 790.000s, Cycle 79
+TIME	800.003
+	[1696583013.067, 800.000]: /carmaker/cm_node: Sub Msg: Time 800.000s, Cycle 80
+TIME	810.004
+	[1696583013.977, 810.000]: /carmaker/cm_node: Sub Msg: Time 810.000s, Cycle 81
+TIME	820.005
+	[1696583014.857, 820.000]: /carmaker/cm_node: Sub Msg: Time 820.000s, Cycle 82
+TIME	830.005
+	[1696583015.796, 830.000]: /carmaker/cm_node: Sub Msg: Time 830.000s, Cycle 83
+TIME	840.003
+	[1696583016.695, 840.000]: /carmaker/cm_node: Sub Msg: Time 840.000s, Cycle 84
+TIME	850.004
+	[1696583017.624, 850.000]: /carmaker/cm_node: Sub Msg: Time 850.000s, Cycle 85
+TIME	860.006
+	[1696583018.520, 860.000]: /carmaker/cm_node: Sub Msg: Time 860.000s, Cycle 86
+TIME	870.004
+	[1696583019.432, 870.000]: /carmaker/cm_node: Sub Msg: Time 870.000s, Cycle 87
+TIME	880.003
+	[1696583020.322, 880.000]: /carmaker/cm_node: Sub Msg: Time 880.000s, Cycle 88
+TIME	890.002
+	[1696583021.254, 890.000]: /carmaker/cm_node: Sub Msg: Time 890.000s, Cycle 89
+TIME	900.003
+	[1696583022.173, 900.000]: /carmaker/cm_node: Sub Msg: Time 900.000s, Cycle 90
+TIME	910.005
+	[1696583023.153, 910.000]: /carmaker/cm_node: Sub Msg: Time 910.000s, Cycle 91
+TIME	920.005
+	[1696583024.086, 920.000]: /carmaker/cm_node: Sub Msg: Time 920.000s, Cycle 92
+TIME	930.005
+	[1696583025.008, 930.000]: /carmaker/cm_node: Sub Msg: Time 930.000s, Cycle 93
+TIME	940.004
+	[1696583025.902, 940.000]: /carmaker/cm_node: Sub Msg: Time 940.000s, Cycle 94
+TIME	950.003
+	[1696583026.808, 950.000]: /carmaker/cm_node: Sub Msg: Time 950.000s, Cycle 95
+TIME	960.004
+	[1696583027.707, 960.000]: /carmaker/cm_node: Sub Msg: Time 960.000s, Cycle 96
+TIME	970.004
+	[1696583028.617, 970.000]: /carmaker/cm_node: Sub Msg: Time 970.000s, Cycle 97
+TIME	980.003
+	[1696583029.545, 980.000]: /carmaker/cm_node: Sub Msg: Time 980.000s, Cycle 98
+TIME	990.003
+	[1696583030.473, 990.000]: /carmaker/cm_node: Sub Msg: Time 990.000s, Cycle 99
+TIME	1000.003
+	[1696583031.374, 1000.000]: /carmaker/cm_node: Sub Msg: Time 1000.000s, Cycle 100
+TIME	1010.002
+	[1696583032.293, 1010.000]: /carmaker/cm_node: Sub Msg: Time 1010.000s, Cycle 101
+TIME	1020.001
+	[1696583033.223, 1020.000]: /carmaker/cm_node: Sub Msg: Time 1020.000s, Cycle 102
+TIME	1030.004
+	[1696583034.133, 1030.000]: /carmaker/cm_node: Sub Msg: Time 1030.000s, Cycle 103
+TIME	1040.004
+	[1696583035.059, 1040.000]: /carmaker/cm_node: Sub Msg: Time 1040.000s, Cycle 104
+TIME	1050.005
+	[1696583035.978, 1050.000]: /carmaker/cm_node: Sub Msg: Time 1050.000s, Cycle 105
+TIME	1060.004
+	[1696583036.890, 1060.000]: /carmaker/cm_node: Sub Msg: Time 1060.000s, Cycle 106
+TIME	1070.004
+	[1696583037.804, 1070.000]: /carmaker/cm_node: Sub Msg: Time 1070.000s, Cycle 107
+TIME	1080.003
+	[1696583038.724, 1080.000]: /carmaker/cm_node: Sub Msg: Time 1080.000s, Cycle 108
+TIME	1090.002
+	[1696583039.633, 1090.000]: /carmaker/cm_node: Sub Msg: Time 1090.000s, Cycle 109
+TIME	1100.003
+	[1696583040.562, 1100.000]: /carmaker/cm_node: Sub Msg: Time 1100.000s, Cycle 110
+TIME	1110.003
+	[1696583041.465, 1110.000]: /carmaker/cm_node: Sub Msg: Time 1110.000s, Cycle 111
+TIME	1120.003
+	[1696583042.387, 1120.000]: /carmaker/cm_node: Sub Msg: Time 1120.000s, Cycle 112
+TIME	1130.005
+	[1696583043.338, 1130.000]: /carmaker/cm_node: Sub Msg: Time 1130.000s, Cycle 113
+TIME	1140.004
+	[1696583044.232, 1140.000]: /carmaker/cm_node: Sub Msg: Time 1140.000s, Cycle 114
+TIME	1150.005
+	[1696583045.169, 1150.000]: /carmaker/cm_node: Sub Msg: Time 1150.000s, Cycle 115
+TIME	1160.006
+	[1696583046.096, 1160.000]: /carmaker/cm_node: Sub Msg: Time 1160.000s, Cycle 116
+TIME	1170.003
+	[1696583047.004, 1170.000]: /carmaker/cm_node: Sub Msg: Time 1170.000s, Cycle 117
+TIME	1180.003
+	[1696583047.901, 1180.000]: /carmaker/cm_node: Sub Msg: Time 1180.000s, Cycle 118
+TIME	1190.003
+	[1696583048.822, 1190.000]: /carmaker/cm_node: Sub Msg: Time 1190.000s, Cycle 119
+TIME	1200.003
+	[1696583049.734, 1200.000]: /carmaker/cm_node: Sub Msg: Time 1200.000s, Cycle 120
+TIME	1210.003
+	[1696583050.627, 1210.000]: /carmaker/cm_node: Sub Msg: Time 1210.000s, Cycle 121
+TIME	1220.005
+	[1696583051.588, 1220.000]: /carmaker/cm_node: Sub Msg: Time 1220.000s, Cycle 122
+TIME	1230.002
+	[1696583052.502, 1230.000]: /carmaker/cm_node: Sub Msg: Time 1230.000s, Cycle 123
+TIME	1240.002
+	[1696583053.427, 1240.000]: /carmaker/cm_node: Sub Msg: Time 1240.000s, Cycle 124
+TIME	1250.004
+	[1696583054.348, 1250.000]: /carmaker/cm_node: Sub Msg: Time 1250.000s, Cycle 125
+TIME	1260.003
+	[1696583055.282, 1260.000]: /carmaker/cm_node: Sub Msg: Time 1260.000s, Cycle 126
+TIME	1270.006
+	[1696583056.225, 1270.000]: /carmaker/cm_node: Sub Msg: Time 1270.000s, Cycle 127
+TIME	1280.004
+	[1696583057.140, 1280.000]: /carmaker/cm_node: Sub Msg: Time 1280.000s, Cycle 128
+TIME	1290.002
+	[1696583058.054, 1290.000]: /carmaker/cm_node: Sub Msg: Time 1290.000s, Cycle 129
+TIME	1300.003
+	[1696583058.970, 1300.000]: /carmaker/cm_node: Sub Msg: Time 1300.000s, Cycle 130
+TIME	1310.003
+	[1696583059.861, 1310.000]: /carmaker/cm_node: Sub Msg: Time 1310.000s, Cycle 131
+TIME	1320.003
+	[1696583060.760, 1320.000]: /carmaker/cm_node: Sub Msg: Time 1320.000s, Cycle 132
+TIME	1330.005
+	[1696583061.710, 1330.000]: /carmaker/cm_node: Sub Msg: Time 1330.000s, Cycle 133
+TIME	1340.003
+	[1696583062.612, 1340.000]: /carmaker/cm_node: Sub Msg: Time 1340.000s, Cycle 134
+TIME	1350.002
+	[1696583063.521, 1350.000]: /carmaker/cm_node: Sub Msg: Time 1350.000s, Cycle 135
+TIME	1360.003
+	[1696583064.432, 1360.000]: /carmaker/cm_node: Sub Msg: Time 1360.000s, Cycle 136
+TIME	1370.003
+	[1696583065.360, 1370.000]: /carmaker/cm_node: Sub Msg: Time 1370.000s, Cycle 137
+TIME	1380.003
+	[1696583066.274, 1380.000]: /carmaker/cm_node: Sub Msg: Time 1380.000s, Cycle 138
+TIME	1390.001
+	[1696583067.169, 1390.000]: /carmaker/cm_node: Sub Msg: Time 1390.000s, Cycle 139
+TIME	1400.004
+	[1696583068.057, 1400.000]: /carmaker/cm_node: Sub Msg: Time 1400.000s, Cycle 140
+TIME	1410.002
+	[1696583068.960, 1410.000]: /carmaker/cm_node: Sub Msg: Time 1410.000s, Cycle 141
+TIME	1420.002
+	[1696583069.837, 1420.000]: /carmaker/cm_node: Sub Msg: Time 1420.000s, Cycle 142
+TIME	1430.002
+	[1696583070.740, 1430.000]: /carmaker/cm_node: Sub Msg: Time 1430.000s, Cycle 143
+TIME	1440.005
+	[1696583071.660, 1440.000]: /carmaker/cm_node: Sub Msg: Time 1440.000s, Cycle 144
+TIME	1450.002
+	[1696583072.576, 1450.000]: /carmaker/cm_node: Sub Msg: Time 1450.000s, Cycle 145
+TIME	1460.003
+	[1696583073.498, 1460.000]: /carmaker/cm_node: Sub Msg: Time 1460.000s, Cycle 146
+TIME	1470.003
+	[1696583074.417, 1470.000]: /carmaker/cm_node: Sub Msg: Time 1470.000s, Cycle 147
+TIME	1480.002
+	[1696583075.360, 1480.000]: /carmaker/cm_node: Sub Msg: Time 1480.000s, Cycle 148
+TIME	1490.002
+	[1696583076.260, 1490.000]: /carmaker/cm_node: Sub Msg: Time 1490.000s, Cycle 149
+TIME	1500.002
+	[1696583077.166, 1500.000]: /carmaker/cm_node: Sub Msg: Time 1500.000s, Cycle 150
+TIME	1510.002
+	[1696583078.042, 1510.000]: /carmaker/cm_node: Sub Msg: Time 1510.000s, Cycle 151
+TIME	1520.004
+	[1696583078.931, 1520.000]: /carmaker/cm_node: Sub Msg: Time 1520.000s, Cycle 152
+TIME	1530.003
+	[1696583079.835, 1530.000]: /carmaker/cm_node: Sub Msg: Time 1530.000s, Cycle 153
+TIME	1540.004
+	[1696583080.746, 1540.000]: /carmaker/cm_node: Sub Msg: Time 1540.000s, Cycle 154
+TIME	1550.002
+	[1696583081.664, 1550.000]: /carmaker/cm_node: Sub Msg: Time 1550.000s, Cycle 155
+TIME	1560.003
+	[1696583082.542, 1560.000]: /carmaker/cm_node: Sub Msg: Time 1560.000s, Cycle 156
+TIME	1570.003
+	[1696583083.442, 1570.000]: /carmaker/cm_node: Sub Msg: Time 1570.000s, Cycle 157
+TIME	1580.002
+	[1696583084.348, 1580.000]: /carmaker/cm_node: Sub Msg: Time 1580.000s, Cycle 158
+TIME	1590.003
+	[1696583085.247, 1590.000]: /carmaker/cm_node: Sub Msg: Time 1590.000s, Cycle 159
+TIME	1600.001
+	[1696583086.164, 1600.000]: /carmaker/cm_node: Sub Msg: Time 1600.000s, Cycle 160
+TIME	1610.002
+	[1696583087.083, 1610.000]: /carmaker/cm_node: Sub Msg: Time 1610.000s, Cycle 161
+TIME	1620.002
+	[1696583088.009, 1620.000]: /carmaker/cm_node: Sub Msg: Time 1620.000s, Cycle 162
+TIME	1630.003
+	[1696583088.889, 1630.000]: /carmaker/cm_node: Sub Msg: Time 1630.000s, Cycle 163
+TIME	1640.003
+	[1696583089.805, 1640.000]: /carmaker/cm_node: Sub Msg: Time 1640.000s, Cycle 164
+TIME	1650.002
+	[1696583090.713, 1650.000]: /carmaker/cm_node: Sub Msg: Time 1650.000s, Cycle 165
+TIME	1660.003
+	[1696583091.611, 1660.000]: /carmaker/cm_node: Sub Msg: Time 1660.000s, Cycle 166
+TIME	1670.004
+	[1696583092.526, 1670.000]: /carmaker/cm_node: Sub Msg: Time 1670.000s, Cycle 167
+TIME	1680.001
+	[1696583093.477, 1680.000]: /carmaker/cm_node: Sub Msg: Time 1680.000s, Cycle 168
+TIME	1690.004
+	[1696583094.410, 1690.000]: /carmaker/cm_node: Sub Msg: Time 1690.000s, Cycle 169
+TIME	1700.002
+	[1696583095.329, 1700.000]: /carmaker/cm_node: Sub Msg: Time 1700.000s, Cycle 170
+TIME	1710.003
+	[1696583096.249, 1710.000]: /carmaker/cm_node: Sub Msg: Time 1710.000s, Cycle 171
+TIME	1720.003
+	[1696583097.163, 1720.000]: /carmaker/cm_node: Sub Msg: Time 1720.000s, Cycle 172
+TIME	1730.004
+	[1696583098.086, 1730.000]: /carmaker/cm_node: Sub Msg: Time 1730.000s, Cycle 173
+TIME	1740.003
+	[1696583098.994, 1740.000]: /carmaker/cm_node: Sub Msg: Time 1740.000s, Cycle 174
+TIME	1750.003
+	[1696583099.894, 1750.000]: /carmaker/cm_node: Sub Msg: Time 1750.000s, Cycle 175
+TIME	1760.004
+	[1696583100.792, 1760.000]: /carmaker/cm_node: Sub Msg: Time 1760.000s, Cycle 176
+TIME	1770.002
+	[1696583101.693, 1770.000]: /carmaker/cm_node: Sub Msg: Time 1770.000s, Cycle 177
+TIME	1780.004
+	[1696583102.598, 1780.000]: /carmaker/cm_node: Sub Msg: Time 1780.000s, Cycle 178
+TIME	1790.005
+	[1696583103.507, 1790.000]: /carmaker/cm_node: Sub Msg: Time 1790.000s, Cycle 179
+TIME	1800.003
+	[1696583104.419, 1800.000]: /carmaker/cm_node: Sub Msg: Time 1800.000s, Cycle 180
+TIME	1810.003
+	[1696583105.311, 1810.000]: /carmaker/cm_node: Sub Msg: Time 1810.000s, Cycle 181
+TIME	1820.004
+	[1696583106.198, 1820.000]: /carmaker/cm_node: Sub Msg: Time 1820.000s, Cycle 182
+TIME	1830.002
+	[1696583107.150, 1830.000]: /carmaker/cm_node: Sub Msg: Time 1830.000s, Cycle 183
+TIME	1840.003
+	[1696583108.102, 1840.000]: /carmaker/cm_node: Sub Msg: Time 1840.000s, Cycle 184
+TIME	1850.003
+	[1696583108.990, 1850.000]: /carmaker/cm_node: Sub Msg: Time 1850.000s, Cycle 185
+TIME	1860.002
+	[1696583109.908, 1860.000]: /carmaker/cm_node: Sub Msg: Time 1860.000s, Cycle 186
+TIME	1870.004
+	[1696583110.806, 1870.000]: /carmaker/cm_node: Sub Msg: Time 1870.000s, Cycle 187
+TIME	1880.004
+	[1696583111.733, 1880.000]: /carmaker/cm_node: Sub Msg: Time 1880.000s, Cycle 188
+TIME	1890.007
+	[1696583112.639, 1890.000]: /carmaker/cm_node: Sub Msg: Time 1890.000s, Cycle 189
+TIME	1900.004
+	[1696583113.555, 1900.000]: /carmaker/cm_node: Sub Msg: Time 1900.000s, Cycle 190
+TIME	1910.003
+	[1696583114.450, 1910.000]: /carmaker/cm_node: Sub Msg: Time 1910.000s, Cycle 191
+TIME	1920.004
+	[1696583115.357, 1920.000]: /carmaker/cm_node: Sub Msg: Time 1920.000s, Cycle 192
+TIME	1930.005
+	[1696583116.297, 1930.000]: /carmaker/cm_node: Sub Msg: Time 1930.000s, Cycle 193
+TIME	1940.005
+	[1696583117.225, 1940.000]: /carmaker/cm_node: Sub Msg: Time 1940.000s, Cycle 194
+TIME	1950.001
+	[1696583118.113, 1950.000]: /carmaker/cm_node: Sub Msg: Time 1950.000s, Cycle 195
+TIME	1960.004
+	[1696583118.998, 1960.000]: /carmaker/cm_node: Sub Msg: Time 1960.000s, Cycle 196
+TIME	1970.004
+	[1696583119.880, 1970.000]: /carmaker/cm_node: Sub Msg: Time 1970.000s, Cycle 197
+TIME	1980.004
+	[1696583120.749, 1980.000]: /carmaker/cm_node: Sub Msg: Time 1980.000s, Cycle 198
+TIME	1990.005
+	[1696583121.620, 1990.000]: /carmaker/cm_node: Sub Msg: Time 1990.000s, Cycle 199
+TIME	2000.006
+	[1696583122.502, 2000.000]: /carmaker/cm_node: Sub Msg: Time 2000.000s, Cycle 200
+TIME	2010.004
+	[1696583123.381, 2010.000]: /carmaker/cm_node: Sub Msg: Time 2010.000s, Cycle 201
+TIME	2020.004
+	[1696583124.266, 2020.000]: /carmaker/cm_node: Sub Msg: Time 2020.000s, Cycle 202
+TIME	2030.004
+	[1696583125.129, 2030.000]: /carmaker/cm_node: Sub Msg: Time 2030.000s, Cycle 203
+TIME	2040.004
+	[1696583126.007, 2040.000]: /carmaker/cm_node: Sub Msg: Time 2040.000s, Cycle 204
+TIME	2050.004
+	[1696583126.909, 2050.000]: /carmaker/cm_node: Sub Msg: Time 2050.000s, Cycle 205
+TIME	2060.003
+	[1696583127.776, 2060.000]: /carmaker/cm_node: Sub Msg: Time 2060.000s, Cycle 206
+TIME	2070.001
+	[1696583128.649, 2070.000]: /carmaker/cm_node: Sub Msg: Time 2070.000s, Cycle 207
+TIME	2080.003
+	[1696583129.527, 2080.000]: /carmaker/cm_node: Sub Msg: Time 2080.000s, Cycle 208
+TIME	2090.003
+	[1696583130.411, 2090.000]: /carmaker/cm_node: Sub Msg: Time 2090.000s, Cycle 209
+TIME	2100.002
+	[1696583131.290, 2100.000]: /carmaker/cm_node: Sub Msg: Time 2100.000s, Cycle 210
+TIME	2110.004
+	[1696583132.172, 2110.000]: /carmaker/cm_node: Sub Msg: Time 2110.000s, Cycle 211
+TIME	2120.005
+	[1696583133.052, 2120.000]: /carmaker/cm_node: Sub Msg: Time 2120.000s, Cycle 212
+TIME	2130.002
+	[1696583133.940, 2130.000]: /carmaker/cm_node: Sub Msg: Time 2130.000s, Cycle 213
+TIME	2140.003
+	[1696583134.812, 2140.000]: /carmaker/cm_node: Sub Msg: Time 2140.000s, Cycle 214
+TIME	2150.004
+	[1696583135.680, 2150.000]: /carmaker/cm_node: Sub Msg: Time 2150.000s, Cycle 215
+TIME	2160.004
+	[1696583136.580, 2160.000]: /carmaker/cm_node: Sub Msg: Time 2160.000s, Cycle 216
+TIME	2170.004
+	[1696583137.477, 2170.000]: /carmaker/cm_node: Sub Msg: Time 2170.000s, Cycle 217
+TIME	2180.003
+	[1696583138.355, 2180.000]: /carmaker/cm_node: Sub Msg: Time 2180.000s, Cycle 218
+TIME	2190.001
+	[1696583139.242, 2190.000]: /carmaker/cm_node: Sub Msg: Time 2190.000s, Cycle 219
+TIME	2200.002
+	[1696583140.144, 2200.000]: /carmaker/cm_node: Sub Msg: Time 2200.000s, Cycle 220
+TIME	2210.003
+	[1696583141.022, 2210.000]: /carmaker/cm_node: Sub Msg: Time 2210.000s, Cycle 221
+TIME	2220.003
+	[1696583141.914, 2220.000]: /carmaker/cm_node: Sub Msg: Time 2220.000s, Cycle 222
+TIME	2230.005
+	[1696583142.793, 2230.000]: /carmaker/cm_node: Sub Msg: Time 2230.000s, Cycle 223
+TIME	2240.002
+	[1696583143.688, 2240.000]: /carmaker/cm_node: Sub Msg: Time 2240.000s, Cycle 224
+TIME	2250.002
+	[1696583144.553, 2250.000]: /carmaker/cm_node: Sub Msg: Time 2250.000s, Cycle 225
+TIME	2260.002
+	[1696583145.460, 2260.000]: /carmaker/cm_node: Sub Msg: Time 2260.000s, Cycle 226
+TIME	2270.003
+	[1696583146.357, 2270.000]: /carmaker/cm_node: Sub Msg: Time 2270.000s, Cycle 227
+TIME	2280.002
+	[1696583147.231, 2280.000]: /carmaker/cm_node: Sub Msg: Time 2280.000s, Cycle 228
+TIME	2290.003
+	[1696583148.136, 2290.000]: /carmaker/cm_node: Sub Msg: Time 2290.000s, Cycle 229
+TIME	2300.004
+	[1696583149.026, 2300.000]: /carmaker/cm_node: Sub Msg: Time 2300.000s, Cycle 230
+TIME	2310.003
+	[1696583149.915, 2310.000]: /carmaker/cm_node: Sub Msg: Time 2310.000s, Cycle 231
+TIME	2320.006
+	[1696583150.789, 2320.000]: /carmaker/cm_node: Sub Msg: Time 2320.000s, Cycle 232
+TIME	2330.003
+	[1696583151.686, 2330.000]: /carmaker/cm_node: Sub Msg: Time 2330.000s, Cycle 233
+TIME	2340.002
+	[1696583152.576, 2340.000]: /carmaker/cm_node: Sub Msg: Time 2340.000s, Cycle 234
+TIME	2350.005
+	[1696583153.478, 2350.000]: /carmaker/cm_node: Sub Msg: Time 2350.000s, Cycle 235
+TIME	2360.003
+	[1696583154.361, 2360.000]: /carmaker/cm_node: Sub Msg: Time 2360.000s, Cycle 236
+TIME	2370.003
+	[1696583155.243, 2370.000]: /carmaker/cm_node: Sub Msg: Time 2370.000s, Cycle 237
+TIME	2380.004
+	[1696583156.119, 2380.000]: /carmaker/cm_node: Sub Msg: Time 2380.000s, Cycle 238
+TIME	2390.004
+	[1696583156.990, 2390.000]: /carmaker/cm_node: Sub Msg: Time 2390.000s, Cycle 239
+TIME	2400.005
+	[1696583157.902, 2400.000]: /carmaker/cm_node: Sub Msg: Time 2400.000s, Cycle 240
+TIME	2410.007
+	[1696583158.796, 2410.000]: /carmaker/cm_node: Sub Msg: Time 2410.000s, Cycle 241
+TIME	2420.002
+	[1696583159.687, 2420.000]: /carmaker/cm_node: Sub Msg: Time 2420.000s, Cycle 242
+TIME	2430.002
+	[1696583160.605, 2430.000]: /carmaker/cm_node: Sub Msg: Time 2430.000s, Cycle 243
+TIME	2440.002
+	[1696583161.512, 2440.000]: /carmaker/cm_node: Sub Msg: Time 2440.000s, Cycle 244
+TIME	2450.005
+	[1696583162.398, 2450.000]: /carmaker/cm_node: Sub Msg: Time 2450.000s, Cycle 245
+TIME	2460.004
+	[1696583163.274, 2460.000]: /carmaker/cm_node: Sub Msg: Time 2460.000s, Cycle 246
+TIME	2470.005
+	[1696583164.146, 2470.000]: /carmaker/cm_node: Sub Msg: Time 2470.000s, Cycle 247
+TIME	2480.003
+	[1696583165.040, 2480.000]: /carmaker/cm_node: Sub Msg: Time 2480.000s, Cycle 248
+TIME	2490.004
+	[1696583165.929, 2490.000]: /carmaker/cm_node: Sub Msg: Time 2490.000s, Cycle 249
+TIME	2500.003
+	[1696583166.842, 2500.000]: /carmaker/cm_node: Sub Msg: Time 2500.000s, Cycle 250
+TIME	2510.004
+	[1696583167.752, 2510.000]: /carmaker/cm_node: Sub Msg: Time 2510.000s, Cycle 251
+TIME	2515.098
+SIM_END		Examples/Powertrain/PowertrainControl/AdaptiveCruiseControl	2515.09s	5758.83m
+SIM_START	Examples/Powertrain/PowertrainControl/AdaptiveCruiseControl	2023-10-06 11:06:09
+TIME	2515.180
+		CarMaker ROS Node enabled: Mode = 1, SyncMode = 0
+		  -> Node Name = cm_node
+		  -> Publish /clock every 100ms
+		  -> Sending service request
+		CMJob: TriggerJob -> Name=ext2cm Cycle=10000 Offset=0
+TIME	0.060
+		  -> Advertised and subscribed topics (5):
+		    -> /carmaker/cm2ext
+		    -> /clock
+		    -> /hellocm/ext2cm
+		    -> /parameter_events
+		    -> /rosout
+TIME	0.000
+SIMULATE	Examples/Powertrain/PowertrainControl/AdaptiveCruiseControl
+
+TIME	10.002
+	[1696583174.062, 10.000]: /carmaker/cm_node: Sub Msg: Time 10.000s, Cycle 1
+TIME	20.001
+	[1696583175.192, 20.000]: /carmaker/cm_node: Sub Msg: Time 20.000s, Cycle 2
+TIME	30.003
+	[1696583176.317, 30.000]: /carmaker/cm_node: Sub Msg: Time 30.000s, Cycle 3
+TIME	40.003
+	[1696583177.468, 40.000]: /carmaker/cm_node: Sub Msg: Time 40.000s, Cycle 4
+TIME	50.001
+	[1696583178.610, 50.000]: /carmaker/cm_node: Sub Msg: Time 50.000s, Cycle 5
+TIME	60.002
+	[1696583179.733, 60.000]: /carmaker/cm_node: Sub Msg: Time 60.000s, Cycle 6
+TIME	70.001
+	[1696583180.878, 70.000]: /carmaker/cm_node: Sub Msg: Time 70.000s, Cycle 7
+TIME	80.002
+	[1696583182.046, 80.000]: /carmaker/cm_node: Sub Msg: Time 80.000s, Cycle 8
+TIME	90.002
+	[1696583183.206, 90.000]: /carmaker/cm_node: Sub Msg: Time 90.000s, Cycle 9
+TIME	100.003
+	[1696583184.361, 100.000]: /carmaker/cm_node: Sub Msg: Time 100.000s, Cycle 10
+TIME	110.003
+	[1696583185.498, 110.000]: /carmaker/cm_node: Sub Msg: Time 110.000s, Cycle 11
+TIME	120.004
+	[1696583186.659, 120.000]: /carmaker/cm_node: Sub Msg: Time 120.000s, Cycle 12
+TIME	130.004
+	[1696583187.816, 130.000]: /carmaker/cm_node: Sub Msg: Time 130.000s, Cycle 13
+TIME	140.003
+	[1696583188.950, 140.000]: /carmaker/cm_node: Sub Msg: Time 140.000s, Cycle 14
+TIME	150.002
+	[1696583190.089, 150.000]: /carmaker/cm_node: Sub Msg: Time 150.000s, Cycle 15
+TIME	160.003
+	[1696583191.234, 160.000]: /carmaker/cm_node: Sub Msg: Time 160.000s, Cycle 16
+TIME	170.002
+	[1696583192.391, 170.000]: /carmaker/cm_node: Sub Msg: Time 170.000s, Cycle 17
+TIME	180.004
+	[1696583193.544, 180.000]: /carmaker/cm_node: Sub Msg: Time 180.000s, Cycle 18
+TIME	190.003
+	[1696583194.707, 190.000]: /carmaker/cm_node: Sub Msg: Time 190.000s, Cycle 19
+TIME	200.003
+	[1696583195.860, 200.000]: /carmaker/cm_node: Sub Msg: Time 200.000s, Cycle 20
+TIME	210.004
+	[1696583196.998, 210.000]: /carmaker/cm_node: Sub Msg: Time 210.000s, Cycle 21
+TIME	220.003
+	[1696583198.140, 220.000]: /carmaker/cm_node: Sub Msg: Time 220.000s, Cycle 22
+TIME	230.003
+	[1696583199.302, 230.000]: /carmaker/cm_node: Sub Msg: Time 230.000s, Cycle 23
+TIME	240.002
+	[1696583200.468, 240.000]: /carmaker/cm_node: Sub Msg: Time 240.000s, Cycle 24
+TIME	250.002
+	[1696583201.626, 250.000]: /carmaker/cm_node: Sub Msg: Time 250.000s, Cycle 25
+TIME	260.003
+	[1696583202.795, 260.000]: /carmaker/cm_node: Sub Msg: Time 260.000s, Cycle 26
+TIME	270.001
+	[1696583203.975, 270.000]: /carmaker/cm_node: Sub Msg: Time 270.000s, Cycle 27
+TIME	280.002
+	[1696583205.132, 280.000]: /carmaker/cm_node: Sub Msg: Time 280.000s, Cycle 28
+TIME	290.003
+	[1696583206.260, 290.000]: /carmaker/cm_node: Sub Msg: Time 290.000s, Cycle 29
+TIME	300.004
+	[1696583207.375, 300.000]: /carmaker/cm_node: Sub Msg: Time 300.000s, Cycle 30
+TIME	310.002
+	[1696583208.403, 310.000]: /carmaker/cm_node: Sub Msg: Time 310.000s, Cycle 31
+TIME	320.004
+	[1696583209.432, 320.000]: /carmaker/cm_node: Sub Msg: Time 320.000s, Cycle 32
+TIME	330.002
+	[1696583210.479, 330.000]: /carmaker/cm_node: Sub Msg: Time 330.000s, Cycle 33
+TIME	340.003
+	[1696583211.530, 340.000]: /carmaker/cm_node: Sub Msg: Time 340.000s, Cycle 34
+TIME	350.004
+	[1696583212.594, 350.000]: /carmaker/cm_node: Sub Msg: Time 350.000s, Cycle 35
+TIME	360.003
+	[1696583213.642, 360.000]: /carmaker/cm_node: Sub Msg: Time 360.000s, Cycle 36
+TIME	370.004
+	[1696583214.677, 370.000]: /carmaker/cm_node: Sub Msg: Time 370.000s, Cycle 37
+TIME	380.003
+	[1696583215.711, 380.000]: /carmaker/cm_node: Sub Msg: Time 380.000s, Cycle 38
+TIME	390.003
+	[1696583216.722, 390.000]: /carmaker/cm_node: Sub Msg: Time 390.000s, Cycle 39
+TIME	400.003
+	[1696583217.776, 400.000]: /carmaker/cm_node: Sub Msg: Time 400.000s, Cycle 40
+TIME	410.004
+	[1696583218.815, 410.000]: /carmaker/cm_node: Sub Msg: Time 410.000s, Cycle 41
+TIME	419.408
+SIM_END		Examples/Powertrain/PowertrainControl/AdaptiveCruiseControl	419.4s	6136.15m
+TIME	421.930
+SIM_START	Examples/Powertrain/PowertrainControl/AdaptiveCruiseControl	2023-10-06 11:07:24
+TIME	421.930
+		CarMaker ROS Node enabled: Mode = 1, SyncMode = 0
+		  -> Node Name = cm_node
+		  -> Publish /clock every 100ms
+		  -> Sending service request
+		CMJob: TriggerJob -> Name=ext2cm Cycle=10000 Offset=0
+TIME	0.060
+		  -> Advertised and subscribed topics (5):
+		    -> /carmaker/cm2ext
+		    -> /clock
+		    -> /hellocm/ext2cm
+		    -> /parameter_events
+		    -> /rosout
+TIME	0.000
+SIMULATE	Examples/Powertrain/PowertrainControl/AdaptiveCruiseControl
+
+TIME	10.004
+	[1696583247.007, 10.000]: /carmaker/cm_node: Sub Msg: Time 10.000s, Cycle 1
+TIME	20.003
+	[1696583248.107, 20.000]: /carmaker/cm_node: Sub Msg: Time 20.000s, Cycle 2
+TIME	30.003
+	[1696583249.220, 30.000]: /carmaker/cm_node: Sub Msg: Time 30.000s, Cycle 3
+TIME	40.004
+	[1696583250.303, 40.000]: /carmaker/cm_node: Sub Msg: Time 40.000s, Cycle 4
+TIME	50.003
+	[1696583251.399, 50.000]: /carmaker/cm_node: Sub Msg: Time 50.000s, Cycle 5
+TIME	60.004
+	[1696583252.488, 60.000]: /carmaker/cm_node: Sub Msg: Time 60.000s, Cycle 6
+TIME	70.004
+	[1696583253.599, 70.000]: /carmaker/cm_node: Sub Msg: Time 70.000s, Cycle 7
+TIME	80.004
+	[1696583254.690, 80.000]: /carmaker/cm_node: Sub Msg: Time 80.000s, Cycle 8
+TIME	90.003
+	[1696583255.774, 90.000]: /carmaker/cm_node: Sub Msg: Time 90.000s, Cycle 9
+TIME	100.004
+	[1696583256.869, 100.000]: /carmaker/cm_node: Sub Msg: Time 100.000s, Cycle 10
+TIME	110.004
+	[1696583257.972, 110.000]: /carmaker/cm_node: Sub Msg: Time 110.000s, Cycle 11
+TIME	120.002
+	[1696583259.065, 120.000]: /carmaker/cm_node: Sub Msg: Time 120.000s, Cycle 12
+TIME	130.003
+	[1696583260.222, 130.000]: /carmaker/cm_node: Sub Msg: Time 130.000s, Cycle 13
+TIME	140.003
+	[1696583261.356, 140.000]: /carmaker/cm_node: Sub Msg: Time 140.000s, Cycle 14
+TIME	150.003
+	[1696583262.486, 150.000]: /carmaker/cm_node: Sub Msg: Time 150.000s, Cycle 15
+TIME	160.004
+	[1696583263.591, 160.000]: /carmaker/cm_node: Sub Msg: Time 160.000s, Cycle 16
+TIME	170.003
+	[1696583264.698, 170.000]: /carmaker/cm_node: Sub Msg: Time 170.000s, Cycle 17
+TIME	180.004
+	[1696583265.812, 180.000]: /carmaker/cm_node: Sub Msg: Time 180.000s, Cycle 18
+TIME	190.004
+	[1696583266.944, 190.000]: /carmaker/cm_node: Sub Msg: Time 190.000s, Cycle 19
+TIME	200.004
+	[1696583268.049, 200.000]: /carmaker/cm_node: Sub Msg: Time 200.000s, Cycle 20
+TIME	210.004
+	[1696583269.153, 210.000]: /carmaker/cm_node: Sub Msg: Time 210.000s, Cycle 21
+TIME	220.005
+	[1696583270.274, 220.000]: /carmaker/cm_node: Sub Msg: Time 220.000s, Cycle 22
+TIME	230.004
+	[1696583271.401, 230.000]: /carmaker/cm_node: Sub Msg: Time 230.000s, Cycle 23
+TIME	240.003
+	[1696583272.524, 240.000]: /carmaker/cm_node: Sub Msg: Time 240.000s, Cycle 24
+TIME	250.002
+	[1696583273.637, 250.000]: /carmaker/cm_node: Sub Msg: Time 250.000s, Cycle 25
+TIME	260.005
+	[1696583274.739, 260.000]: /carmaker/cm_node: Sub Msg: Time 260.000s, Cycle 26
+TIME	270.004
+	[1696583275.847, 270.000]: /carmaker/cm_node: Sub Msg: Time 270.000s, Cycle 27
+TIME	280.004
+	[1696583276.943, 280.000]: /carmaker/cm_node: Sub Msg: Time 280.000s, Cycle 28
+TIME	290.003
+	[1696583278.008, 290.000]: /carmaker/cm_node: Sub Msg: Time 290.000s, Cycle 29
+TIME	300.003
+	[1696583279.083, 300.000]: /carmaker/cm_node: Sub Msg: Time 300.000s, Cycle 30
+TIME	310.004
+	[1696583280.085, 310.000]: /carmaker/cm_node: Sub Msg: Time 310.000s, Cycle 31
+TIME	320.003
+	[1696583281.083, 320.000]: /carmaker/cm_node: Sub Msg: Time 320.000s, Cycle 32
+TIME	330.001
+	[1696583282.084, 330.000]: /carmaker/cm_node: Sub Msg: Time 330.000s, Cycle 33
+TIME	340.003
+	[1696583283.121, 340.000]: /carmaker/cm_node: Sub Msg: Time 340.000s, Cycle 34
+TIME	350.003
+	[1696583284.137, 350.000]: /carmaker/cm_node: Sub Msg: Time 350.000s, Cycle 35
+TIME	360.005
+	[1696583285.146, 360.000]: /carmaker/cm_node: Sub Msg: Time 360.000s, Cycle 36
+TIME	370.002
+	[1696583286.146, 370.000]: /carmaker/cm_node: Sub Msg: Time 370.000s, Cycle 37
+TIME	380.003
+	[1696583287.148, 380.000]: /carmaker/cm_node: Sub Msg: Time 380.000s, Cycle 38
+TIME	390.003
+	[1696583288.119, 390.000]: /carmaker/cm_node: Sub Msg: Time 390.000s, Cycle 39
+TIME	400.003
+	[1696583289.101, 400.000]: /carmaker/cm_node: Sub Msg: Time 400.000s, Cycle 40
+TIME	410.003
+	[1696583290.095, 410.000]: /carmaker/cm_node: Sub Msg: Time 410.000s, Cycle 41
+TIME	420.005
+	[1696583291.061, 420.000]: /carmaker/cm_node: Sub Msg: Time 420.000s, Cycle 42
+TIME	430.004
+	[1696583292.036, 430.000]: /carmaker/cm_node: Sub Msg: Time 430.000s, Cycle 43
+TIME	440.003
+	[1696583292.991, 440.000]: /carmaker/cm_node: Sub Msg: Time 440.000s, Cycle 44
+TIME	450.003
+	[1696583293.943, 450.000]: /carmaker/cm_node: Sub Msg: Time 450.000s, Cycle 45
+TIME	460.005
+	[1696583294.910, 460.000]: /carmaker/cm_node: Sub Msg: Time 460.000s, Cycle 46
+TIME	470.002
+	[1696583295.812, 470.000]: /carmaker/cm_node: Sub Msg: Time 470.000s, Cycle 47
+TIME	480.005
+	[1696583296.786, 480.000]: /carmaker/cm_node: Sub Msg: Time 480.000s, Cycle 48
+TIME	490.005
+	[1696583297.685, 490.000]: /carmaker/cm_node: Sub Msg: Time 490.000s, Cycle 49
+TIME	500.004
+	[1696583298.580, 500.000]: /carmaker/cm_node: Sub Msg: Time 500.000s, Cycle 50
+TIME	510.005
+	[1696583299.521, 510.000]: /carmaker/cm_node: Sub Msg: Time 510.000s, Cycle 51
+TIME	520.003
+	[1696583300.425, 520.000]: /carmaker/cm_node: Sub Msg: Time 520.000s, Cycle 52
+TIME	530.006
+	[1696583301.318, 530.000]: /carmaker/cm_node: Sub Msg: Time 530.000s, Cycle 53
+TIME	540.005
+	[1696583302.193, 540.000]: /carmaker/cm_node: Sub Msg: Time 540.000s, Cycle 54
+TIME	550.005
+	[1696583303.055, 550.000]: /carmaker/cm_node: Sub Msg: Time 550.000s, Cycle 55
+TIME	560.006
+	[1696583303.936, 560.000]: /carmaker/cm_node: Sub Msg: Time 560.000s, Cycle 56
+TIME	570.002
+	[1696583304.783, 570.000]: /carmaker/cm_node: Sub Msg: Time 570.000s, Cycle 57
+TIME	580.005
+	[1696583305.626, 580.000]: /carmaker/cm_node: Sub Msg: Time 580.000s, Cycle 58
+TIME	590.006
+	[1696583306.496, 590.000]: /carmaker/cm_node: Sub Msg: Time 590.000s, Cycle 59
+TIME	600.004
+	[1696583307.334, 600.000]: /carmaker/cm_node: Sub Msg: Time 600.000s, Cycle 60
+TIME	610.006
+	[1696583308.190, 610.000]: /carmaker/cm_node: Sub Msg: Time 610.000s, Cycle 61
+TIME	620.004
+	[1696583309.068, 620.000]: /carmaker/cm_node: Sub Msg: Time 620.000s, Cycle 62
+TIME	630.003
+	[1696583309.931, 630.000]: /carmaker/cm_node: Sub Msg: Time 630.000s, Cycle 63
+TIME	640.005
+	[1696583310.791, 640.000]: /carmaker/cm_node: Sub Msg: Time 640.000s, Cycle 64
+TIME	650.005
+	[1696583311.640, 650.000]: /carmaker/cm_node: Sub Msg: Time 650.000s, Cycle 65
+TIME	660.002
+	[1696583312.510, 660.000]: /carmaker/cm_node: Sub Msg: Time 660.000s, Cycle 66
+TIME	670.004
+	[1696583313.380, 670.000]: /carmaker/cm_node: Sub Msg: Time 670.000s, Cycle 67
+TIME	680.004
+	[1696583314.245, 680.000]: /carmaker/cm_node: Sub Msg: Time 680.000s, Cycle 68
+TIME	690.004
+	[1696583315.116, 690.000]: /carmaker/cm_node: Sub Msg: Time 690.000s, Cycle 69
+TIME	700.005
+	[1696583315.987, 700.000]: /carmaker/cm_node: Sub Msg: Time 700.000s, Cycle 70
+TIME	710.004
+	[1696583316.847, 710.000]: /carmaker/cm_node: Sub Msg: Time 710.000s, Cycle 71
+TIME	720.006
+	[1696583317.702, 720.000]: /carmaker/cm_node: Sub Msg: Time 720.000s, Cycle 72
+TIME	730.004
+	[1696583318.559, 730.000]: /carmaker/cm_node: Sub Msg: Time 730.000s, Cycle 73
+TIME	740.004
+	[1696583319.423, 740.000]: /carmaker/cm_node: Sub Msg: Time 740.000s, Cycle 74
+TIME	750.005
+	[1696583320.279, 750.000]: /carmaker/cm_node: Sub Msg: Time 750.000s, Cycle 75
+TIME	760.005
+	[1696583321.145, 760.000]: /carmaker/cm_node: Sub Msg: Time 760.000s, Cycle 76
+TIME	770.004
+	[1696583321.988, 770.000]: /carmaker/cm_node: Sub Msg: Time 770.000s, Cycle 77
+TIME	780.004
+	[1696583322.860, 780.000]: /carmaker/cm_node: Sub Msg: Time 780.000s, Cycle 78
+TIME	790.004
+	[1696583323.717, 790.000]: /carmaker/cm_node: Sub Msg: Time 790.000s, Cycle 79
+TIME	800.006
+	[1696583324.566, 800.000]: /carmaker/cm_node: Sub Msg: Time 800.000s, Cycle 80
+TIME	810.006
+	[1696583325.440, 810.000]: /carmaker/cm_node: Sub Msg: Time 810.000s, Cycle 81
+TIME	820.004
+	[1696583326.278, 820.000]: /carmaker/cm_node: Sub Msg: Time 820.000s, Cycle 82
+TIME	830.005
+	[1696583327.121, 830.000]: /carmaker/cm_node: Sub Msg: Time 830.000s, Cycle 83
+TIME	840.002
+	[1696583327.964, 840.000]: /carmaker/cm_node: Sub Msg: Time 840.000s, Cycle 84
+TIME	850.003
+	[1696583328.839, 850.000]: /carmaker/cm_node: Sub Msg: Time 850.000s, Cycle 85
+TIME	860.004
+	[1696583329.679, 860.000]: /carmaker/cm_node: Sub Msg: Time 860.000s, Cycle 86
+TIME	870.005
+	[1696583330.523, 870.000]: /carmaker/cm_node: Sub Msg: Time 870.000s, Cycle 87
+TIME	880.004
+	[1696583331.357, 880.000]: /carmaker/cm_node: Sub Msg: Time 880.000s, Cycle 88
+TIME	890.004
+	[1696583332.196, 890.000]: /carmaker/cm_node: Sub Msg: Time 890.000s, Cycle 89
+TIME	900.002
+	[1696583333.036, 900.000]: /carmaker/cm_node: Sub Msg: Time 900.000s, Cycle 90
+TIME	910.003
+	[1696583333.880, 910.000]: /carmaker/cm_node: Sub Msg: Time 910.000s, Cycle 91
+TIME	920.005
+	[1696583334.726, 920.000]: /carmaker/cm_node: Sub Msg: Time 920.000s, Cycle 92
+TIME	930.002
+	[1696583335.567, 930.000]: /carmaker/cm_node: Sub Msg: Time 930.000s, Cycle 93
+TIME	940.005
+	[1696583336.414, 940.000]: /carmaker/cm_node: Sub Msg: Time 940.000s, Cycle 94
+TIME	950.006
+	[1696583337.269, 950.000]: /carmaker/cm_node: Sub Msg: Time 950.000s, Cycle 95
+TIME	960.005
+	[1696583338.166, 960.000]: /carmaker/cm_node: Sub Msg: Time 960.000s, Cycle 96
+TIME	970.006
+	[1696583339.015, 970.000]: /carmaker/cm_node: Sub Msg: Time 970.000s, Cycle 97
+TIME	980.004
+	[1696583339.888, 980.000]: /carmaker/cm_node: Sub Msg: Time 980.000s, Cycle 98
+TIME	990.005
+	[1696583340.728, 990.000]: /carmaker/cm_node: Sub Msg: Time 990.000s, Cycle 99
+TIME	1000.006
+	[1696583341.582, 1000.000]: /carmaker/cm_node: Sub Msg: Time 1000.000s, Cycle 100
+TIME	1010.005
+	[1696583342.433, 1010.000]: /carmaker/cm_node: Sub Msg: Time 1010.000s, Cycle 101
+TIME	1020.004
+	[1696583343.275, 1020.000]: /carmaker/cm_node: Sub Msg: Time 1020.000s, Cycle 102
+TIME	1030.006
+	[1696583344.120, 1030.000]: /carmaker/cm_node: Sub Msg: Time 1030.000s, Cycle 103
+TIME	1040.006
+	[1696583344.984, 1040.000]: /carmaker/cm_node: Sub Msg: Time 1040.000s, Cycle 104
+TIME	1050.003
+	[1696583345.820, 1050.000]: /carmaker/cm_node: Sub Msg: Time 1050.000s, Cycle 105
+TIME	1060.004
+	[1696583346.666, 1060.000]: /carmaker/cm_node: Sub Msg: Time 1060.000s, Cycle 106
+TIME	1070.005
+	[1696583347.498, 1070.000]: /carmaker/cm_node: Sub Msg: Time 1070.000s, Cycle 107
+TIME	1080.004
+	[1696583348.332, 1080.000]: /carmaker/cm_node: Sub Msg: Time 1080.000s, Cycle 108
+TIME	1090.004
+	[1696583349.181, 1090.000]: /carmaker/cm_node: Sub Msg: Time 1090.000s, Cycle 109
+TIME	1100.006
+	[1696583350.039, 1100.000]: /carmaker/cm_node: Sub Msg: Time 1100.000s, Cycle 110
+TIME	1110.004
+	[1696583350.878, 1110.000]: /carmaker/cm_node: Sub Msg: Time 1110.000s, Cycle 111
+TIME	1120.004
+	[1696583351.720, 1120.000]: /carmaker/cm_node: Sub Msg: Time 1120.000s, Cycle 112
+TIME	1130.003
+	[1696583352.549, 1130.000]: /carmaker/cm_node: Sub Msg: Time 1130.000s, Cycle 113
+TIME	1140.005
+	[1696583353.383, 1140.000]: /carmaker/cm_node: Sub Msg: Time 1140.000s, Cycle 114
+TIME	1150.003
+	[1696583354.218, 1150.000]: /carmaker/cm_node: Sub Msg: Time 1150.000s, Cycle 115
+TIME	1160.005
+	[1696583355.071, 1160.000]: /carmaker/cm_node: Sub Msg: Time 1160.000s, Cycle 116
+TIME	1170.006
+	[1696583355.927, 1170.000]: /carmaker/cm_node: Sub Msg: Time 1170.000s, Cycle 117
+TIME	1180.003
+	[1696583356.789, 1180.000]: /carmaker/cm_node: Sub Msg: Time 1180.000s, Cycle 118
+TIME	1190.005
+	[1696583357.630, 1190.000]: /carmaker/cm_node: Sub Msg: Time 1190.000s, Cycle 119
+TIME	1200.004
+	[1696583358.488, 1200.000]: /carmaker/cm_node: Sub Msg: Time 1200.000s, Cycle 120
+TIME	1210.004
+	[1696583359.356, 1210.000]: /carmaker/cm_node: Sub Msg: Time 1210.000s, Cycle 121
+TIME	1220.006
+	[1696583360.205, 1220.000]: /carmaker/cm_node: Sub Msg: Time 1220.000s, Cycle 122
+TIME	1230.002
+	[1696583361.048, 1230.000]: /carmaker/cm_node: Sub Msg: Time 1230.000s, Cycle 123
+TIME	1240.006
+	[1696583361.893, 1240.000]: /carmaker/cm_node: Sub Msg: Time 1240.000s, Cycle 124
+TIME	1250.006
+	[1696583362.731, 1250.000]: /carmaker/cm_node: Sub Msg: Time 1250.000s, Cycle 125
+TIME	1260.003
+	[1696583363.586, 1260.000]: /carmaker/cm_node: Sub Msg: Time 1260.000s, Cycle 126
+TIME	1270.005
+	[1696583364.428, 1270.000]: /carmaker/cm_node: Sub Msg: Time 1270.000s, Cycle 127
+TIME	1280.004
+	[1696583365.303, 1280.000]: /carmaker/cm_node: Sub Msg: Time 1280.000s, Cycle 128
+TIME	1290.004
+	[1696583366.153, 1290.000]: /carmaker/cm_node: Sub Msg: Time 1290.000s, Cycle 129
+TIME	1300.003
+	[1696583367.008, 1300.000]: /carmaker/cm_node: Sub Msg: Time 1300.000s, Cycle 130
+TIME	1310.003
+	[1696583367.862, 1310.000]: /carmaker/cm_node: Sub Msg: Time 1310.000s, Cycle 131
+TIME	1320.003
+	[1696583368.696, 1320.000]: /carmaker/cm_node: Sub Msg: Time 1320.000s, Cycle 132
+TIME	1330.004
+	[1696583369.536, 1330.000]: /carmaker/cm_node: Sub Msg: Time 1330.000s, Cycle 133
+TIME	1340.005
+	[1696583370.382, 1340.000]: /carmaker/cm_node: Sub Msg: Time 1340.000s, Cycle 134
+TIME	1350.004
+	[1696583371.219, 1350.000]: /carmaker/cm_node: Sub Msg: Time 1350.000s, Cycle 135
+TIME	1360.006
+	[1696583372.067, 1360.000]: /carmaker/cm_node: Sub Msg: Time 1360.000s, Cycle 136
+TIME	1370.005
+	[1696583372.916, 1370.000]: /carmaker/cm_node: Sub Msg: Time 1370.000s, Cycle 137
+TIME	1380.004
+	[1696583373.751, 1380.000]: /carmaker/cm_node: Sub Msg: Time 1380.000s, Cycle 138
+TIME	1390.006
+	[1696583374.593, 1390.000]: /carmaker/cm_node: Sub Msg: Time 1390.000s, Cycle 139
+TIME	1400.004
+	[1696583375.439, 1400.000]: /carmaker/cm_node: Sub Msg: Time 1400.000s, Cycle 140
+TIME	1410.003
+	[1696583376.298, 1410.000]: /carmaker/cm_node: Sub Msg: Time 1410.000s, Cycle 141
+TIME	1420.003
+	[1696583377.160, 1420.000]: /carmaker/cm_node: Sub Msg: Time 1420.000s, Cycle 142
+TIME	1430.003
+	[1696583378.001, 1430.000]: /carmaker/cm_node: Sub Msg: Time 1430.000s, Cycle 143
+TIME	1440.002
+	[1696583378.853, 1440.000]: /carmaker/cm_node: Sub Msg: Time 1440.000s, Cycle 144
+TIME	1450.005
+	[1696583379.701, 1450.000]: /carmaker/cm_node: Sub Msg: Time 1450.000s, Cycle 145
+TIME	1460.005
+	[1696583380.538, 1460.000]: /carmaker/cm_node: Sub Msg: Time 1460.000s, Cycle 146
+TIME	1470.002
+	[1696583381.378, 1470.000]: /carmaker/cm_node: Sub Msg: Time 1470.000s, Cycle 147
+TIME	1480.005
+	[1696583382.216, 1480.000]: /carmaker/cm_node: Sub Msg: Time 1480.000s, Cycle 148
+TIME	1490.005
+	[1696583383.077, 1490.000]: /carmaker/cm_node: Sub Msg: Time 1490.000s, Cycle 149
+TIME	1500.003
+	[1696583383.917, 1500.000]: /carmaker/cm_node: Sub Msg: Time 1500.000s, Cycle 150
+TIME	1510.003
+	[1696583384.776, 1510.000]: /carmaker/cm_node: Sub Msg: Time 1510.000s, Cycle 151
+TIME	1520.006
+	[1696583385.616, 1520.000]: /carmaker/cm_node: Sub Msg: Time 1520.000s, Cycle 152
+TIME	1530.005
+	[1696583386.465, 1530.000]: /carmaker/cm_node: Sub Msg: Time 1530.000s, Cycle 153
+TIME	1540.002
+	[1696583387.309, 1540.000]: /carmaker/cm_node: Sub Msg: Time 1540.000s, Cycle 154
+TIME	1550.003
+	[1696583388.168, 1550.000]: /carmaker/cm_node: Sub Msg: Time 1550.000s, Cycle 155
+TIME	1560.004
+	[1696583389.038, 1560.000]: /carmaker/cm_node: Sub Msg: Time 1560.000s, Cycle 156
+TIME	1570.005
+	[1696583389.894, 1570.000]: /carmaker/cm_node: Sub Msg: Time 1570.000s, Cycle 157
+TIME	1580.005
+	[1696583390.731, 1580.000]: /carmaker/cm_node: Sub Msg: Time 1580.000s, Cycle 158
+TIME	1590.003
+	[1696583391.582, 1590.000]: /carmaker/cm_node: Sub Msg: Time 1590.000s, Cycle 159
+TIME	1600.004
+	[1696583392.419, 1600.000]: /carmaker/cm_node: Sub Msg: Time 1600.000s, Cycle 160
+TIME	1610.005
+	[1696583393.261, 1610.000]: /carmaker/cm_node: Sub Msg: Time 1610.000s, Cycle 161
+TIME	1620.004
+	[1696583394.173, 1620.000]: /carmaker/cm_node: Sub Msg: Time 1620.000s, Cycle 162
+TIME	1630.006
+	[1696583395.047, 1630.000]: /carmaker/cm_node: Sub Msg: Time 1630.000s, Cycle 163
+TIME	1640.004
+	[1696583395.897, 1640.000]: /carmaker/cm_node: Sub Msg: Time 1640.000s, Cycle 164
+TIME	1650.004
+	[1696583396.758, 1650.000]: /carmaker/cm_node: Sub Msg: Time 1650.000s, Cycle 165
+TIME	1660.004
+	[1696583397.597, 1660.000]: /carmaker/cm_node: Sub Msg: Time 1660.000s, Cycle 166
+TIME	1670.004
+	[1696583398.450, 1670.000]: /carmaker/cm_node: Sub Msg: Time 1670.000s, Cycle 167
+TIME	1680.003
+	[1696583399.287, 1680.000]: /carmaker/cm_node: Sub Msg: Time 1680.000s, Cycle 168
+TIME	1690.004
+	[1696583400.151, 1690.000]: /carmaker/cm_node: Sub Msg: Time 1690.000s, Cycle 169
+TIME	1700.005
+	[1696583401.002, 1700.000]: /carmaker/cm_node: Sub Msg: Time 1700.000s, Cycle 170
+TIME	1710.004
+	[1696583401.846, 1710.000]: /carmaker/cm_node: Sub Msg: Time 1710.000s, Cycle 171
+TIME	1720.005
+	[1696583402.722, 1720.000]: /carmaker/cm_node: Sub Msg: Time 1720.000s, Cycle 172
+TIME	1730.005
+	[1696583403.574, 1730.000]: /carmaker/cm_node: Sub Msg: Time 1730.000s, Cycle 173
+TIME	1740.003
+	[1696583404.417, 1740.000]: /carmaker/cm_node: Sub Msg: Time 1740.000s, Cycle 174
+TIME	1750.003
+	[1696583405.267, 1750.000]: /carmaker/cm_node: Sub Msg: Time 1750.000s, Cycle 175
+TIME	1760.005
+	[1696583406.119, 1760.000]: /carmaker/cm_node: Sub Msg: Time 1760.000s, Cycle 176
+TIME	1770.004
+	[1696583406.959, 1770.000]: /carmaker/cm_node: Sub Msg: Time 1770.000s, Cycle 177
+TIME	1780.004
+	[1696583407.815, 1780.000]: /carmaker/cm_node: Sub Msg: Time 1780.000s, Cycle 178
+TIME	1790.004
+	[1696583408.657, 1790.000]: /carmaker/cm_node: Sub Msg: Time 1790.000s, Cycle 179
+TIME	1800.004
+	[1696583409.499, 1800.000]: /carmaker/cm_node: Sub Msg: Time 1800.000s, Cycle 180
+TIME	1810.004
+	[1696583410.352, 1810.000]: /carmaker/cm_node: Sub Msg: Time 1810.000s, Cycle 181
+TIME	1820.003
+	[1696583411.205, 1820.000]: /carmaker/cm_node: Sub Msg: Time 1820.000s, Cycle 182
+TIME	1830.005
+	[1696583412.041, 1830.000]: /carmaker/cm_node: Sub Msg: Time 1830.000s, Cycle 183
+TIME	1840.005
+	[1696583412.888, 1840.000]: /carmaker/cm_node: Sub Msg: Time 1840.000s, Cycle 184
+TIME	1850.005
+	[1696583413.734, 1850.000]: /carmaker/cm_node: Sub Msg: Time 1850.000s, Cycle 185
+TIME	1860.004
+	[1696583414.594, 1860.000]: /carmaker/cm_node: Sub Msg: Time 1860.000s, Cycle 186
+TIME	1870.004
+	[1696583415.435, 1870.000]: /carmaker/cm_node: Sub Msg: Time 1870.000s, Cycle 187
+TIME	1872.414
+SIM_END		Examples/Powertrain/PowertrainControl/AdaptiveCruiseControl	1872.41s	6224.76m
+SIM_START	Examples/Powertrain/PowertrainControl/AdaptiveCruiseControl	2023-10-06 11:10:17
+TIME	1872.570
+		CarMaker ROS Node enabled: Mode = 1, SyncMode = 0
+		  -> Node Name = cm_node
+		  -> Publish /clock every 100ms
+		  -> Sending service request
+		CMJob: TriggerJob -> Name=ext2cm Cycle=10000 Offset=0
+TIME	0.060
+		  -> Advertised and subscribed topics (5):
+		    -> /carmaker/cm2ext
+		    -> /clock
+		    -> /hellocm/ext2cm
+		    -> /parameter_events
+		    -> /rosout
+TIME	0.000
+SIMULATE	Examples/Powertrain/PowertrainControl/AdaptiveCruiseControl
+
+TIME	10.002
+	[1696583423.707, 10.000]: /carmaker/cm_node: Sub Msg: Time 10.000s, Cycle 1
+TIME	20.004
+	[1696583424.804, 20.000]: /carmaker/cm_node: Sub Msg: Time 20.000s, Cycle 2
+TIME	30.002
+	[1696583425.908, 30.000]: /carmaker/cm_node: Sub Msg: Time 30.000s, Cycle 3
+TIME	40.004
+	[1696583427.030, 40.000]: /carmaker/cm_node: Sub Msg: Time 40.000s, Cycle 4
+TIME	50.004
+	[1696583428.124, 50.000]: /carmaker/cm_node: Sub Msg: Time 50.000s, Cycle 5
+TIME	60.002
+	[1696583429.214, 60.000]: /carmaker/cm_node: Sub Msg: Time 60.000s, Cycle 6
+TIME	70.005
+	[1696583430.308, 70.000]: /carmaker/cm_node: Sub Msg: Time 70.000s, Cycle 7
+TIME	80.003
+	[1696583431.431, 80.000]: /carmaker/cm_node: Sub Msg: Time 80.000s, Cycle 8
+TIME	90.004
+	[1696583432.534, 90.000]: /carmaker/cm_node: Sub Msg: Time 90.000s, Cycle 9
+TIME	100.005
+	[1696583433.633, 100.000]: /carmaker/cm_node: Sub Msg: Time 100.000s, Cycle 10
+TIME	110.003
+	[1696583434.729, 110.000]: /carmaker/cm_node: Sub Msg: Time 110.000s, Cycle 11
+TIME	120.003
+	[1696583435.819, 120.000]: /carmaker/cm_node: Sub Msg: Time 120.000s, Cycle 12
+TIME	130.002
+	[1696583436.938, 130.000]: /carmaker/cm_node: Sub Msg: Time 130.000s, Cycle 13
+TIME	140.004
+	[1696583438.064, 140.000]: /carmaker/cm_node: Sub Msg: Time 140.000s, Cycle 14
+TIME	150.002
+	[1696583439.180, 150.000]: /carmaker/cm_node: Sub Msg: Time 150.000s, Cycle 15
+TIME	160.003
+	[1696583440.277, 160.000]: /carmaker/cm_node: Sub Msg: Time 160.000s, Cycle 16
+TIME	170.003
+	[1696583441.389, 170.000]: /carmaker/cm_node: Sub Msg: Time 170.000s, Cycle 17
+TIME	180.003
+	[1696583442.499, 180.000]: /carmaker/cm_node: Sub Msg: Time 180.000s, Cycle 18
+TIME	190.003
+	[1696583443.650, 190.000]: /carmaker/cm_node: Sub Msg: Time 190.000s, Cycle 19
+TIME	200.005
+	[1696583444.795, 200.000]: /carmaker/cm_node: Sub Msg: Time 200.000s, Cycle 20
+TIME	210.003
+	[1696583445.905, 210.000]: /carmaker/cm_node: Sub Msg: Time 210.000s, Cycle 21
+TIME	220.003
+	[1696583447.008, 220.000]: /carmaker/cm_node: Sub Msg: Time 220.000s, Cycle 22
+TIME	230.002
+	[1696583448.125, 230.000]: /carmaker/cm_node: Sub Msg: Time 230.000s, Cycle 23
+TIME	240.003
+	[1696583449.242, 240.000]: /carmaker/cm_node: Sub Msg: Time 240.000s, Cycle 24
+TIME	250.004
+	[1696583450.351, 250.000]: /carmaker/cm_node: Sub Msg: Time 250.000s, Cycle 25
+TIME	260.005
+	[1696583451.462, 260.000]: /carmaker/cm_node: Sub Msg: Time 260.000s, Cycle 26
+TIME	270.003
+	[1696583452.576, 270.000]: /carmaker/cm_node: Sub Msg: Time 270.000s, Cycle 27
+TIME	280.003
+	[1696583453.660, 280.000]: /carmaker/cm_node: Sub Msg: Time 280.000s, Cycle 28
+TIME	290.002
+	[1696583454.720, 290.000]: /carmaker/cm_node: Sub Msg: Time 290.000s, Cycle 29
+TIME	300.001
+	[1696583455.781, 300.000]: /carmaker/cm_node: Sub Msg: Time 300.000s, Cycle 30
+TIME	310.004
+	[1696583456.779, 310.000]: /carmaker/cm_node: Sub Msg: Time 310.000s, Cycle 31
+TIME	320.006
+	[1696583457.798, 320.000]: /carmaker/cm_node: Sub Msg: Time 320.000s, Cycle 32
+TIME	330.001
+	[1696583458.817, 330.000]: /carmaker/cm_node: Sub Msg: Time 330.000s, Cycle 33
+TIME	340.005
+	[1696583459.826, 340.000]: /carmaker/cm_node: Sub Msg: Time 340.000s, Cycle 34
+TIME	350.003
+	[1696583460.834, 350.000]: /carmaker/cm_node: Sub Msg: Time 350.000s, Cycle 35
+TIME	360.003
+	[1696583461.855, 360.000]: /carmaker/cm_node: Sub Msg: Time 360.000s, Cycle 36
+TIME	370.003
+	[1696583462.851, 370.000]: /carmaker/cm_node: Sub Msg: Time 370.000s, Cycle 37
+TIME	380.003
+	[1696583463.836, 380.000]: /carmaker/cm_node: Sub Msg: Time 380.000s, Cycle 38
+TIME	390.004
+	[1696583464.813, 390.000]: /carmaker/cm_node: Sub Msg: Time 390.000s, Cycle 39
+TIME	400.004
+	[1696583465.796, 400.000]: /carmaker/cm_node: Sub Msg: Time 400.000s, Cycle 40
+TIME	410.003
+	[1696583466.775, 410.000]: /carmaker/cm_node: Sub Msg: Time 410.000s, Cycle 41
+TIME	420.004
+	[1696583467.747, 420.000]: /carmaker/cm_node: Sub Msg: Time 420.000s, Cycle 42
+TIME	430.003
+	[1696583468.738, 430.000]: /carmaker/cm_node: Sub Msg: Time 430.000s, Cycle 43
+TIME	440.003
+	[1696583469.712, 440.000]: /carmaker/cm_node: Sub Msg: Time 440.000s, Cycle 44
+TIME	450.004
+	[1696583470.662, 450.000]: /carmaker/cm_node: Sub Msg: Time 450.000s, Cycle 45
+TIME	460.005
+	[1696583471.618, 460.000]: /carmaker/cm_node: Sub Msg: Time 460.000s, Cycle 46
+TIME	470.004
+	[1696583472.549, 470.000]: /carmaker/cm_node: Sub Msg: Time 470.000s, Cycle 47
+TIME	480.004
+	[1696583473.452, 480.000]: /carmaker/cm_node: Sub Msg: Time 480.000s, Cycle 48
+TIME	490.003
+	[1696583474.361, 490.000]: /carmaker/cm_node: Sub Msg: Time 490.000s, Cycle 49
+TIME	500.004
+	[1696583475.269, 500.000]: /carmaker/cm_node: Sub Msg: Time 500.000s, Cycle 50
+TIME	510.004
+	[1696583476.188, 510.000]: /carmaker/cm_node: Sub Msg: Time 510.000s, Cycle 51
+SIM_END		Examples/Powertrain/PowertrainControl/AdaptiveCruiseControl	511.601s	20325m
+TIME	512.797
+SIM_START	Examples/Powertrain/PowertrainControl/AdaptiveCruiseControl	2023-10-06 11:11:28
+TIME	512.797
+		CarMaker ROS Node enabled: Mode = 1, SyncMode = 0
+		  -> Node Name = cm_node
+		  -> Publish /clock every 100ms
+		  -> Sending service request
+		CMJob: TriggerJob -> Name=ext2cm Cycle=10000 Offset=0
+TIME	0.060
+		  -> Advertised and subscribed topics (5):
+		    -> /carmaker/cm2ext
+		    -> /clock
+		    -> /hellocm/ext2cm
+		    -> /parameter_events
+		    -> /rosout
+TIME	0.000
+SIMULATE	Examples/Powertrain/PowertrainControl/AdaptiveCruiseControl
+
+TIME	10.002
+	[1696583494.607, 10.000]: /carmaker/cm_node: Sub Msg: Time 10.000s, Cycle 1
+TIME	20.003
+	[1696583495.697, 20.000]: /carmaker/cm_node: Sub Msg: Time 20.000s, Cycle 2
+TIME	30.002
+	[1696583496.790, 30.000]: /carmaker/cm_node: Sub Msg: Time 30.000s, Cycle 3
+TIME	40.002
+	[1696583497.886, 40.000]: /carmaker/cm_node: Sub Msg: Time 40.000s, Cycle 4
+TIME	50.003
+	[1696583498.977, 50.000]: /carmaker/cm_node: Sub Msg: Time 50.000s, Cycle 5
+TIME	60.004
+	[1696583500.075, 60.000]: /carmaker/cm_node: Sub Msg: Time 60.000s, Cycle 6
+TIME	70.003
+	[1696583501.175, 70.000]: /carmaker/cm_node: Sub Msg: Time 70.000s, Cycle 7
+TIME	80.001
+	[1696583502.330, 80.000]: /carmaker/cm_node: Sub Msg: Time 80.000s, Cycle 8
+TIME	90.001
+	[1696583503.484, 90.000]: /carmaker/cm_node: Sub Msg: Time 90.000s, Cycle 9
+TIME	100.003
+	[1696583504.599, 100.000]: /carmaker/cm_node: Sub Msg: Time 100.000s, Cycle 10
+TIME	110.003
+	[1696583505.708, 110.000]: /carmaker/cm_node: Sub Msg: Time 110.000s, Cycle 11
+TIME	120.003
+	[1696583506.821, 120.000]: /carmaker/cm_node: Sub Msg: Time 120.000s, Cycle 12
+TIME	130.002
+	[1696583507.918, 130.000]: /carmaker/cm_node: Sub Msg: Time 130.000s, Cycle 13
+TIME	140.002
+	[1696583509.011, 140.000]: /carmaker/cm_node: Sub Msg: Time 140.000s, Cycle 14
+TIME	150.004
+	[1696583510.115, 150.000]: /carmaker/cm_node: Sub Msg: Time 150.000s, Cycle 15
+TIME	160.003
+	[1696583511.218, 160.000]: /carmaker/cm_node: Sub Msg: Time 160.000s, Cycle 16
+TIME	170.002
+	[1696583512.315, 170.000]: /carmaker/cm_node: Sub Msg: Time 170.000s, Cycle 17
+TIME	180.003
+	[1696583513.416, 180.000]: /carmaker/cm_node: Sub Msg: Time 180.000s, Cycle 18
+TIME	190.003
+	[1696583514.518, 190.000]: /carmaker/cm_node: Sub Msg: Time 190.000s, Cycle 19
+TIME	200.002
+	[1696583515.633, 200.000]: /carmaker/cm_node: Sub Msg: Time 200.000s, Cycle 20
+TIME	210.001
+	[1696583516.735, 210.000]: /carmaker/cm_node: Sub Msg: Time 210.000s, Cycle 21
+TIME	220.004
+	[1696583517.846, 220.000]: /carmaker/cm_node: Sub Msg: Time 220.000s, Cycle 22
+TIME	230.003
+	[1696583518.982, 230.000]: /carmaker/cm_node: Sub Msg: Time 230.000s, Cycle 23
+TIME	240.003
+	[1696583520.125, 240.000]: /carmaker/cm_node: Sub Msg: Time 240.000s, Cycle 24
+TIME	250.002
+	[1696583521.259, 250.000]: /carmaker/cm_node: Sub Msg: Time 250.000s, Cycle 25
+TIME	260.002
+	[1696583522.370, 260.000]: /carmaker/cm_node: Sub Msg: Time 260.000s, Cycle 26
+TIME	270.003
+	[1696583523.509, 270.000]: /carmaker/cm_node: Sub Msg: Time 270.000s, Cycle 27
+TIME	280.003
+	[1696583524.589, 280.000]: /carmaker/cm_node: Sub Msg: Time 280.000s, Cycle 28
+TIME	290.002
+	[1696583525.661, 290.000]: /carmaker/cm_node: Sub Msg: Time 290.000s, Cycle 29
+TIME	300.004
+	[1696583526.727, 300.000]: /carmaker/cm_node: Sub Msg: Time 300.000s, Cycle 30
+TIME	310.002
+	[1696583527.736, 310.000]: /carmaker/cm_node: Sub Msg: Time 310.000s, Cycle 31
+TIME	320.004
+	[1696583528.759, 320.000]: /carmaker/cm_node: Sub Msg: Time 320.000s, Cycle 32
+TIME	330.004
+	[1696583529.766, 330.000]: /carmaker/cm_node: Sub Msg: Time 330.000s, Cycle 33
+TIME	340.004
+	[1696583530.772, 340.000]: /carmaker/cm_node: Sub Msg: Time 340.000s, Cycle 34
+TIME	350.003
+	[1696583531.781, 350.000]: /carmaker/cm_node: Sub Msg: Time 350.000s, Cycle 35
+TIME	360.002
+	[1696583532.805, 360.000]: /carmaker/cm_node: Sub Msg: Time 360.000s, Cycle 36
+TIME	370.003
+	[1696583533.816, 370.000]: /carmaker/cm_node: Sub Msg: Time 370.000s, Cycle 37
+TIME	380.004
+	[1696583534.800, 380.000]: /carmaker/cm_node: Sub Msg: Time 380.000s, Cycle 38
+TIME	390.003
+	[1696583535.773, 390.000]: /carmaker/cm_node: Sub Msg: Time 390.000s, Cycle 39
+TIME	400.004
+	[1696583536.759, 400.000]: /carmaker/cm_node: Sub Msg: Time 400.000s, Cycle 40
+TIME	410.003
+	[1696583537.738, 410.000]: /carmaker/cm_node: Sub Msg: Time 410.000s, Cycle 41
+TIME	420.004
+	[1696583538.747, 420.000]: /carmaker/cm_node: Sub Msg: Time 420.000s, Cycle 42
+TIME	430.004
+	[1696583539.738, 430.000]: /carmaker/cm_node: Sub Msg: Time 430.000s, Cycle 43
+TIME	440.005
+	[1696583540.709, 440.000]: /carmaker/cm_node: Sub Msg: Time 440.000s, Cycle 44
+TIME	450.004
+	[1696583541.665, 450.000]: /carmaker/cm_node: Sub Msg: Time 450.000s, Cycle 45
+TIME	460.006
+	[1696583542.588, 460.000]: /carmaker/cm_node: Sub Msg: Time 460.000s, Cycle 46
+TIME	470.003
+	[1696583543.519, 470.000]: /carmaker/cm_node: Sub Msg: Time 470.000s, Cycle 47
+TIME	480.004
+	[1696583544.426, 480.000]: /carmaker/cm_node: Sub Msg: Time 480.000s, Cycle 48
+TIME	490.004
+	[1696583545.346, 490.000]: /carmaker/cm_node: Sub Msg: Time 490.000s, Cycle 49
+TIME	500.004
+	[1696583546.276, 500.000]: /carmaker/cm_node: Sub Msg: Time 500.000s, Cycle 50
+TIME	510.003
+	[1696583547.200, 510.000]: /carmaker/cm_node: Sub Msg: Time 510.000s, Cycle 51
+SIM_END		Examples/Powertrain/PowertrainControl/AdaptiveCruiseControl	511.601s	20325m
+TIME	513.413
+SIM_START	Examples/Powertrain/PowertrainControl/AdaptiveCruiseControl	2023-10-06 11:12:45
+TIME	513.413
+		CarMaker ROS Node enabled: Mode = 1, SyncMode = 0
+		  -> Node Name = cm_node
+		  -> Publish /clock every 100ms
+		  -> Sending service request
+		CMJob: TriggerJob -> Name=ext2cm Cycle=10000 Offset=0
+TIME	0.060
+		  -> Advertised and subscribed topics (5):
+		    -> /carmaker/cm2ext
+		    -> /clock
+		    -> /hellocm/ext2cm
+		    -> /parameter_events
+		    -> /rosout
+TIME	0.000
+SIMULATE	Examples/Powertrain/PowertrainControl/AdaptiveCruiseControl
+
+TIME	10.003
+	[1696583571.881, 10.000]: /carmaker/cm_node: Sub Msg: Time 10.000s, Cycle 1
+TIME	20.004
+	[1696583572.964, 20.000]: /carmaker/cm_node: Sub Msg: Time 20.000s, Cycle 2
+TIME	30.003
+	[1696583574.055, 30.000]: /carmaker/cm_node: Sub Msg: Time 30.000s, Cycle 3
+TIME	40.004
+	[1696583575.171, 40.000]: /carmaker/cm_node: Sub Msg: Time 40.000s, Cycle 4
+TIME	50.004
+	[1696583576.278, 50.000]: /carmaker/cm_node: Sub Msg: Time 50.000s, Cycle 5
+TIME	60.003
+	[1696583577.375, 60.000]: /carmaker/cm_node: Sub Msg: Time 60.000s, Cycle 6
+TIME	70.004
+	[1696583578.480, 70.000]: /carmaker/cm_node: Sub Msg: Time 70.000s, Cycle 7
+TIME	80.003
+	[1696583579.609, 80.000]: /carmaker/cm_node: Sub Msg: Time 80.000s, Cycle 8
+TIME	90.002
+	[1696583580.739, 90.000]: /carmaker/cm_node: Sub Msg: Time 90.000s, Cycle 9
+TIME	100.003
+	[1696583581.854, 100.000]: /carmaker/cm_node: Sub Msg: Time 100.000s, Cycle 10
+TIME	110.004
+	[1696583582.955, 110.000]: /carmaker/cm_node: Sub Msg: Time 110.000s, Cycle 11
+TIME	120.003
+	[1696583584.057, 120.000]: /carmaker/cm_node: Sub Msg: Time 120.000s, Cycle 12
+TIME	130.002
+	[1696583585.162, 130.000]: /carmaker/cm_node: Sub Msg: Time 130.000s, Cycle 13
+TIME	140.003
+	[1696583586.276, 140.000]: /carmaker/cm_node: Sub Msg: Time 140.000s, Cycle 14
+TIME	150.003
+	[1696583587.375, 150.000]: /carmaker/cm_node: Sub Msg: Time 150.000s, Cycle 15
+TIME	160.003
+	[1696583588.484, 160.000]: /carmaker/cm_node: Sub Msg: Time 160.000s, Cycle 16
+TIME	170.004
+	[1696583589.595, 170.000]: /carmaker/cm_node: Sub Msg: Time 170.000s, Cycle 17
+TIME	180.004
+	[1696583590.712, 180.000]: /carmaker/cm_node: Sub Msg: Time 180.000s, Cycle 18
+TIME	190.003
+	[1696583591.825, 190.000]: /carmaker/cm_node: Sub Msg: Time 190.000s, Cycle 19
+TIME	200.003
+	[1696583592.937, 200.000]: /carmaker/cm_node: Sub Msg: Time 200.000s, Cycle 20
+TIME	210.003
+	[1696583594.071, 210.000]: /carmaker/cm_node: Sub Msg: Time 210.000s, Cycle 21
+TIME	220.002
+	[1696583595.197, 220.000]: /carmaker/cm_node: Sub Msg: Time 220.000s, Cycle 22
+TIME	230.004
+	[1696583596.301, 230.000]: /carmaker/cm_node: Sub Msg: Time 230.000s, Cycle 23
+TIME	240.003
+	[1696583597.419, 240.000]: /carmaker/cm_node: Sub Msg: Time 240.000s, Cycle 24
+TIME	250.004
+	[1696583598.535, 250.000]: /carmaker/cm_node: Sub Msg: Time 250.000s, Cycle 25
+TIME	260.003
+	[1696583599.645, 260.000]: /carmaker/cm_node: Sub Msg: Time 260.000s, Cycle 26
+TIME	270.004
+	[1696583600.753, 270.000]: /carmaker/cm_node: Sub Msg: Time 270.000s, Cycle 27
+TIME	280.004
+	[1696583601.834, 280.000]: /carmaker/cm_node: Sub Msg: Time 280.000s, Cycle 28
+TIME	290.003
+	[1696583602.896, 290.000]: /carmaker/cm_node: Sub Msg: Time 290.000s, Cycle 29
+TIME	300.004
+	[1696583603.995, 300.000]: /carmaker/cm_node: Sub Msg: Time 300.000s, Cycle 30
+TIME	310.005
+	[1696583604.999, 310.000]: /carmaker/cm_node: Sub Msg: Time 310.000s, Cycle 31
+TIME	320.002
+	[1696583606.001, 320.000]: /carmaker/cm_node: Sub Msg: Time 320.000s, Cycle 32
+TIME	330.003
+	[1696583607.006, 330.000]: /carmaker/cm_node: Sub Msg: Time 330.000s, Cycle 33
+TIME	340.004
+	[1696583608.016, 340.000]: /carmaker/cm_node: Sub Msg: Time 340.000s, Cycle 34
+TIME	350.004
+	[1696583609.023, 350.000]: /carmaker/cm_node: Sub Msg: Time 350.000s, Cycle 35
+TIME	360.002
+	[1696583610.025, 360.000]: /carmaker/cm_node: Sub Msg: Time 360.000s, Cycle 36
+TIME	370.004
+	[1696583611.037, 370.000]: /carmaker/cm_node: Sub Msg: Time 370.000s, Cycle 37
+TIME	380.004
+	[1696583612.014, 380.000]: /carmaker/cm_node: Sub Msg: Time 380.000s, Cycle 38
+TIME	390.004
+	[1696583612.993, 390.000]: /carmaker/cm_node: Sub Msg: Time 390.000s, Cycle 39
+TIME	400.005
+	[1696583613.992, 400.000]: /carmaker/cm_node: Sub Msg: Time 400.000s, Cycle 40
+TIME	410.003
+	[1696583614.971, 410.000]: /carmaker/cm_node: Sub Msg: Time 410.000s, Cycle 41
+TIME	420.003
+	[1696583615.948, 420.000]: /carmaker/cm_node: Sub Msg: Time 420.000s, Cycle 42
+TIME	430.005
+	[1696583616.930, 430.000]: /carmaker/cm_node: Sub Msg: Time 430.000s, Cycle 43
+TIME	440.002
+	[1696583617.905, 440.000]: /carmaker/cm_node: Sub Msg: Time 440.000s, Cycle 44
+TIME	450.005
+	[1696583618.867, 450.000]: /carmaker/cm_node: Sub Msg: Time 450.000s, Cycle 45
+TIME	460.003
+	[1696583619.784, 460.000]: /carmaker/cm_node: Sub Msg: Time 460.000s, Cycle 46
+TIME	470.005
+	[1696583620.697, 470.000]: /carmaker/cm_node: Sub Msg: Time 470.000s, Cycle 47
+TIME	480.003
+	[1696583621.601, 480.000]: /carmaker/cm_node: Sub Msg: Time 480.000s, Cycle 48
+TIME	490.003
+	[1696583622.504, 490.000]: /carmaker/cm_node: Sub Msg: Time 490.000s, Cycle 49
+TIME	500.004
+	[1696583623.433, 500.000]: /carmaker/cm_node: Sub Msg: Time 500.000s, Cycle 50
+TIME	510.003
+	[1696583624.378, 510.000]: /carmaker/cm_node: Sub Msg: Time 510.000s, Cycle 51
+SIM_END		Examples/Powertrain/PowertrainControl/AdaptiveCruiseControl	511.601s	20325m
+TIME	518.603
+SIM_START	Examples/Powertrain/PowertrainControl/AdaptiveCruiseControl	2023-10-06 11:14:54
+TIME	518.603
+		CarMaker ROS Node enabled: Mode = 1, SyncMode = 0
+		  -> Node Name = cm_node
+		  -> Publish /clock every 100ms
+		  -> Sending service request
+		CMJob: TriggerJob -> Name=ext2cm Cycle=10000 Offset=0
+TIME	0.060
+		  -> Advertised and subscribed topics (5):
+		    -> /carmaker/cm2ext
+		    -> /clock
+		    -> /hellocm/ext2cm
+		    -> /parameter_events
+		    -> /rosout
+TIME	0.000
+SIMULATE	Examples/Powertrain/PowertrainControl/AdaptiveCruiseControl
+
+TIME	10.004
+	[1696583700.990, 10.000]: /carmaker/cm_node: Sub Msg: Time 10.000s, Cycle 1
+TIME	20.003
+	[1696583702.091, 20.000]: /carmaker/cm_node: Sub Msg: Time 20.000s, Cycle 2
+TIME	30.003
+	[1696583703.227, 30.000]: /carmaker/cm_node: Sub Msg: Time 30.000s, Cycle 3
+TIME	40.003
+	[1696583704.325, 40.000]: /carmaker/cm_node: Sub Msg: Time 40.000s, Cycle 4
+TIME	50.005
+	[1696583705.425, 50.000]: /carmaker/cm_node: Sub Msg: Time 50.000s, Cycle 5
+TIME	60.003
+	[1696583706.523, 60.000]: /carmaker/cm_node: Sub Msg: Time 60.000s, Cycle 6
+TIME	70.003
+	[1696583707.623, 70.000]: /carmaker/cm_node: Sub Msg: Time 70.000s, Cycle 7
+TIME	80.003
+	[1696583712.797, 80.000]: /carmaker/cm_node: Sub Msg: Time 80.000s, Cycle 8
+TIME	90.002
+	[1696583722.798, 90.000]: /carmaker/cm_node: Sub Msg: Time 90.000s, Cycle 9
+TIME	100.002
+	[1696583732.793, 100.000]: /carmaker/cm_node: Sub Msg: Time 100.000s, Cycle 10
+TIME	110.002
+	[1696583742.794, 110.000]: /carmaker/cm_node: Sub Msg: Time 110.000s, Cycle 11
+TIME	120.003
+	[1696583752.794, 120.000]: /carmaker/cm_node: Sub Msg: Time 120.000s, Cycle 12
+TIME	130.003
+	[1696583762.800, 130.000]: /carmaker/cm_node: Sub Msg: Time 130.000s, Cycle 13
+TIME	140.002
+	[1696583772.793, 140.000]: /carmaker/cm_node: Sub Msg: Time 140.000s, Cycle 14
+TIME	150.002
+	[1696583782.790, 150.000]: /carmaker/cm_node: Sub Msg: Time 150.000s, Cycle 15
+TIME	160.002
+	[1696583792.796, 160.000]: /carmaker/cm_node: Sub Msg: Time 160.000s, Cycle 16
+TIME	170.002
+	[1696583802.790, 170.000]: /carmaker/cm_node: Sub Msg: Time 170.000s, Cycle 17
+TIME	180.001
+	[1696583812.791, 180.000]: /carmaker/cm_node: Sub Msg: Time 180.000s, Cycle 18
+TIME	190.002
+	[1696583822.790, 190.000]: /carmaker/cm_node: Sub Msg: Time 190.000s, Cycle 19
+TIME	200.001
+	[1696583832.798, 200.000]: /carmaker/cm_node: Sub Msg: Time 200.000s, Cycle 20
+TIME	210.003
+	[1696583842.793, 210.000]: /carmaker/cm_node: Sub Msg: Time 210.000s, Cycle 21
+TIME	220.003
+	[1696583852.800, 220.000]: /carmaker/cm_node: Sub Msg: Time 220.000s, Cycle 22
+TIME	230.002
+	[1696583862.795, 230.000]: /carmaker/cm_node: Sub Msg: Time 230.000s, Cycle 23
+TIME	240.002
+	[1696583872.797, 240.000]: /carmaker/cm_node: Sub Msg: Time 240.000s, Cycle 24
+TIME	250.003
+	[1696583882.797, 250.000]: /carmaker/cm_node: Sub Msg: Time 250.000s, Cycle 25
+TIME	260.003
+	[1696583892.800, 260.000]: /carmaker/cm_node: Sub Msg: Time 260.000s, Cycle 26
+TIME	270.002
+	[1696583902.790, 270.000]: /carmaker/cm_node: Sub Msg: Time 270.000s, Cycle 27
+TIME	280.002
+	[1696583912.791, 280.000]: /carmaker/cm_node: Sub Msg: Time 280.000s, Cycle 28
+TIME	290.003
+	[1696583922.793, 290.000]: /carmaker/cm_node: Sub Msg: Time 290.000s, Cycle 29
+TIME	300.001
+	[1696583932.798, 300.000]: /carmaker/cm_node: Sub Msg: Time 300.000s, Cycle 30
+TIME	310.003
+	[1696583942.796, 310.000]: /carmaker/cm_node: Sub Msg: Time 310.000s, Cycle 31
+TIME	320.004
+	[1696583952.794, 320.000]: /carmaker/cm_node: Sub Msg: Time 320.000s, Cycle 32
+TIME	330.002
+	[1696583962.799, 330.000]: /carmaker/cm_node: Sub Msg: Time 330.000s, Cycle 33
+TIME	340.003
+	[1696583972.800, 340.000]: /carmaker/cm_node: Sub Msg: Time 340.000s, Cycle 34
+TIME	350.004
+	[1696583982.793, 350.000]: /carmaker/cm_node: Sub Msg: Time 350.000s, Cycle 35
+TIME	360.002
+	[1696583992.795, 360.000]: /carmaker/cm_node: Sub Msg: Time 360.000s, Cycle 36
+TIME	370.003
+	[1696584002.793, 370.000]: /carmaker/cm_node: Sub Msg: Time 370.000s, Cycle 37
+TIME	380.003
+	[1696584012.796, 380.000]: /carmaker/cm_node: Sub Msg: Time 380.000s, Cycle 38
+TIME	390.002
+	[1696584022.793, 390.000]: /carmaker/cm_node: Sub Msg: Time 390.000s, Cycle 39
+TIME	400.003
+	[1696584032.792, 400.000]: /carmaker/cm_node: Sub Msg: Time 400.000s, Cycle 40
+TIME	410.004
+	[1696584042.797, 410.000]: /carmaker/cm_node: Sub Msg: Time 410.000s, Cycle 41
+TIME	420.004
+	[1696584052.796, 420.000]: /carmaker/cm_node: Sub Msg: Time 420.000s, Cycle 42
+TIME	430.004
+	[1696584062.797, 430.000]: /carmaker/cm_node: Sub Msg: Time 430.000s, Cycle 43
+TIME	440.003
+	[1696584072.794, 440.000]: /carmaker/cm_node: Sub Msg: Time 440.000s, Cycle 44
+TIME	450.003
+	[1696584082.800, 450.000]: /carmaker/cm_node: Sub Msg: Time 450.000s, Cycle 45
+TIME	460.001
+	[1696584092.798, 460.000]: /carmaker/cm_node: Sub Msg: Time 460.000s, Cycle 46
+TIME	470.002
+	[1696584102.799, 470.000]: /carmaker/cm_node: Sub Msg: Time 470.000s, Cycle 47
+TIME	480.003
+	[1696584112.792, 480.000]: /carmaker/cm_node: Sub Msg: Time 480.000s, Cycle 48
+TIME	490.003
+	[1696584122.800, 490.000]: /carmaker/cm_node: Sub Msg: Time 490.000s, Cycle 49
+TIME	500.004
+	[1696584132.793, 500.000]: /carmaker/cm_node: Sub Msg: Time 500.000s, Cycle 50
+TIME	510.003
+	[1696584142.796, 510.000]: /carmaker/cm_node: Sub Msg: Time 510.000s, Cycle 51
+SIM_END		Examples/Powertrain/PowertrainControl/AdaptiveCruiseControl	511.601s	20325m
+TIME	519.607
+SIM_START	Examples/Powertrain/PowertrainControl/AdaptiveCruiseControl	2023-10-06 11:23:44
+TIME	519.607
+		CarMaker ROS Node enabled: Mode = 1, SyncMode = 0
+		  -> Node Name = cm_node
+		  -> Publish /clock every 100ms
+		  -> Sending service request
+		CMJob: TriggerJob -> Name=ext2cm Cycle=10000 Offset=0
+TIME	0.060
+		  -> Advertised and subscribed topics (5):
+		    -> /carmaker/cm2ext
+		    -> /clock
+		    -> /hellocm/ext2cm
+		    -> /parameter_events
+		    -> /rosout
+TIME	0.000
+SIMULATE	Examples/Powertrain/PowertrainControl/AdaptiveCruiseControl
+
+TIME	10.002
+	[1696584239.688, 10.000]: /carmaker/cm_node: Sub Msg: Time 10.000s, Cycle 1
+TIME	20.002
+	[1696584249.690, 20.000]: /carmaker/cm_node: Sub Msg: Time 20.000s, Cycle 2
+TIME	30.002
+	[1696584259.692, 30.000]: /carmaker/cm_node: Sub Msg: Time 30.000s, Cycle 3
+TIME	40.002
+	[1696584269.691, 40.000]: /carmaker/cm_node: Sub Msg: Time 40.000s, Cycle 4
+TIME	50.001
+	[1696584279.686, 50.000]: /carmaker/cm_node: Sub Msg: Time 50.000s, Cycle 5
+TIME	60.002
+	[1696584289.687, 60.000]: /carmaker/cm_node: Sub Msg: Time 60.000s, Cycle 6
+TIME	70.002
+	[1696584299.694, 70.000]: /carmaker/cm_node: Sub Msg: Time 70.000s, Cycle 7
+TIME	80.002
+	[1696584309.688, 80.000]: /carmaker/cm_node: Sub Msg: Time 80.000s, Cycle 8
+TIME	90.002
+	[1696584319.688, 90.000]: /carmaker/cm_node: Sub Msg: Time 90.000s, Cycle 9
+TIME	100.003
+	[1696584329.693, 100.000]: /carmaker/cm_node: Sub Msg: Time 100.000s, Cycle 10
+TIME	110.001
+	[1696584339.686, 110.000]: /carmaker/cm_node: Sub Msg: Time 110.000s, Cycle 11
+TIME	120.002
+	[1696584349.686, 120.000]: /carmaker/cm_node: Sub Msg: Time 120.000s, Cycle 12
+TIME	130.002
+	[1696584359.694, 130.000]: /carmaker/cm_node: Sub Msg: Time 130.000s, Cycle 13
+TIME	140.002
+	[1696584369.696, 140.000]: /carmaker/cm_node: Sub Msg: Time 140.000s, Cycle 14
+TIME	150.002
+	[1696584379.687, 150.000]: /carmaker/cm_node: Sub Msg: Time 150.000s, Cycle 15
+TIME	160.002
+	[1696584389.690, 160.000]: /carmaker/cm_node: Sub Msg: Time 160.000s, Cycle 16
+TIME	170.002
+	[1696584399.690, 170.000]: /carmaker/cm_node: Sub Msg: Time 170.000s, Cycle 17

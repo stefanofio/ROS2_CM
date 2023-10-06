@@ -1,0 +1,11 @@
+
+
+SYSTEM_START	-	sagittarius	Fri Oct 6 11:24:08 2023
+
+
+SYSTEM_INFO	MovieNX pro 12.0.1 2023-05-24
+APO: Successfully connected to: Car_Generic <insert.your.version.no> with CMRosIF @ sagittarius(127.0.0.1):40251
+Using RenderSettingsProfile: RenderSettings_high.cfg -> template_high.render
+Loading Installed scripts...
+Loading User scripts...
+Loading TestRun from path /home/sagittarius/ROS2_CM/Data/TestRun/.tmp_sagittarius_sagittarius.0

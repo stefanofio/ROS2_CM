@@ -1,0 +1,62 @@
+
+
+SYSTEM_START	-	sagittarius	sagittarius	2023-10-06 09:36:23
+
+
+SYSTEM_INFO	Car_Generic <insert.your.version.no> with CMRosIF #1	sagittarius@sagittarius 2023-10-06 09:22:17	(12.0.1 jetbrains@66e0c34c4bd1 2023-05-24 12:21:33)
+SIM	1696577783	sagittarius			0	0	0
+
+
+SYSTEM_START	-	sagittarius	sagittarius	2023-10-06 09:51:34
+
+
+SYSTEM_INFO	Car_Generic <insert.your.version.no> with CMRosIF #1	sagittarius@sagittarius 2023-10-06 09:22:17	(12.0.1 jetbrains@66e0c34c4bd1 2023-05-24 12:21:33)
+SIM	1696578694	sagittarius			0	0	0
+
+
+SYSTEM_START	-	sagittarius	sagittarius	2023-10-06 09:54:43
+
+
+SYSTEM_INFO	Car_Generic <insert.your.version.no> with CMRosIF #1	sagittarius@sagittarius 2023-10-06 09:22:17	(12.0.1 jetbrains@66e0c34c4bd1 2023-05-24 12:21:33)
+SIM	1696578883	sagittarius			0	0	0
+
+
+SYSTEM_START	-	sagittarius	sagittarius	2023-10-06 10:06:40
+
+
+SYSTEM_INFO	Car_Generic <insert.your.version.no> with CMRosIF #1	sagittarius@sagittarius 2023-10-06 09:22:17	(12.0.1 jetbrains@66e0c34c4bd1 2023-05-24 12:21:33)
+SIM	1696579600	sagittarius			0	0	0
+
+
+SYSTEM_START	-	sagittarius	sagittarius	2023-10-06 10:11:29
+
+
+SYSTEM_INFO	Car_Generic <insert.your.version.no> with CMRosIF #1	sagittarius@sagittarius 2023-10-06 09:22:17	(12.0.1 jetbrains@66e0c34c4bd1 2023-05-24 12:21:33)
+SIM	1696579890	sagittarius			0	0	0
+SIM	1696580028	sagittarius	sagittarius	Examples/Powertrain/PowertrainControl/AdaptiveCruiseControl	0	145	4096.83
+SIM	1696580197	sagittarius	sagittarius	Examples/Powertrain/PowertrainControl/AdaptiveCruiseControl	0	5.168	157.325
+SIM	1696580294	sagittarius	sagittarius	Examples/Powertrain/PowertrainControl/AdaptiveCruiseControl	0	145	4096.83
+SIM	1696580450	sagittarius	sagittarius	Examples/Powertrain/PowertrainControl/AdaptiveCruiseControl	0	145	4096.83
+SIM	1696580655	sagittarius	sagittarius	Examples/Powertrain/PowertrainControl/AdaptiveCruiseControl	0	72.757	2038.13
+SIM	1696580731	sagittarius	sagittarius	Examples/Powertrain/PowertrainControl/AdaptiveCruiseControl	0	28.167	694.468
+SIM	1696580763	sagittarius	sagittarius	Examples/Powertrain/PowertrainControl/AdaptiveCruiseControl	0	20.41	501.122
+SIM	1696580787	sagittarius	sagittarius	Examples/Powertrain/PowertrainControl/AdaptiveCruiseControl	0	145	4096.83
+
+
+SYSTEM_START	-	sagittarius	sagittarius	2023-10-06 10:34:52
+
+
+SYSTEM_INFO	Car_Generic <insert.your.version.no> with CMRosIF #1	sagittarius@sagittarius 2023-10-06 09:22:17	(12.0.1 jetbrains@66e0c34c4bd1 2023-05-24 12:21:33)
+SIM	1696581292	sagittarius			0	0	0
+SIM	1696582488	sagittarius	sagittarius	Examples/Powertrain/PowertrainControl/AdaptiveCruiseControl	2	0	0
+SIM	1696582570	sagittarius	sagittarius	Examples/Powertrain/PowertrainControl/AdaptiveCruiseControl	2	0	0
+SIM	1696582660	sagittarius	sagittarius	Examples/Powertrain/PowertrainControl/AdaptiveCruiseControl	2	0	0
+SIM	1696582757	sagittarius	sagittarius	Examples/Powertrain/PowertrainControl/AdaptiveCruiseControl	2	0	0
+SIM	1696582827	sagittarius	sagittarius	Examples/Powertrain/PowertrainControl/AdaptiveCruiseControl	0	145	2610.5
+SIM	1696582926	sagittarius	sagittarius	Examples/Powertrain/PowertrainControl/AdaptiveCruiseControl	0	2515.09	5758.83
+SIM	1696583169	sagittarius	sagittarius	Examples/Powertrain/PowertrainControl/AdaptiveCruiseControl	0	419.4	6136.15
+SIM	1696583244	sagittarius	sagittarius	Examples/Powertrain/PowertrainControl/AdaptiveCruiseControl	0	1872.41	6224.76
+SIM	1696583417	sagittarius	sagittarius	Examples/Powertrain/PowertrainControl/AdaptiveCruiseControl	0	511.601	20325
+SIM	1696583488	sagittarius	sagittarius	Examples/Powertrain/PowertrainControl/AdaptiveCruiseControl	0	511.601	20325
+SIM	1696583565	sagittarius	sagittarius	Examples/Powertrain/PowertrainControl/AdaptiveCruiseControl	0	511.601	20325
+SIM	1696583694	sagittarius	sagittarius	Examples/Powertrain/PowertrainControl/AdaptiveCruiseControl	0	511.601	20325
